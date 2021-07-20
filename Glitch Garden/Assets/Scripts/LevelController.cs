@@ -60,7 +60,7 @@ public class LevelController : MonoBehaviour {
         _audioSource.Play();
 
         var currentLevel = SceneManager.GetActiveScene().buildIndex - 3;
-        PlayerPrefsController.UnlockLevel(currentLevel);
+        PlayerPrefsController.UnlockLevel(currentLevel + 1);
         
         yield return new WaitForSeconds(waitToLoad);
         _levelLoader.LoadWinMenu();

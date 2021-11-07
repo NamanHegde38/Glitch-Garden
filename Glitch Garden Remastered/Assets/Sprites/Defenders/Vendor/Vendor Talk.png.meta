@@ -1,0 +1,1022 @@
+fileFormatVersion: 2
+guid: b0debb36cd4fa5240b64e8273d860c35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8599651074967342075
+    second: Vendor Talk_0
+  - first:
+      213: -3987721629438408331
+    second: Vendor Talk_1
+  - first:
+      213: 2765184486075250837
+    second: Vendor Talk_2
+  - first:
+      213: 901896498187261936
+    second: Vendor Talk_3
+  - first:
+      213: -946688447513631440
+    second: Vendor Talk_4
+  - first:
+      213: 1994004749512707290
+    second: Vendor Talk_5
+  - first:
+      213: -2926438296857735989
+    second: Vendor Talk_6
+  - first:
+      213: 7081761160645668373
+    second: Vendor Talk_7
+  - first:
+      213: 8764561036339294324
+    second: Vendor Talk_8
+  - first:
+      213: 4950709413344342777
+    second: Vendor Talk_9
+  - first:
+      213: -3589876262580253855
+    second: Vendor Talk_10
+  - first:
+      213: -1754866747358753342
+    second: Vendor Talk_11
+  - first:
+      213: 2193003064987010994
+    second: Vendor Talk_12
+  - first:
+      213: -6222807997183786832
+    second: Vendor Talk_13
+  - first:
+      213: -2260684155211327415
+    second: Vendor Talk_14
+  - first:
+      213: 6379331953366426708
+    second: Vendor Talk_15
+  - first:
+      213: -3742036587166185423
+    second: Vendor Talk_16
+  - first:
+      213: 3915982925350111418
+    second: Vendor Talk_17
+  - first:
+      213: 5349654146895886592
+    second: Vendor Talk_18
+  - first:
+      213: 7953121770332388445
+    second: Vendor Talk_19
+  - first:
+      213: -7444737543938818376
+    second: Vendor Talk_20
+  - first:
+      213: -4816328177217716554
+    second: Vendor Talk_21
+  - first:
+      213: -4577391958912103373
+    second: Vendor Talk_22
+  - first:
+      213: -7422095787200265834
+    second: Vendor Talk_23
+  - first:
+      213: 6202912160462389704
+    second: Vendor Talk_24
+  - first:
+      213: 7871835001061777129
+    second: Vendor Talk_25
+  - first:
+      213: 3618606557438898645
+    second: Vendor Talk_26
+  - first:
+      213: -2620657129851923686
+    second: Vendor Talk_27
+  - first:
+      213: -5044921486086411253
+    second: Vendor Talk_28
+  - first:
+      213: -2163535302433723432
+    second: Vendor Talk_29
+  - first:
+      213: -5993430152321199358
+    second: Vendor Talk_30
+  - first:
+      213: 5153399376533156403
+    second: Vendor Talk_31
+  - first:
+      213: 8522546400583592555
+    second: Vendor Talk_32
+  - first:
+      213: 3778010913532895383
+    second: Vendor Talk_33
+  - first:
+      213: -547639978897632795
+    second: Vendor Talk_34
+  - first:
+      213: -775679018046962445
+    second: Vendor Talk_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vendor Talk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1610
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504f34409e6e7a880800000000000000
+      internalID: -8599651074967342075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1610
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5798e2e4e44c8a8c0800000000000000
+      internalID: -3987721629438408331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1610
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598bfe6b3a8ef5620800000000000000
+      internalID: 2765184486075250837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1610
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7de9e261e248c00800000000000000
+      internalID: 901896498187261936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_4
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1610
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035ebfc6fdfacd2f0800000000000000
+      internalID: -946688447513631440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1380
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc852741c02cab10800000000000000
+      internalID: 1994004749512707290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1380
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc02babfd33367d0800000000000000
+      internalID: -2926438296857735989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1380
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e617c3148774260800000000000000
+      internalID: 7081761160645668373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_8
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1380
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470bb3f63d9f1a970800000000000000
+      internalID: 8764561036339294324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_9
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1380
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f272904bf374b440800000000000000
+      internalID: 4950709413344342777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1150
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b0c452f823e2ec0800000000000000
+      internalID: -3589876262580253855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_11
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1150
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd498fadf575a7e0800000000000000
+      internalID: -1754866747358753342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_12
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1150
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7c4e72bac1f6e10800000000000000
+      internalID: 2193003064987010994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_13
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1150
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0866ea81524a9a0800000000000000
+      internalID: -6222807997183786832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_14
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1150
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948564b0dbf60a0e0800000000000000
+      internalID: -2260684155211327415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45464b8cc90f78850800000000000000
+      internalID: 6379331953366426708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_16
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 920
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138c175dc8d911cc0800000000000000
+      internalID: -3742036587166185423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_17
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 920
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab80dfb09bd585630800000000000000
+      internalID: 3915982925350111418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_18
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 920
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009bce85a1acd3a40800000000000000
+      internalID: 5349654146895886592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_19
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 920
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c7618dc1a2f5e60800000000000000
+      internalID: 7953121770332388445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 690
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be338fc5aafea890800000000000000
+      internalID: -7444737543938818376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_21
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 690
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bebb337a07f82db0800000000000000
+      internalID: -4816328177217716554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_22
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 690
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c8053f346d970c0800000000000000
+      internalID: -4577391958912103373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_23
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 690
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691410b943b6ff890800000000000000
+      internalID: -7422095787200265834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_24
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 690
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1cf49debb251650800000000000000
+      internalID: 6202912160462389704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee16c80a306e3d60800000000000000
+      internalID: 7871835001061777129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_26
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 460
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d17b06ed7fd73230800000000000000
+      internalID: 3618606557438898645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_27
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 460
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13d419a93e81abd0800000000000000
+      internalID: -2620657129851923686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_28
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 460
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c651633a6dcf9b0800000000000000
+      internalID: -5044921486086411253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_29
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 460
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbab67fa1499f1e0800000000000000
+      internalID: -2163535302433723432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20397c0f70f03dca0800000000000000
+      internalID: -5993430152321199358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_31
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 230
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3327af7dd6d848740800000000000000
+      internalID: 5153399376533156403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_32
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 230
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aa1940cca264670800000000000000
+      internalID: 8522546400583592555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_33
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 230
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7906daab8e03e6430800000000000000
+      internalID: 3778010913532895383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_34
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 230
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1110937546668f0800000000000000
+      internalID: -547639978897632795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vendor Talk_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f44695fa0c3c35f0800000000000000
+      internalID: -775679018046962445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Vendor Talk_26: 3618606557438898645
+      Vendor Talk_22: -4577391958912103373
+      Vendor Talk_30: -5993430152321199358
+      Vendor Talk_27: -2620657129851923686
+      Vendor Talk_21: -4816328177217716554
+      Vendor Talk_29: -2163535302433723432
+      Vendor Talk_2: 2765184486075250837
+      Vendor Talk_23: -7422095787200265834
+      Vendor Talk_24: 6202912160462389704
+      Vendor Talk_33: 3778010913532895383
+      Vendor Talk_16: -3742036587166185423
+      Vendor Talk_34: -547639978897632795
+      Vendor Talk_31: 5153399376533156403
+      Vendor Talk_25: 7871835001061777129
+      Vendor Talk_10: -3589876262580253855
+      Vendor Talk_8: 8764561036339294324
+      Vendor Talk_11: -1754866747358753342
+      Vendor Talk_15: 6379331953366426708
+      Vendor Talk_17: 3915982925350111418
+      Vendor Talk_12: 2193003064987010994
+      Vendor Talk_14: -2260684155211327415
+      Vendor Talk_7: 7081761160645668373
+      Vendor Talk_4: -946688447513631440
+      Vendor Talk_18: 5349654146895886592
+      Vendor Talk_32: 8522546400583592555
+      Vendor Talk_20: -7444737543938818376
+      Vendor Talk_5: 1994004749512707290
+      Vendor Talk_35: -775679018046962445
+      Vendor Talk_13: -6222807997183786832
+      Vendor Talk_3: 901896498187261936
+      Vendor Talk_28: -5044921486086411253
+      Vendor Talk_0: -8599651074967342075
+      Vendor Talk_1: -3987721629438408331
+      Vendor Talk_9: 4950709413344342777
+      Vendor Talk_19: 7953121770332388445
+      Vendor Talk_6: -2926438296857735989
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

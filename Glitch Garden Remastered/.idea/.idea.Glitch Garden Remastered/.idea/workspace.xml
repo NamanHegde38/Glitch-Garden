@@ -10,10 +10,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/TimeRecorder/Editor/TimeRecorder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DefenderMaterial.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Plugins/TimeRecorder/Editor/TimeRecorder.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Lobber.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DefenderMaterial.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20VId6ihQVmluV6EwYpfyB6NSoz" />
@@ -27,6 +36,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -60,9 +71,18 @@
       <updated>1636123415296</updated>
       <workItem from="1636123419563" duration="43000" />
       <workItem from="1636212950679" duration="1628000" />
-      <workItem from="1636291695747" duration="546000" />
+      <workItem from="1636291695747" duration="5082000" />
+      <workItem from="1636306572032" duration="3200000" />
+      <workItem from="1636310514740" duration="1843000" />
+      <workItem from="1636748283901" duration="1000" />
+      <workItem from="1636748372751" duration="57000" />
+      <workItem from="1636748450418" duration="157000" />
+      <workItem from="1636751368464" duration="466000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />

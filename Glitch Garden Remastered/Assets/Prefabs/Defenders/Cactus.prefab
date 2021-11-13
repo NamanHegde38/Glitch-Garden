@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 3147619478962841921}
   - component: {fileID: 2151628279836227109}
   - component: {fileID: 338468431299604284}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cactus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,6 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 100
+  material: 4
 --- !u!114 &3147619478962841921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,6 +203,9 @@ MonoBehaviour:
   gun: {fileID: 3052404400966868699}
   projectileSpeed: 5
   projectileDamage: 25
+  attackerLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!61 &2151628279836227109
 BoxCollider2D:
   m_ObjectHideFlags: 0

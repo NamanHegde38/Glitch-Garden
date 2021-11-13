@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: -5177002043401836377}
   - component: {fileID: 4021622032478014006}
   - component: {fileID: 8679063681017167797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vendor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,6 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 125
+  material: 4
 --- !u!114 &-5177002043401836377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,6 +117,9 @@ MonoBehaviour:
   projectilePrefab: {fileID: 432537718566868929, guid: 47576c5b82dbfd543b5b6b63bedd06c1, type: 3}
   gun: {fileID: 4021622031150018032}
   projectileDamage: 25
+  attackerLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!61 &4021622032478014006
 BoxCollider2D:
   m_ObjectHideFlags: 0

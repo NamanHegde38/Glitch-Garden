@@ -110,6 +110,37 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &2735780204653785507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1827303886298717277}
+  m_Layer: 7
+  m_Name: Feedbacks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1827303886298717277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2735780204653785507}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8025121730428812683}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8025121729967028994
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,7 +241,7 @@ GameObject:
   - component: {fileID: 8025121730428812679}
   - component: {fileID: 8025121730428812678}
   - component: {fileID: 8025121730428812684}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jelly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,6 +261,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8025121729967028995}
+  - {fileID: 3909209929561278699}
+  - {fileID: 1827303886298717277}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -326,6 +359,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ccf4e72605688445bd4d4af9544f7c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackPos: {fileID: 0}
+  woodParticles: {fileID: 5433996496088036519, guid: 7e921916e2810524dbe92b3cc3f5249e, type: 3}
+  rockParticles: {fileID: 5433996496088036519, guid: 72e719567a438e84d9bcfd05bf5fb93d, type: 3}
+  stoneParticles: {fileID: 5433996496088036519, guid: 74e1f3903aec07749bf6d50a299136e9, type: 3}
+  metalParticles: {fileID: 8163684771574148739, guid: ba5be6cf355b4034a920dd83a3e04cfb, type: 3}
+  organicParticles: {fileID: 4021103657954561961, guid: 432fad72f0094e446b0749412348964f, type: 3}
+  particlesLifetime: 1
 --- !u!212 &8025121730428812684
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -378,3 +418,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &9215130958927429330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3909209929561278699}
+  m_Layer: 7
+  m_Name: Attack Pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3909209929561278699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9215130958927429330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.571, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8025121730428812683}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

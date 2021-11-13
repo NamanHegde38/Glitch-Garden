@@ -5,6 +5,8 @@ public class Lobber : MonoBehaviour {
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private GameObject gun;
     [SerializeField] private int projectileDamage = 25;
+    
+    [SerializeField] private LayerMask attackerLayer;
 
     private AttackerSpawner _myLaneSpawner;
     private Animator _animator;
@@ -12,7 +14,7 @@ public class Lobber : MonoBehaviour {
     private GameObject _projectileParent;
 
     private const string Projectiles = "Projectiles";
-    
+
     private void Start() {
         SetLaneSpawner();
         CreateProjectileParent();
@@ -42,7 +44,9 @@ public class Lobber : MonoBehaviour {
     }
 
     private bool IsAttackerInLane() {
-        return _myLaneSpawner.transform.childCount > 0;
+        //return _myLaneSpawner.transform.childCount > 0;
+        
+        return _myLaneSpawner.transform.childCount > 0 ? true : Physics2D.Raycast(gun.transform.position, Vector2.right, 8f, attackerLayer);
     }
 
     public void Fire() {

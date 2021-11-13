@@ -7,6 +7,8 @@ public class Shooter : MonoBehaviour {
     [SerializeField] private float projectileSpeed = 1f;
     [SerializeField] private int projectileDamage = 25;
 
+    [SerializeField] private LayerMask attackerLayer;
+
     private AttackerSpawner _myLaneSpawner;
     private Animator _animator;
     private static readonly int IsAttacking = Animator.StringToHash("IsAttacking");
@@ -43,7 +45,9 @@ public class Shooter : MonoBehaviour {
     }
 
     private bool IsAttackerInLane() {
-        return _myLaneSpawner.transform.childCount > 0;
+        //return _myLaneSpawner.transform.childCount > 0;
+        
+        return _myLaneSpawner.transform.childCount > 0 ? true : Physics2D.Raycast(gun.transform.position, Vector2.right, 8f, attackerLayer);
     }
     
     public void Fire() {

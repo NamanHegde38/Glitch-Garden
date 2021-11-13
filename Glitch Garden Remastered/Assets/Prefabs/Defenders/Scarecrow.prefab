@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2889872511896781425}
   - component: {fileID: -7605741882574660604}
   - component: {fileID: 1817526283}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Scarecrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,6 +86,9 @@ MonoBehaviour:
   gun: {fileID: 2889872512028325032}
   projectileSpeed: 10
   projectileDamage: 10
+  attackerLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!114 &-7605741882574660604
 MonoBehaviour:
   m_ObjectHideFlags: 0

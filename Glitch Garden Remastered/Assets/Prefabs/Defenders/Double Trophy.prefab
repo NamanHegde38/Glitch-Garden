@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8063471119733563249}
   - component: {fileID: 1421555653019739509}
   - component: {fileID: 1051606967899791712}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Double Trophy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,6 +72,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 175
+  material: 3
 --- !u!61 &1421555653019739509
 BoxCollider2D:
   m_ObjectHideFlags: 0

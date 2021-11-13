@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 3868932633334603293}
   - component: {fileID: 6636717708478469574}
   - component: {fileID: 7689882987459454687}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Gnome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,6 +170,9 @@ MonoBehaviour:
   projectilePrefab: {fileID: 3889493902735154671, guid: 22a7af4c738efc64f9760d79e9f3f999, type: 3}
   gun: {fileID: 7362317443606675502}
   projectileDamage: 75
+  attackerLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!61 &6636717708478469574
 BoxCollider2D:
   m_ObjectHideFlags: 0

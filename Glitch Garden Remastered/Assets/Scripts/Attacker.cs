@@ -1,7 +1,18 @@
-using System;
 using UnityEngine;
 
 public class Attacker : MonoBehaviour {
+
+    [Header("References")]
+    [SerializeField] private Transform attackPos;
+    
+    [Header("Particles")]
+    [SerializeField] private GameObject woodParticles;
+    [SerializeField] private GameObject rockParticles;
+    [SerializeField] private GameObject stoneParticles;
+    [SerializeField] private GameObject metalParticles;
+    [SerializeField] private GameObject organicParticles;
+
+    [SerializeField] private float particlesLifetime = 0.3f;
 
     private float _currentSpeed;
     private GameObject _currentTarget;
@@ -41,14 +52,40 @@ public class Attacker : MonoBehaviour {
     public void Attack(GameObject target) {
         _anim.SetBool(IsAttacking, true);
         _currentTarget = target;
+        
     }
 
     public void StrikeCurrentTarget(float damage) {
         if (!_currentTarget) return;
         
         var health = _currentTarget.GetComponent<Health>();
+        var material = _currentTarget.GetComponent<Defender>().GetDefenderMaterial();
+
+        switch (material) {
+            case DefenderMaterial.Wood:
+                var spawnedWoodParticles = Instantiate(woodParticles, attackPos.position, Quaternion.identity);
+                Destroy(spawnedWoodParticles, particlesLifetime);
+                break;
+            case DefenderMaterial.Rock:
+                var spawnedRockParticles = Instantiate(rockParticles, attackPos.position, Quaternion.identity);
+                Destroy(spawnedRockParticles, particlesLifetime);
+                break;
+            case DefenderMaterial.Stone:
+                var spawnedStoneParticles = Instantiate(stoneParticles, attackPos.position, Quaternion.identity);
+                Destroy(spawnedStoneParticles, particlesLifetime);
+                break;
+            case DefenderMaterial.Metal:
+                var spawnedMetalParticles = Instantiate(metalParticles, attackPos.position, Quaternion.identity);
+                Destroy(spawnedMetalParticles, particlesLifetime);
+                break;
+            case DefenderMaterial.Organic:
+                var spawnedOrganicParticles = Instantiate(organicParticles, attackPos.position, Quaternion.identity);
+                Destroy(spawnedOrganicParticles, particlesLifetime);
+                break;
+        }
         
         if (!health) return;
+        
         switch (_difficulty) {
             case 1:
                 damage *= 1f;
@@ -67,4 +104,10 @@ public class Attacker : MonoBehaviour {
         if (!_levelController) return;
         _levelController.AttackerKilled();
     }
+    
+    
+    
+    
+    
+    
 }

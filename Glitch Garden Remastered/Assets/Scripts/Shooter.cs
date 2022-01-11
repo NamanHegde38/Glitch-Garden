@@ -1,3 +1,4 @@
+using MoreMountains.Feedbacks;
 using UnityEngine;
 
 public class Shooter : MonoBehaviour {
@@ -8,6 +9,7 @@ public class Shooter : MonoBehaviour {
     [SerializeField] private int projectileDamage = 25;
 
     [SerializeField] private LayerMask attackerLayer;
+    [SerializeField] private MMFeedbacks shootFeedback;
 
     private AttackerSpawner _myLaneSpawner;
     private Animator _animator;
@@ -53,6 +55,8 @@ public class Shooter : MonoBehaviour {
     public void Fire() {
         var projectileSpawn = Instantiate(projectilePrefab, gun.transform.position, transform.rotation);
         var projectile = projectileSpawn.GetComponent<Projectile>();
+        
+        shootFeedback.PlayFeedbacks(gun.transform.position);
 
         projectile.transform.parent = _projectileParent.transform;
         projectile.SetDamage(projectileDamage);

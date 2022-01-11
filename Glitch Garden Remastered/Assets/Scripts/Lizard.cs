@@ -1,8 +1,11 @@
+using MoreMountains.Feedbacks;
 using UnityEngine;
 
 public class Lizard : MonoBehaviour {
 
     private Attacker _attacker;
+
+    [SerializeField] private MMFeedbacks landFeedback;
 
     private void Start() {
         _attacker = GetComponent<Attacker>();
@@ -14,5 +17,9 @@ public class Lizard : MonoBehaviour {
         if (otherObject.GetComponent<Defender>()) {
             _attacker.Attack(otherObject);
         }
+    }
+
+    public void Land() {
+        landFeedback.PlayFeedbacks();
     }
 }

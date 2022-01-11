@@ -180,11 +180,6 @@ Shader "Cartoon FX/Remaster/Particle Procedural Ring"
 			{
 		#if !PASS_SHADOW_CASTER
 				v2f o;
-				#if CFXR_URP
-					o = (v2f)0;
-				#else
-					UNITY_INITIALIZE_OUTPUT(v2f, o);
-				#endif
 				// o.pos = UnityObjectToClipPos(v.vertex);
 		#endif
 
@@ -361,7 +356,7 @@ Shader "Cartoon FX/Remaster/Particle Procedural Ring"
 				
 				#pragma target 2.0
 				
-				#pragma multi_compile_instancing
+				#pragma multi_compile_particles
 				#pragma multi_compile_fog
 
 				#pragma multi_compile CFXR_URP
@@ -394,7 +389,7 @@ Shader "Cartoon FX/Remaster/Particle Procedural Ring"
 				
 				#pragma target 2.0
 				
-				#pragma multi_compile_instancing
+				#pragma multi_compile_particles
 				#pragma multi_compile_fog
 
 				#pragma multi_compile CFXR_URP
@@ -471,7 +466,6 @@ Shader "Cartoon FX/Remaster/Particle Procedural Ring"
 				#pragma target 2.0
 				
 				#pragma multi_compile_particles
-				#pragma multi_compile_instancing
 				#pragma multi_compile_fog
 				
 				#pragma shader_feature_local _ _CFXR_SINGLE_CHANNEL

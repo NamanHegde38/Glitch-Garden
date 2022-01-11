@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Attacker : MonoBehaviour {
 
-    [Header("References")]
+    [Header("Settings")]
     [SerializeField] private Transform attackPos;
-    
+
     [Header("Particles")]
     [SerializeField] private GameObject woodParticles;
     [SerializeField] private GameObject rockParticles;
@@ -13,6 +13,8 @@ public class Attacker : MonoBehaviour {
     [SerializeField] private GameObject organicParticles;
 
     [SerializeField] private float particlesLifetime = 0.3f;
+
+    [SerializeField] private bool hasSpawnAnimation;
 
     private float _currentSpeed;
     private GameObject _currentTarget;
@@ -98,6 +100,10 @@ public class Attacker : MonoBehaviour {
                 break;
         }
         health.DealDamage(Mathf.RoundToInt(damage));
+    }
+
+    public bool GetIfHasSpawnAnimation() {
+        return hasSpawnAnimation;
     }
 
     private void OnDestroy() {

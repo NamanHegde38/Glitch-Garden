@@ -1,3 +1,4 @@
+using MoreMountains.Feedbacks;
 using UnityEngine;
 
 public class Ghost : MonoBehaviour {
@@ -6,6 +7,8 @@ public class Ghost : MonoBehaviour {
     private Animator _anim;
     private static readonly int PhaseTrigger = Animator.StringToHash("PhaseTrigger");
     private BoxCollider2D _collider;
+    
+    [SerializeField] private MMFeedbacks attackFeedback;
 
     private void Start() {
         _attacker = GetComponent<Attacker>();
@@ -23,5 +26,9 @@ public class Ghost : MonoBehaviour {
         else if (otherObject.GetComponent<Defender>()) {
             _attacker.Attack(otherObject);
         }
+    }
+    
+    public void Shockwave() {
+        attackFeedback.PlayFeedbacks();
     }
 }

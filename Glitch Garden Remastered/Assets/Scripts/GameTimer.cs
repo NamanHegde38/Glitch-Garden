@@ -40,4 +40,8 @@ public class GameTimer : MonoBehaviour {
         _levelController.LevelTimerFinished();
         _triggeredLevelFinished = true;
     }
+
+    public float GetGameTime() {
+        return Time.timeSinceLevelLoad / levelTime;
+    }
 }

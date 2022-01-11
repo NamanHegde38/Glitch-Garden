@@ -69,8 +69,35 @@ AnimationClip:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
+    genericBindings:
+    - serializedVersion: 2
+      path: 2073732236
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 4523694527636890326, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: 5447948022673283725, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: 7428705937205978307, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: 3306208647587707286, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: 4667942824762666018, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: -4964044176242952792, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: -2351908859522475459, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: 9049968214371932315, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: 337936086056860190, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: 8247255084812329007, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: -1779816809531929865, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: -1513014696461789594, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: 5840083829643320373, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: -8893334408548853788, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: 5448528828344436692, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: 5600851936528198718, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: -6698832738377866176, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: -2616878455912080950, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: -433965125333269493, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
+    - {fileID: 781529429376668191, guid: 4d461ee1bdae8e243955d12290cca690, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -100,13 +127,13 @@ AnimationClip:
     functionName: StrikeCurrentTarget
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 10
+    floatParameter: 80
     intParameter: 5
     messageOptions: 0
   - time: 0.6666667
     functionName: StrikeCurrentTarget
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 10
+    floatParameter: 80
     intParameter: 5
     messageOptions: 0

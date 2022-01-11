@@ -2,16 +2,29 @@ using System.Collections;
 using UnityEngine;
 
 public class AttackerSpawner : MonoBehaviour {
-
-    [SerializeField] private float minSpawnDelay = 1f;
-    [SerializeField] private float maxSpawnDelay = 5f;
+    
+    [SerializeField] private float startSpawnDelay = 30;
+    [SerializeField] private float endSpawnDelay = 7;
+    [SerializeField] private float deviationPercent = 0.5f;
+    
     [SerializeField] private Attacker[] attackerPrefabArray;
+
+    private GameTimer _gameTimer;
+    private float _levelTime;
+    private int _timePercent;
     
     private bool _spawn = true;
+    private float _spawnDelay;
+    private float _delayDeviation;
 
     private IEnumerator Start() {
+        _gameTimer = FindObjectOfType<GameTimer>();
+
         while (_spawn) {
-            yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
+            _levelTime = _gameTimer.GetGameTime();
+            _spawnDelay = Mathf.Lerp(startSpawnDelay, endSpawnDelay, _levelTime);
+            _delayDeviation = _spawnDelay * deviationPercent;
+            yield return new WaitForSeconds(Random.Range(_spawnDelay - _delayDeviation, _spawnDelay + _delayDeviation));
             SpawnAttacker();
         }
     }
@@ -26,7 +39,11 @@ public class AttackerSpawner : MonoBehaviour {
     }
 
     private void Spawn(Attacker myAttacker) {
-        var newAttacker = Instantiate(myAttacker, transform.position, transform.rotation);
+        var spawnPos = new Vector2(transform.position.x + 1.5f, transform.position.y);
+        if (myAttacker.GetIfHasSpawnAnimation()) {
+            spawnPos = transform.position;
+        }
+        var newAttacker = Instantiate(myAttacker, spawnPos, transform.rotation);
         newAttacker.transform.parent = transform;
     }
 }

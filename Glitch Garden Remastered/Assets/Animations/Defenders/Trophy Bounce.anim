@@ -698,7 +698,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5833333
-        value: 1
+        value: 0.85
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -707,9 +707,9 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.6666667
-        value: 0.75
-        inSlope: -2.8
-        outSlope: -2.8
+        value: 0.7
+        inSlope: -2.2
+        outSlope: -2.2
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -717,8 +717,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.8333333
         value: 0.3
-        inSlope: -2.2500002
-        outSlope: -2.2500002
+        inSlope: -2.1000001
+        outSlope: -2.1000001
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -2018,7 +2018,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5833333
-        value: 1
+        value: 0.85
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2027,9 +2027,9 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.6666667
-        value: 0.75
-        inSlope: -2.8
-        outSlope: -2.8
+        value: 0.7
+        inSlope: -2.2
+        outSlope: -2.2
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -2037,8 +2037,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.8333333
         value: 0.3
-        inSlope: -2.2500002
-        outSlope: -2.2500002
+        inSlope: -2.1000001
+        outSlope: -2.1000001
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -2098,5 +2098,5 @@ AnimationClip:
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 5
+    intParameter: 10
     messageOptions: 0

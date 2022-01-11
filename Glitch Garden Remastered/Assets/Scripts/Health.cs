@@ -1,15 +1,26 @@
-using System;
+using MoreMountains.Feedbacks;
 using UnityEngine;
 
 public class Health : MonoBehaviour {
-
+    
+    [Header("Settings")]
     [SerializeField] private int health = 100;
     [SerializeField] private GameObject deathVFX;
 
-    private int _difficulty = 1;
+    [Header("Feedbacks")]
+    [SerializeField] private MMFeedbacks hurtFeedback;
+    [SerializeField] private MMFeedbacks deathFeedback;
     
+    private Animator _animator;
+
+
+    private int _difficulty = 1;
+    private static readonly int Hurt = Animator.StringToHash("Hurt");
+    private static readonly int Death = Animator.StringToHash("Death");
+
     private void Start() {
         _difficulty = PlayerPrefsController.GetDifficulty();
+        _animator = GetComponent<Animator>();
         health = SetHealth(health);
     }
 
@@ -32,8 +43,26 @@ public class Health : MonoBehaviour {
     public void DealDamage(int damage) {
         health -= damage;
         
+        _animator.SetTrigger(Hurt);
+        if (hurtFeedback) {
+            hurtFeedback?.PlayFeedbacks();
+        }
+
         if (health > 0) return;
-        TriggerDeathVFX();
+        
+        if (deathFeedback) {
+            deathFeedback?.PlayFeedbacks();
+        }
+        
+        if (GetComponent<Attacker>()) {
+            _animator.SetTrigger(Death);
+        }
+        else if (GetComponent<Defender>()) {
+            DestroyObject();
+        }
+    }
+
+    public void DestroyObject() {
         Destroy(gameObject);
     }
     

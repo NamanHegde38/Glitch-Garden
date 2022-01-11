@@ -1,15 +1,24 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
 public class StarDisplay : MonoBehaviour {
 
     [SerializeField] private int stars = 100;
+    [SerializeField] private int starsOverTime = 3;
+    [SerializeField] private int starTime = 5;
+    private bool _giveStarsOverTime = true;
 
     private TextMeshProUGUI _starText;
 
-    private void Start() {
+    private IEnumerator Start() {
         _starText = GetComponent<TextMeshProUGUI>();
         UpdateDisplay();
+
+        while (_giveStarsOverTime) {
+            yield return new WaitForSeconds(starTime);
+            AddStars(starsOverTime);
+        }
     }
 
     private void UpdateDisplay() {

@@ -345,11 +345,6 @@ Shader "Cartoon FX/Remaster/Particle Ubershader"
 			{
 		#if !PASS_SHADOW_CASTER
 				v2f o;
-				#if CFXR_URP
-					o = (v2f)0;
-				#else
-					UNITY_INITIALIZE_OUTPUT(v2f, o);
-				#endif
 		#endif
 
 				UNITY_SETUP_INSTANCE_ID(v);
@@ -710,7 +705,7 @@ Shader "Cartoon FX/Remaster/Particle Ubershader"
 				
 				#pragma target 2.0
 				
-				#pragma multi_compile_instancing
+				#pragma multi_compile_particles
 				#pragma multi_compile_fog
 				//#pragma multi_compile_fwdbase
 				//#pragma multi_compile SHADOWS_SCREEN
@@ -757,7 +752,7 @@ Shader "Cartoon FX/Remaster/Particle Ubershader"
 				
 				#pragma target 2.0
 				
-				#pragma multi_compile_instancing
+				#pragma multi_compile_particles
 				#pragma multi_compile_fog
 				//#pragma multi_compile_fwdbase
 				//#pragma multi_compile SHADOWS_SCREEN
@@ -852,7 +847,6 @@ Shader "Cartoon FX/Remaster/Particle Ubershader"
 				#pragma target 2.0
 				
 				#pragma multi_compile_particles
-				#pragma multi_compile_instancing
 				#pragma multi_compile_fog
 				//#pragma multi_compile_fwdbase
 				//#pragma multi_compile SHADOWS_SCREEN

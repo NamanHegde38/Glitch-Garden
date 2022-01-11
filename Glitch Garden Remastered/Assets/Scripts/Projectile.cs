@@ -1,3 +1,4 @@
+using MoreMountains.Feedbacks;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour {
@@ -8,6 +9,8 @@ public class Projectile : MonoBehaviour {
 
     private bool _isShotStraight;
     private float _projectileSpeed;
+
+    [SerializeField] private MMFeedbacks projectileFeedback;
 
     private void Start() {
         _startPos = transform.position;
@@ -37,6 +40,7 @@ public class Projectile : MonoBehaviour {
 
         if (!attacker || !health) return;
         health.DealDamage(_damage);
+        projectileFeedback.PlayFeedbacks();
         Destroy(gameObject);
     }
 }

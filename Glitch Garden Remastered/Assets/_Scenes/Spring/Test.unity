@@ -291,6 +291,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5001409170209838440, guid: a04bc3e8f1370ce4e9287181f303fa81, type: 3}
   m_PrefabInstance: {fileID: 795629000}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &901082692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 901082693}
+  m_Layer: 0
+  m_Name: Level Setup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &901082693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901082692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &979847634 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5001409170209838440, guid: a04bc3e8f1370ce4e9287181f303fa81, type: 3}
@@ -301,6 +332,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5568773421321822470, guid: 9cad9024b036cd14bbf4d31875eaa9b8, type: 3}
   m_PrefabInstance: {fileID: 1381387655517900956}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1161120777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1161120778}
+  m_Layer: 0
+  m_Name: Dead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1161120778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161120777}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1267636114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -371,7 +433,7 @@ GameObject:
   - component: {fileID: 1313385160}
   m_Layer: 0
   m_Name: CM vcam1
-  m_TagString: Untagged
+  m_TagString: Cinemachine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -405,7 +467,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.777972, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -931,10 +993,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 789379529}
     m_Modifications:
-    - target: {fileID: 1778907874747302218, guid: 9cad9024b036cd14bbf4d31875eaa9b8, type: 3}
-      propertyPath: m_Volume
-      value: 0.3
-      objectReference: {fileID: 0}
     - target: {fileID: 2759262394746859115, guid: 9cad9024b036cd14bbf4d31875eaa9b8, type: 3}
       propertyPath: m_Name
       value: Level Controller
@@ -1154,6 +1212,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 789379529}
     m_Modifications:
+    - target: {fileID: 2719325770527719747, guid: e66021d964022c14fb3c657b81731e5a, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 1527
+      objectReference: {fileID: 0}
     - target: {fileID: 6074695902209261949, guid: e66021d964022c14fb3c657b81731e5a, type: 3}
       propertyPath: m_Name
       value: Win Canvas

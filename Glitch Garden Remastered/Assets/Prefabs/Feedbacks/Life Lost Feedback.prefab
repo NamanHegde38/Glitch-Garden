@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7961349714432286849}
   - component: {fileID: 5132336240731798469}
   - component: {fileID: 1745505974314289802}
+  - component: {fileID: 1397393205284360729}
   m_Layer: 0
   m_Name: Life Lost Feedback
   m_TagString: Untagged
@@ -49,6 +50,7 @@ MonoBehaviour:
   Feedbacks:
   - {fileID: 5132336240731798469}
   - {fileID: 1745505974314289802}
+  - {fileID: 1397393205284360729}
   InitializationMode: 2
   SafeMode: 3
   Direction: 0
@@ -203,3 +205,43 @@ MonoBehaviour:
     m_PropagationSpeed: 10000
   Velocity: {x: 0.5, y: 0.5, z: 0.5}
   ClearImpulseOnStop: 0
+--- !u!114 &1397393205284360729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5041352028148967437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf8e1825623fb34b9fc92dbef54ec56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Active: 1
+  Label: Flash
+  Chance: 100
+  Timing:
+    TimescaleMode: 0
+    InitialDelay: 0
+    CooldownDuration: 0
+    ExcludeFromHoldingPauses: 0
+    InterruptsOnStop: 1
+    NumberOfRepeats: 0
+    RepeatForever: 0
+    DelayBetweenRepeats: 1
+    MMFeedbacksDirectionCondition: 0
+    PlayDirection: 0
+    ConstantIntensity: 0
+    UseIntensityInterval: 0
+    IntensityIntervalMin: 0
+    IntensityIntervalMax: 0
+    Sequence: {fileID: 0}
+    TrackID: 0
+    Quantized: 0
+    TargetBPM: 120
+  DebugActive: 0
+  Channel: 0
+  FlashColor: {r: 1, g: 1, b: 1, a: 0.2509804}
+  FlashDuration: 0.2
+  FlashAlpha: 1
+  FlashID: 0

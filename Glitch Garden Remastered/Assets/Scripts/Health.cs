@@ -39,6 +39,10 @@ public class Health : MonoBehaviour {
 
         return Mathf.RoundToInt(baseHealth);
     }
+
+    public int GetHealth() {
+        return health;
+    }
     
     public void DealDamage(int damage) {
         health -= damage;

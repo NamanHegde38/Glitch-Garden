@@ -1,3 +1,4 @@
+using DG.Tweening;
 using MoreMountains.Feedbacks;
 using UnityEngine;
 
@@ -10,7 +11,10 @@ public class Projectile : MonoBehaviour {
     private bool _isShotStraight;
     private float _projectileSpeed;
 
+    [SerializeField] private int criticalPercentage = 20;
+    [SerializeField] private float criticalMultiplier = 2f;
     [SerializeField] private MMFeedbacks projectileFeedback;
+    [SerializeField] private MMFeedbacks criticalHitFeedback;
 
     private void Start() {
         _startPos = transform.position;
@@ -39,8 +43,19 @@ public class Projectile : MonoBehaviour {
         var attacker = other.GetComponent<Attacker>();
 
         if (!attacker || !health) return;
-        health.DealDamage(_damage);
+        if (Random.Range(1, 101) < criticalPercentage) {
+            health.DealDamage(Mathf.RoundToInt(_damage * criticalMultiplier));
+            criticalHitFeedback.PlayFeedbacks();
+        }
+        else {
+            health.DealDamage(_damage);
+        }
         projectileFeedback.PlayFeedbacks();
+        transform.DOKill();
         Destroy(gameObject);
+    }
+
+    public void PlayHitVFX() {
+        projectileFeedback.PlayFeedbacks();
     }
 }

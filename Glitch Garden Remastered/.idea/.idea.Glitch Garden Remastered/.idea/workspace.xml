@@ -10,30 +10,46 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/TimeRecorder/Editor/TimeRecorder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DefenderToolbar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@12.1.0/Runtime/2D/Light2DManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DefenderMaterial.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Plugins/TimeRecorder/Editor/TimeRecorder.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DefenderButton.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Lobber.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderMaterial.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Blit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shredder.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Lizard.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Fox.cs" />
+      <option value="$PROJECT_DIR$/Assets/AllIn1SpriteShader/URP/Resources/AllIn1Urp2dRenderer.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DefenderButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Lobber.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DefenderType.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameTimer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StarDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DefenderToolbar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelSetup.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20VId6ihQVmluV6EwYpfyB6NSoz" />
@@ -109,6 +125,29 @@
       <workItem from="1641676765187" duration="1431000" />
       <workItem from="1641678796395" duration="1291000" />
       <workItem from="1641833618550" duration="1102000" />
+      <workItem from="1642006747470" duration="1249000" />
+      <workItem from="1642190763292" duration="1317000" />
+      <workItem from="1642341744805" duration="9268000" />
+      <workItem from="1642356135956" duration="426000" />
+      <workItem from="1642440499856" duration="4983000" />
+      <workItem from="1642526316445" duration="1061000" />
+      <workItem from="1642528760867" duration="1047000" />
+      <workItem from="1643056345266" duration="44000" />
+      <workItem from="1643056474905" duration="1356000" />
+      <workItem from="1643118037430" duration="153000" />
+      <workItem from="1643118219960" duration="858000" />
+      <workItem from="1643123365658" duration="4756000" />
+      <workItem from="1643138513510" duration="2307000" />
+      <workItem from="1643143939833" duration="1216000" />
+      <workItem from="1643295644834" duration="1078000" />
+      <workItem from="1643310691137" duration="930000" />
+      <workItem from="1643469391971" duration="4262000" />
+      <workItem from="1643473737709" duration="2880000" />
+      <workItem from="1643483517539" duration="1854000" />
+      <workItem from="1643491327208" duration="8677000" />
+      <workItem from="1643564186924" duration="3073000" />
+      <workItem from="1643567562449" duration="622000" />
+      <workItem from="1644010413595" duration="1831000" />
     </task>
     <servers />
   </component>

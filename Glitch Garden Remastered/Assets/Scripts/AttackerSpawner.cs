@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class AttackerSpawner : MonoBehaviour {
     
-    [SerializeField] private float startSpawnDelay = 30;
-    [SerializeField] private float endSpawnDelay = 7;
-    [SerializeField] private float deviationPercent = 0.5f;
+    private float _startSpawnDelay = 30;
+    private float _endSpawnDelay = 7;
+    private float _deviationPercent = 0.75f;
     
-    [SerializeField] private Attacker[] attackerPrefabArray;
+    private Attacker[] _attackerPrefabArray;
 
     private GameTimer _gameTimer;
     private float _levelTime;
@@ -22,11 +22,27 @@ public class AttackerSpawner : MonoBehaviour {
 
         while (_spawn) {
             _levelTime = _gameTimer.GetGameTime();
-            _spawnDelay = Mathf.Lerp(startSpawnDelay, endSpawnDelay, _levelTime);
-            _delayDeviation = _spawnDelay * deviationPercent;
+            _spawnDelay = Mathf.Lerp(_startSpawnDelay, _endSpawnDelay, _levelTime);
+            _delayDeviation = _spawnDelay * _deviationPercent;
             yield return new WaitForSeconds(Random.Range(_spawnDelay - _delayDeviation, _spawnDelay + _delayDeviation));
             SpawnAttacker();
         }
+    }
+
+    public void SetStartSpawnDelay(float startSpawnDelay) {
+        _startSpawnDelay = startSpawnDelay;
+    }
+
+    public void SetEndSpawnDelay(float endSpawnDelay) {
+        _endSpawnDelay = endSpawnDelay;
+    }
+    
+    public void SetDeviationPercent(float deviationPercent) {
+        _deviationPercent = deviationPercent;
+    }
+
+    public void SetAttackerArray(Attacker[] attackerPrefabArray) {
+        _attackerPrefabArray = attackerPrefabArray;
     }
 
     public void StopSpawning() {
@@ -34,8 +50,8 @@ public class AttackerSpawner : MonoBehaviour {
     }
     
     private void SpawnAttacker() {
-        var attackerIndex = Random.Range(0, attackerPrefabArray.Length);
-        Spawn(attackerPrefabArray[attackerIndex]);
+        var attackerIndex = Random.Range(0, _attackerPrefabArray.Length);
+        Spawn(_attackerPrefabArray[attackerIndex]);
     }
 
     private void Spawn(Attacker myAttacker) {

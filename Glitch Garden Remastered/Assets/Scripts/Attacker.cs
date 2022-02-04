@@ -51,6 +51,10 @@ public class Attacker : MonoBehaviour {
         _currentSpeed = speed;
     }
 
+    public float GetMovementSpeed() {
+        return _currentSpeed;
+    }
+    
     public void Attack(GameObject target) {
         _anim.SetBool(IsAttacking, true);
         _currentTarget = target;

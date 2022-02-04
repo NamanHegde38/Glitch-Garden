@@ -1,4 +1,5 @@
 using System.Collections;
+using MoreMountains.Feedbacks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +9,8 @@ public class LevelController : MonoBehaviour {
     [SerializeField] private float waitToLoad;
 
     [SerializeField] private AudioClip winSFX, loseSFX;
+    [SerializeField] private MMFeedbacks winFeedback;
+    [SerializeField] private MMFeedbacks loseFeedback;
 
     private int _numberOfAttackers;
     private bool _levelTimerFinished;
@@ -58,7 +61,9 @@ public class LevelController : MonoBehaviour {
         _audioSource.volume = _masterVolume;
         _audioSource.clip = winSFX;
         _audioSource.Play();
-
+        
+        winFeedback.PlayFeedbacks();
+        
         var currentLevel = SceneManager.GetActiveScene().buildIndex - 3;
         PlayerPrefsController.UnlockLevel(currentLevel + 1);
         
@@ -77,6 +82,8 @@ public class LevelController : MonoBehaviour {
         _audioSource.volume = _masterVolume;
         _audioSource.clip = loseSFX;
         _audioSource.Play();
+        
+        loseFeedback.PlayFeedbacks();
         
         yield return new WaitForSeconds(waitToLoad);
         _levelLoader.LoadGameOver();

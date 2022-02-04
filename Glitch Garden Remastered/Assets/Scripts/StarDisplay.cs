@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class StarDisplay : MonoBehaviour {
 
-    [SerializeField] private int stars = 100;
-    [SerializeField] private int starsOverTime = 3;
-    [SerializeField] private int starTime = 5;
+    private int _stars = 100;
+    private int _starsOverTime = 50;
+    private int _starTime = 10;
     private bool _giveStarsOverTime = true;
 
     private TextMeshProUGUI _starText;
@@ -16,27 +16,35 @@ public class StarDisplay : MonoBehaviour {
         UpdateDisplay();
 
         while (_giveStarsOverTime) {
-            yield return new WaitForSeconds(starTime);
-            AddStars(starsOverTime);
+            yield return new WaitForSeconds(_starTime);
+            AddStars(_starsOverTime);
         }
     }
 
     private void UpdateDisplay() {
-        _starText.text = stars.ToString();
+        _starText.text = _stars.ToString();
     }
 
     public bool HaveEnoughStars(int amount) {
-        return stars >= amount;
+        return _stars >= amount;
+    }
+
+    public void SetStars(int startStars) {
+        _stars = startStars;
+    }
+    
+    public void SetStarsOverTime(int starsOverTime) {
+        _starsOverTime = starsOverTime;
     }
     
     public void AddStars(int amount) {
-        stars += amount;
+        _stars += amount;
         UpdateDisplay();
     }
 
     public void SpendStars(int amount) {
-        if (stars < amount) return;
-        stars -= amount;
+        if (_stars < amount) return;
+        _stars -= amount;
         UpdateDisplay();
     }
 }

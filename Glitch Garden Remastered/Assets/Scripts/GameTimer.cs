@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class GameTimer : MonoBehaviour {
     
     [Tooltip("Time to finish the level in seconds")]
-    [SerializeField] private float levelTime = 10f;
+    private float _levelTime = 160f;
 
     private Slider _slider;
     private LevelController _levelController;
@@ -19,22 +19,22 @@ public class GameTimer : MonoBehaviour {
 
         switch (_difficulty) {
             case 1:
-                levelTime *= 1f;
+                _levelTime *= 1f;
                 break;
             case 2:
-                levelTime *= 1.5f;
+                _levelTime *= 1.5f;
                 break;
             case 3:
-                levelTime *= 2f;
+                _levelTime *= 2f;
                 break;
         }
     }
 
     private void Update() {
         if (_triggeredLevelFinished) return;
-        _slider.value = Time.timeSinceLevelLoad / levelTime;
+        _slider.value = Time.timeSinceLevelLoad / _levelTime;
         
-        var timerFinished = Time.timeSinceLevelLoad >= levelTime;
+        var timerFinished = Time.timeSinceLevelLoad >= _levelTime;
         
         if (!timerFinished) return;
         _levelController.LevelTimerFinished();
@@ -42,6 +42,10 @@ public class GameTimer : MonoBehaviour {
     }
 
     public float GetGameTime() {
-        return Time.timeSinceLevelLoad / levelTime;
+        return Time.timeSinceLevelLoad / _levelTime;
+    }
+
+    public void SetGameTime(int startGameTime) {
+        _levelTime = startGameTime;
     }
 }

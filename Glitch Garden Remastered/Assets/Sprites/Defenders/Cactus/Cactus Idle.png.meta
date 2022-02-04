@@ -176,7 +176,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 125
@@ -222,6 +222,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1173,7 +1185,7 @@ TextureImporter:
       name: _NormalMap
     nameFileIdTable:
       Cactus Idle_7: -2985547125478183446
-      Cactus Idle_14: -846564181637242461
+      Cactus Idle_10: -2517982359675751616
       Cactus Idle_32: -2459119286932299558
       Cactus Idle_26: 4084315216209835627
       Cactus Idle_41: -7738112714811522487
@@ -1213,9 +1225,9 @@ TextureImporter:
       Cactus Idle_40: 993446520790756030
       Cactus Idle_34: -5266059082023186224
       Cactus Idle_43: -9207953337077874798
-      Cactus Idle_10: -2517982359675751616
       Cactus Idle_3: -1474853557149748010
       Cactus Idle_18: 8401354411288995773
+      Cactus Idle_14: -846564181637242461
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

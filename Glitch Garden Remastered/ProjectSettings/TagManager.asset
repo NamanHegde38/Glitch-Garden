@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - FxTemporaire
+  - Level Timer
+  - Defender Buttons
+  - Attacker Spawner
+  - Game Canvas
+  - Cinemachine
+  - Star Text
+  - Post Processing
   layers:
   - Default
   - TransparentFX
@@ -18,12 +25,12 @@ TagManager:
   - 
   - Post Processing
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Level Timer
+  - Defender Buttons
+  - Attacker Spawner
+  - Game Canvas
+  - Effects
+  - Cinemachine
   - 
   - 
   - 
@@ -44,6 +51,9 @@ TagManager:
     locked: 0
   - name: Projectile
     uniqueID: 3371735101
+    locked: 0
+  - name: Foreground
+    uniqueID: 3936397739
     locked: 0
   - name: UI
     uniqueID: 1844689381

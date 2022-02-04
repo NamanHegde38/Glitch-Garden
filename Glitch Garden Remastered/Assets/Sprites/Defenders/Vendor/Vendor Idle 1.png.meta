@@ -1115,7 +1115,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 250
@@ -1161,6 +1161,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
@@ -8858,8 +8870,8 @@ TextureImporter:
       Vendor Idle 1_211: -8443679667569149004
       Vendor Idle 1_37: 1596457441774657848
       Vendor Idle 1_152: 2662167706180977449
-      Vendor Idle 1_61: -6414433183386696214
       Vendor Idle 1_103: -3639571909080835942
+      Vendor Idle 1_61: -6414433183386696214
       Vendor Idle 1_284: -7615378995865179947
       Vendor Idle 1_90: -6627156694720618924
       Vendor Idle 1_215: 4804173824538664804

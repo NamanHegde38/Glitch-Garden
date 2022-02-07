@@ -15,7 +15,7 @@ D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65240
+55119
 Successfully changed project path to: D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
 D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 255.39 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 337.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.0f1 (4bf1ec4b23c9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Resources/UnitySubsystems
@@ -64,93 +64,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014898 seconds.
+Registered in 0.018506 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 244.61 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 332.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.582 seconds
+- Completed reload, in  3.395 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1583ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (3395ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (773ms)
-			LoadAssemblies (100ms)
+		EndReloadAssembly (890ms)
+			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (153ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (518ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (611ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (245ms)
+				RefreshPlugins (333ms)
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017391 seconds.
+Registered in 0.024608 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 238.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 340.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.039 seconds
+- Completed reload, in  5.339 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5040ms)
-		BeginReloadAssembly (245ms)
+	ReloadAssembly (5341ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (4647ms)
-			LoadAssemblies (149ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (4963ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (454ms)
+			SetupTypeCache (450ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (150ms)
-			SetupLoadedEditorAssemblies (3754ms)
+			SetupLoadedEditorAssemblies (4075ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (239ms)
-				BeforeProcessingInitializeOnLoad (204ms)
-				ProcessInitializeOnLoadAttributes (3012ms)
-				ProcessInitializeOnLoadMethodAttributes (264ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				RefreshPlugins (341ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (3153ms)
+				ProcessInitializeOnLoadMethodAttributes (338ms)
+				AfterProcessingInitializeOnLoad (20ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6651 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 91 unused Assets / (0.9 MB). Loaded Objects now: 7158.
-Memory consumption went from 415.6 MB to 414.7 MB.
-Total: 35.617000 ms (FindLiveObjects: 0.613900 ms CreateObjectMapping: 0.243900 ms MarkObjects: 34.033500 ms  DeleteObjects: 0.723900 ms)
+Unloading 6653 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (1.2 MB). Loaded Objects now: 7161.
+Memory consumption went from 419.5 MB to 418.4 MB.
+Total: 42.599700 ms (FindLiveObjects: 0.702100 ms CreateObjectMapping: 0.308000 ms MarkObjects: 40.836400 ms  DeleteObjects: 0.751900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,70 +164,142 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 771627.174600 seconds.
-  path: Assets/Prefabs/Canvas/Spring Canvas.prefab
-  artifactKey: Guid(1a5cd23ad74a28946ae6cab3ee2b844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas/Spring Canvas.prefab using Guid(1a5cd23ad74a28946ae6cab3ee2b844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3868f6937650ad8adb9d88ef2e56bb51') in 0.503649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.423417 seconds.
-  path: Assets/Sprites/Images/Trees/Right Tree Winter.png
-  artifactKey: Guid(af259be005c1de64cbac96ce371e3f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Images/Trees/Right Tree Winter.png using Guid(af259be005c1de64cbac96ce371e3f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7f192163a0f1f8215b87a2ce151a9d') in 0.076544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.489584 seconds.
-  path: Assets/Sprites/Images/Trees/Left Tree Summer .png
-  artifactKey: Guid(f95aebaeb1ee352408dc36379e5d8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Images/Trees/Left Tree Summer .png using Guid(f95aebaeb1ee352408dc36379e5d8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeb89d3bf5ccc33e5a1ca23cb60068e') in 0.048947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.434536 seconds.
-  path: Assets/Sprites/Images/Trees/Right Tree Summer.png
-  artifactKey: Guid(23531cd3158b63d4abf4a661d14b7303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Images/Trees/Right Tree Summer.png using Guid(23531cd3158b63d4abf4a661d14b7303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0572eb97147be37862403942661af8e') in 0.045196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 127.000412 seconds.
-  path: Assets/Materials/Defenders/Scarecrow.mat
-  artifactKey: Guid(35ca535df4133574299a4cef41539a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Defenders/Scarecrow.mat using Guid(35ca535df4133574299a4cef41539a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210b93020da03315d64ec7bca9dd995a') in 0.040158 seconds 
+  Time since last request: 972263.365756 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Basics/sparkle2_ADD.mat
+  artifactKey: Guid(1fe38ac1a569ae54590f6e2aff679c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Basics/sparkle2_ADD.mat using Guid(1fe38ac1a569ae54590f6e2aff679c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f0f018c8df9cd9fd3e84807890f21a') in 0.349166 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Materials/Defenders/Vendor.mat
-  artifactKey: Guid(726cb775c0d08bb40afea2a4510a7da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Defenders/Vendor.mat using Guid(726cb775c0d08bb40afea2a4510a7da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b9e1acc1b54593d71a3b97fc1f559b') in 0.014942 seconds 
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Stars/star_ADD.mat
+  artifactKey: Guid(f977d103ddb4f804f84d689a9f2d20ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Stars/star_ADD.mat using Guid(f977d103ddb4f804f84d689a9f2d20ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527b43c602231aa80f1913477dbee9d7') in 0.030575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Materials/Defenders/Star.mat
+  artifactKey: Guid(2a82f554b43443b4ca11fc9180226553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Defenders/Star.mat using Guid(2a82f554b43443b4ca11fc9180226553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc71c11b106d27a9366f6ec5456e431c') in 0.017533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Stars/star_outlined_AB.mat
+  artifactKey: Guid(0aacb045c463b304b80b9fab518be25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Stars/star_outlined_AB.mat using Guid(0aacb045c463b304b80b9fab518be25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d50a536afbb9ba9b948657f4e652504') in 0.030619 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000038 seconds.
-  path: Assets/AllIn1SpriteShader/Materials/UIStencil.mat
-  artifactKey: Guid(7ef34f26b8117334c8ecd9c27a45e2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllIn1SpriteShader/Materials/UIStencil.mat using Guid(7ef34f26b8117334c8ecd9c27a45e2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2dc46b362620d16661c8314b49dd74') in 0.021156 seconds 
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Unsorted/talkbubble_AB.mat
+  artifactKey: Guid(a37ef22d25609254c8910ec57ea04195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Unsorted/talkbubble_AB.mat using Guid(a37ef22d25609254c8910ec57ea04195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3ae8ef20f1860ff3d5e68048f161be') in 0.034185 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AllIn1SpriteShader/Materials/Tree Right.mat
-  artifactKey: Guid(89f02e2680719794e86c373a81f862b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllIn1SpriteShader/Materials/Tree Right.mat using Guid(89f02e2680719794e86c373a81f862b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924e509381267ac80a3ef45adc7c8584') in 0.019567 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Liquid/splat03_trsp_3x3_AB.mat
+  artifactKey: Guid(2b715751119fc3745ad5590d85edeca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Liquid/splat03_trsp_3x3_AB.mat using Guid(2b715751119fc3745ad5590d85edeca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2174fe82206c7d31480777291464abc1') in 0.036519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Stars/star_soft_4x4_AB.mat
+  artifactKey: Guid(0df6b6daad61ec1499bad232740b5e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Stars/star_soft_4x4_AB.mat using Guid(0df6b6daad61ec1499bad232740b5e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419fe0a7e881a3c08dd712d8def94cec') in 0.033909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Stars/star_4x4_AB.mat
+  artifactKey: Guid(2bc36376a0cb0df49a21197e94d65661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Stars/star_4x4_AB.mat using Guid(2bc36376a0cb0df49a21197e94d65661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86a33d48e74e495b0963edac1732312') in 0.032996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.111532 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Sword/slash_circle01_ADD.mat
+  artifactKey: Guid(6eb991e61c0314441bebec3f82ff5838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Sword/slash_circle01_ADD.mat using Guid(6eb991e61c0314441bebec3f82ff5838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a587a9997661d8cbcfb2e763daedfa2') in 0.029316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Sword/slash03_ADD.mat
+  artifactKey: Guid(c00f4ebbd07bea24f9aeb168ec407416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Sword/slash03_ADD.mat using Guid(c00f4ebbd07bea24f9aeb168ec407416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c3d7cedcd7e1af6f490dabb0ee1663') in 0.029145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Basics/snow_AB.mat
+  artifactKey: Guid(5d7464181f672e9479567740b60a2233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Basics/snow_AB.mat using Guid(5d7464181f672e9479567740b60a2233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6935df99a07f380da3984cd91c1274d') in 0.031392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Sword/slash03_AB.mat
+  artifactKey: Guid(6e95095aaaabd654b99cc226c305f807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Sword/slash03_AB.mat using Guid(6e95095aaaabd654b99cc226c305f807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c916088ac36779dd35a0e2832b9ca53') in 0.021773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Sword/slash_ADD.mat
+  artifactKey: Guid(9e2411d65e8b2094eaa91113863f37d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Sword/slash_ADD.mat using Guid(9e2411d65e8b2094eaa91113863f37d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae022e46a86a1128b82841ef1e344f16') in 0.088916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Skulls/skull_evil_AB.mat
+  artifactKey: Guid(d9d84bf291981044f8a47027ad0956fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Skulls/skull_evil_AB.mat using Guid(d9d84bf291981044f8a47027ad0956fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a0007a90297f5e88ad74787b29d4fc') in 0.030371 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Materials/Defenders/Statue.mat
-  artifactKey: Guid(c6107304b82af564d88a8d0a20075bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Defenders/Statue.mat using Guid(c6107304b82af564d88a8d0a20075bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed0d15efff5af51464ff725aa65e729') in 0.015101 seconds 
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Sword/slash01_ADD.mat
+  artifactKey: Guid(f775ebfdf5b09fd4981b26faf9e1c586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Sword/slash01_ADD.mat using Guid(f775ebfdf5b09fd4981b26faf9e1c586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783adf326f1eaa2d3d85a9b7042e1d57') in 0.038409 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AllIn1SpriteShader/Materials/Trophy Icon.mat
-  artifactKey: Guid(76ffb62ae55a5b444a2d57d5a5b18903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllIn1SpriteShader/Materials/Trophy Icon.mat using Guid(76ffb62ae55a5b444a2d57d5a5b18903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e405428e498ae6b460554261d4e3406f') in 0.018179 seconds 
+  Time since last request: 0.857098 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Text/txt_blam.mat
+  artifactKey: Guid(da3e314ce4d057d4caf1845c582ea0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Text/txt_blam.mat using Guid(da3e314ce4d057d4caf1845c582ea0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9166f3460cd78436a19b0f28cf19fd72') in 0.030199 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Materials/Defenders/Trophy.mat
-  artifactKey: Guid(2fe185e1e521d224a97d4f7f1b3d6ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Defenders/Trophy.mat using Guid(2fe185e1e521d224a97d4f7f1b3d6ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6064774bdb2deffd8d6e82613269e8d') in 0.014986 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Text/txt_boom.mat
+  artifactKey: Guid(bdd8d70eaf9edcb4a927960ba399fb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Text/txt_boom.mat using Guid(bdd8d70eaf9edcb4a927960ba399fb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4b3a031475f8c1ef5adbe6dcb34f8b') in 0.028996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.915752 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Explosions/nova_6x3_soft_spritesheet_ADD.mat
+  artifactKey: Guid(d6f0edd0436e35f4abae0e34078b880b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Explosions/nova_6x3_soft_spritesheet_ADD.mat using Guid(d6f0edd0436e35f4abae0e34078b880b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b37ecfb8b0a6887835941485a4041c') in 0.030864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/Epic Toon FX/Materials/Misc/Explosions/nova_6x3_spritesheet_ADD.mat
+  artifactKey: Guid(ea696a4cf4fe1924796b308e4791aaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Materials/Misc/Explosions/nova_6x3_spritesheet_ADD.mat using Guid(ea696a4cf4fe1924796b308e4791aaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbad755e6a8918f6d2cd01b5eaab42d') in 0.051565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 760.979388 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Sparks Impact.prefab
+  artifactKey: Guid(6dc4191059d6c3a4a820270672bbf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Sparks Impact.prefab using Guid(6dc4191059d6c3a4a820270672bbf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7973fe39ea5046b4794166c3232443c') in 0.051198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR2 Sparks Hit Omni.prefab
+  artifactKey: Guid(489c10ce518f41d4a802f5f5a58a9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR2 Sparks Hit Omni.prefab using Guid(489c10ce518f41d4a802f5f5a58a9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f42ab3bec1ca87804b7841351fefb0') in 0.038389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR2 Sparks Hit Directional.prefab
+  artifactKey: Guid(8c504a39093d2d947a8e422ac981664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR2 Sparks Hit Directional.prefab using Guid(8c504a39093d2d947a8e422ac981664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8353d6221beebc480cd194b52a2d33') in 0.038117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR2 Hot Debris Hit + Sparks (Lit).prefab
+  artifactKey: Guid(91d63e05cd2bf024f9961e4926cc2347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR2 Hot Debris Hit + Sparks (Lit).prefab using Guid(91d63e05cd2bf024f9961e4926cc2347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9227beded8059ecbbce0b84f61244f4b') in 0.051960 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

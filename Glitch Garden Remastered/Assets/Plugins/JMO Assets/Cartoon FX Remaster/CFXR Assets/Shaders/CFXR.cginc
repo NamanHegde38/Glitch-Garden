@@ -190,7 +190,7 @@
 			half alpha = particleAlpha;
 		#endif
 
-		#if _CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
+		#if (_CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE) && !defined(SHADER_API_GLES)
 			alpha = min(alpha, _ShadowStrength);
 			// Use dither mask for alpha blended shadows, based on pixel position xy
 			// and alpha level. Our dither texture is 4x4x16.

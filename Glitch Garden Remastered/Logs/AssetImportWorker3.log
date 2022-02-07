@@ -15,7 +15,7 @@ D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-65240
+55119
 Successfully changed project path to: D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
 D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 254.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 342.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.0f1 (4bf1ec4b23c9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Resources/UnitySubsystems
@@ -64,78 +64,78 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014785 seconds.
+Registered in 0.014616 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 235.24 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 343.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.576 seconds
+- Completed reload, in  1.676 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1577ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (1676ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (781ms)
-			LoadAssemblies (101ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (140ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (522ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (615ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (235ms)
+				RefreshPlugins (344ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017458 seconds.
+Registered in 0.015363 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 237.61 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 345.02 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.958 seconds
+- Completed reload, in  5.131 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4959ms)
-		BeginReloadAssembly (242ms)
+	ReloadAssembly (5132ms)
+		BeginReloadAssembly (239ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (4573ms)
-			LoadAssemblies (138ms)
+		EndReloadAssembly (4748ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
+			SetupTypeCache (436ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (145ms)
-			SetupLoadedEditorAssemblies (3709ms)
+			RebuildScriptCaches (147ms)
+			SetupLoadedEditorAssemblies (3889ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (238ms)
-				BeforeProcessingInitializeOnLoad (207ms)
-				ProcessInitializeOnLoadAttributes (2975ms)
-				ProcessInitializeOnLoadMethodAttributes (257ms)
+				RefreshPlugins (345ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (3007ms)
+				ProcessInitializeOnLoadMethodAttributes (297ms)
 				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -144,13 +144,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6651 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 91 unused Assets / (0.9 MB). Loaded Objects now: 7158.
-Memory consumption went from 415.6 MB to 414.7 MB.
-Total: 36.114600 ms (FindLiveObjects: 0.613300 ms CreateObjectMapping: 0.244000 ms MarkObjects: 34.699300 ms  DeleteObjects: 0.556100 ms)
+Unloading 6653 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (1.2 MB). Loaded Objects now: 7161.
+Memory consumption went from 419.6 MB to 418.4 MB.
+Total: 36.947300 ms (FindLiveObjects: 0.673600 ms CreateObjectMapping: 0.330200 ms MarkObjects: 35.284700 ms  DeleteObjects: 0.657400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,78 +163,60 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 772083.638802 seconds.
-  path: Assets/AllIn1SpriteShader/Materials/Tree Windy.mat
-  artifactKey: Guid(fe8456057e616dc42b48c9db900fbd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllIn1SpriteShader/Materials/Tree Windy.mat using Guid(fe8456057e616dc42b48c9db900fbd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621d4d12d0661007c3c8fa303790e1b3') in 0.333227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 264.287823 seconds.
-  path: Assets/AllIn1SpriteShader/Materials/Tree Windy.mat
-  artifactKey: Guid(fe8456057e616dc42b48c9db900fbd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllIn1SpriteShader/Materials/Tree Windy.mat using Guid(fe8456057e616dc42b48c9db900fbd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3763ba87ad162cbdfc573fbac3aa7e05') in 0.016804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.783612 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
-  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93eb7677eafa0ec78fd4fec345e1e32') in 0.021477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1090.977011 seconds.
-  path: Assets/Plugins/LensFlarePresets/Anamorphic_Streak3.asset
-  artifactKey: Guid(38257831129b524478d75706b29b5864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/LensFlarePresets/Anamorphic_Streak3.asset using Guid(38257831129b524478d75706b29b5864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f11b9dc64c93d4041d19c8c797a5aa') in 0.027497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Plugins/LensFlarePresets/Sun_Flare_w_Ring.asset
-  artifactKey: Guid(ebdd57495ed33bd4bae6f345f8d2b9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/LensFlarePresets/Sun_Flare_w_Ring.asset using Guid(ebdd57495ed33bd4bae6f345f8d2b9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f662e986dcff8734b6dd6f1f174cdf9') in 0.013023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Plugins/LensFlarePresets/Smartphone_Smudged.asset
-  artifactKey: Guid(84cfb5afef7adac40b81ffb9d0dbed06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/LensFlarePresets/Smartphone_Smudged.asset using Guid(84cfb5afef7adac40b81ffb9d0dbed06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb15f69f8ed50f8114eb78e2391e93c') in 0.013376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Plugins/LensFlarePresets/Sci-Fi.asset
-  artifactKey: Guid(3d06c7e513973914d98d12f2f668741a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/LensFlarePresets/Sci-Fi.asset using Guid(3d06c7e513973914d98d12f2f668741a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01826f1d4b279915e5a6478b3b29e6e') in 0.014155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Plugins/LensFlarePresets/Scope_Glint.asset
-  artifactKey: Guid(87b3236eee3798646863f18655766828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/LensFlarePresets/Scope_Glint.asset using Guid(87b3236eee3798646863f18655766828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c41254a3e2f43607e3ea168cf9284b8') in 0.013205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Plugins/LensFlarePresets/Arena.asset
-  artifactKey: Guid(7b784bb991e5254499f0339a1da9960c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/LensFlarePresets/Arena.asset using Guid(7b784bb991e5254499f0339a1da9960c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d4bf8d71fc4e37d9e66fcb04be4861') in 0.011511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Plugins/LensFlarePresets/Shimmer.asset
-  artifactKey: Guid(db5b3a7275d73f04ab61fb9fe3fab8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/LensFlarePresets/Shimmer.asset using Guid(db5b3a7275d73f04ab61fb9fe3fab8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209b7ca4c908cbf4d05179d5634ad1c8') in 0.014000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Plugins/LensFlarePresets/Morphing Spike.asset
-  artifactKey: Guid(cbfa29c94a55abb4a9e7f95e23279388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/LensFlarePresets/Morphing Spike.asset using Guid(cbfa29c94a55abb4a9e7f95e23279388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a83eb02fd2c70d4dced564affb53a12') in 0.013962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.866597 seconds.
-  path: Assets/Plugins/LensFlarePresets/Anamorphic_Streak.asset
-  artifactKey: Guid(c722e8b19b8ea7f44a63874c0e9e9a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/LensFlarePresets/Anamorphic_Streak.asset using Guid(c722e8b19b8ea7f44a63874c0e9e9a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddeaf0d3427db53351946a53d04e9a4e') in 0.010609 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015894 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.828 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4829ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (4445ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (491ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (3526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (191ms)
+				ProcessInitializeOnLoadAttributes (2964ms)
+				ProcessInitializeOnLoadMethodAttributes (324ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6450 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.2 MB). Loaded Objects now: 7177.
+Memory consumption went from 407.8 MB to 406.6 MB.
+Total: 41.637000 ms (FindLiveObjects: 0.633300 ms CreateObjectMapping: 0.255400 ms MarkObjects: 39.712300 ms  DeleteObjects: 1.034400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -1,5 +1,5 @@
 ﻿Cartoon FX Remaster 2, version R 1.1
-2021/02/24
+2021/11/19
 © 2012-2021 - Jean Moreno
 ====================================
 
@@ -94,6 +94,14 @@ I'd be happy to see any effects used in your project, so feel free to drop me a 
 
 RELEASE NOTES
 -------------
+
+R 1.1.2
+- Added "Screen Distortion" shader, and a few effect variants using it
+- Fixed UV distortion calculation and related materials
+- Fixed compilation errors on some platforms (e.g. PS4)
+- Prevent possible asmdef conflict with Toony Colors Pro 2
+- Strip shaders for the unused render pipeline during build, depending on if built-in or URP is used
+
 R 1.1.1
 - Fixed a broken material reference for some effects (e.g. "CFXR2 Magic Explosion (Unlit, Blue)")
 - Fixed distortion strength in fire materials

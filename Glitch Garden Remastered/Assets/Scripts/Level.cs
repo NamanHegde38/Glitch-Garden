@@ -33,15 +33,15 @@ public class Level : SerializedScriptableObject {
     private int deviationPercent;
     
     [BoxGroup("Level")] [SerializeField]
-    [AssetsOnly]
+    [AssetSelector(Paths = "Assets/Prefabs/Canvas", ExpandAllMenuItems = false)]
     private GameObject gameCanvas;
     
     [BoxGroup("Level")] [SerializeField]
-    [AssetsOnly]
+    [AssetSelector(Paths = "Assets/Prefabs/Post Processing", ExpandAllMenuItems = false)]
     private GameObject postProcessing;
     
     [BoxGroup("Level")] [SerializeField]
-    [AssetsOnly]
+    [AssetSelector(Paths = "Assets/Prefabs/Camera", ExpandAllMenuItems = false)]
     private GameObject camera;
 
     [BoxGroup("Defender Layout")] [OdinSerialize]

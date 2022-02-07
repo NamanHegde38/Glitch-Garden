@@ -94,7 +94,6 @@ Shader "Cartoon FX/Remaster/Particle Procedural Glow"
 			half _GlowMax;
 			half _MaxValue;
 
-			sampler2D _DissolveTex;
 			half _InvertDissolveTex;
 			half _DissolveSmooth;
 
@@ -102,20 +101,26 @@ Shader "Cartoon FX/Remaster/Particle Procedural Glow"
 
 			half _Cutoff;
 
-			UNITY_DECLARE_DEPTH_TEXTURE(_CameraDepthTexture);
 			half _SoftParticlesFadeDistanceNear;
 			half _SoftParticlesFadeDistanceFar;
 			half _EdgeFadePow;
 
+		#if !defined(SHADER_API_GLES)
 			float _ShadowStrength;
-			sampler3D _DitherMaskLOD;
-			sampler3D _DitherCustom;
 			float4 _DitherCustom_TexelSize;
+		#endif
 
 			CBUFFER_END
 
+			sampler2D _DissolveTex;
+			UNITY_DECLARE_DEPTH_TEXTURE(_CameraDepthTexture);
+		#if !defined(SHADER_API_GLES)
+			sampler3D _DitherMaskLOD;
+			sampler3D _DitherCustom;
+		#endif
+
 			// --------------------------------
-			// Input/output
+			// Input/Output
 
 			struct appdata
 			{
@@ -161,6 +166,7 @@ Shader "Cartoon FX/Remaster/Particle Procedural Glow"
 
 			// --------------------------------
 			// Vertex
+
 		#if PASS_SHADOW_CASTER
 			void vertex_program (appdata v, out v2f_shadowCaster o, out float4 opos : SV_POSITION)
 		#else
@@ -168,7 +174,14 @@ Shader "Cartoon FX/Remaster/Particle Procedural Glow"
 		#endif
 			{
 		#if !PASS_SHADOW_CASTER
-				v2f o;
+				v2f o = (v2f)0;
+				#if CFXR_URP
+					o = (v2f)0;
+				#else
+					UNITY_INITIALIZE_OUTPUT(v2f, o);
+				#endif
+		#else
+				o = (v2f_shadowCaster)0;
 		#endif
 
 				UNITY_SETUP_INSTANCE_ID(v);
@@ -192,6 +205,7 @@ Shader "Cartoon FX/Remaster/Particle Procedural Glow"
 
 			// --------------------------------
 			// Fragment
+
 		#if PASS_SHADOW_CASTER
 			float4 fragment_program (v2f_shadowCaster i, UNITY_VPOS_TYPE vpos : VPOS) : SV_Target
 		#else
@@ -270,7 +284,7 @@ Shader "Cartoon FX/Remaster/Particle Procedural Glow"
 				
 				#pragma target 2.0
 				
-				#pragma multi_compile_particles
+				#pragma multi_compile_instancing
 				#pragma multi_compile_fog
 
 				#pragma multi_compile CFXR_URP
@@ -299,7 +313,7 @@ Shader "Cartoon FX/Remaster/Particle Procedural Glow"
 				
 				#pragma target 2.0
 				
-				#pragma multi_compile_particles
+				#pragma multi_compile_instancing
 				#pragma multi_compile_fog
 
 				#pragma multi_compile CFXR_URP
@@ -344,7 +358,7 @@ Shader "Cartoon FX/Remaster/Particle Procedural Glow"
 				#pragma multi_compile_shadowcaster
 				#pragma shader_feature_local _ _CFXR_DITHERED_SHADOWS_ON _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
 
-			#if _CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
+			#if (_CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE) && !defined(SHADER_API_GLES)
 				#pragma target 3.0		//needed for VPOS
 			#endif
 
@@ -370,6 +384,7 @@ Shader "Cartoon FX/Remaster/Particle Procedural Glow"
 				#pragma target 2.0
 				
 				#pragma multi_compile_particles
+				#pragma multi_compile_instancing
 				#pragma multi_compile_fog
 				
 				#pragma shader_feature_local _ _CFXR_GLOW_POW_P2 _CFXR_GLOW_POW_P4 _CFXR_GLOW_POW_P8
@@ -411,7 +426,7 @@ Shader "Cartoon FX/Remaster/Particle Procedural Glow"
 				#pragma multi_compile_shadowcaster
 				#pragma shader_feature_local _ _CFXR_DITHERED_SHADOWS_ON _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
 
-			#if _CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
+			#if (_CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE) && !defined(SHADER_API_GLES)
 				#pragma target 3.0		//needed for VPOS
 			#endif
 

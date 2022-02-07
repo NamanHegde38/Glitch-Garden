@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.004481341, g: 0.058967277, b: 0.23219556, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 12
   m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 492a89c54a1d40c4e90b3423dfd5575e, type: 2}
 --- !u!196 &5
 NavMeshSettings:
   serializedVersion: 2
@@ -118,6 +118,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -322,18 +324,15 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 198276822853802940, guid: cf0aeef6718bb3c47b97edde031754db,
-        type: 3}
+    - target: {fileID: 198276822853802940, guid: cf0aeef6718bb3c47b97edde031754db, type: 3}
       propertyPath: randomSeed
       value: -891985327
       objectReference: {fileID: 0}
-    - target: {fileID: 198280151551994460, guid: cf0aeef6718bb3c47b97edde031754db,
-        type: 3}
+    - target: {fileID: 198280151551994460, guid: cf0aeef6718bb3c47b97edde031754db, type: 3}
       propertyPath: randomSeed
       value: 1086939332
       objectReference: {fileID: 0}
-    - target: {fileID: 198457065406400696, guid: cf0aeef6718bb3c47b97edde031754db,
-        type: 3}
+    - target: {fileID: 198457065406400696, guid: cf0aeef6718bb3c47b97edde031754db, type: 3}
       propertyPath: randomSeed
       value: -1244172534
       objectReference: {fileID: 0}
@@ -443,18 +442,15 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 198257782942775340, guid: a18a6c3e551caf646949139288c40a8e,
-        type: 3}
+    - target: {fileID: 198257782942775340, guid: a18a6c3e551caf646949139288c40a8e, type: 3}
       propertyPath: randomSeed
       value: -1776855619
       objectReference: {fileID: 0}
-    - target: {fileID: 198843120607116402, guid: a18a6c3e551caf646949139288c40a8e,
-        type: 3}
+    - target: {fileID: 198843120607116402, guid: a18a6c3e551caf646949139288c40a8e, type: 3}
       propertyPath: randomSeed
       value: -1647064701
       objectReference: {fileID: 0}
-    - target: {fileID: 198968939792773440, guid: a18a6c3e551caf646949139288c40a8e,
-        type: 3}
+    - target: {fileID: 198968939792773440, guid: a18a6c3e551caf646949139288c40a8e, type: 3}
       propertyPath: randomSeed
       value: -59376714
       objectReference: {fileID: 0}
@@ -518,6 +514,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &832646443
 Canvas:
   m_ObjectHideFlags: 0
@@ -549,6 +546,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1870661153}
   m_Father: {fileID: 0}
@@ -606,18 +604,15 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 198519079209905444, guid: ab1eea2a9264fbc4e86918e643a92f70,
-        type: 3}
+    - target: {fileID: 198519079209905444, guid: ab1eea2a9264fbc4e86918e643a92f70, type: 3}
       propertyPath: randomSeed
       value: -1538640837
       objectReference: {fileID: 0}
-    - target: {fileID: 198582447021631498, guid: ab1eea2a9264fbc4e86918e643a92f70,
-        type: 3}
+    - target: {fileID: 198582447021631498, guid: ab1eea2a9264fbc4e86918e643a92f70, type: 3}
       propertyPath: randomSeed
       value: 1231032687
       objectReference: {fileID: 0}
-    - target: {fileID: 198616193948514612, guid: ab1eea2a9264fbc4e86918e643a92f70,
-        type: 3}
+    - target: {fileID: 198616193948514612, guid: ab1eea2a9264fbc4e86918e643a92f70, type: 3}
       propertyPath: randomSeed
       value: 1853660482
       objectReference: {fileID: 0}
@@ -727,18 +722,15 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 198388758667584802, guid: aef81f0abc923284db4c90166664a2e7,
-        type: 3}
+    - target: {fileID: 198388758667584802, guid: aef81f0abc923284db4c90166664a2e7, type: 3}
       propertyPath: randomSeed
       value: -925798246
       objectReference: {fileID: 0}
-    - target: {fileID: 198415138321334344, guid: aef81f0abc923284db4c90166664a2e7,
-        type: 3}
+    - target: {fileID: 198415138321334344, guid: aef81f0abc923284db4c90166664a2e7, type: 3}
       propertyPath: randomSeed
       value: -1732847798
       objectReference: {fileID: 0}
-    - target: {fileID: 198484319978764814, guid: aef81f0abc923284db4c90166664a2e7,
-        type: 3}
+    - target: {fileID: 198484319978764814, guid: aef81f0abc923284db4c90166664a2e7, type: 3}
       propertyPath: randomSeed
       value: -884136031
       objectReference: {fileID: 0}
@@ -947,6 +939,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 832646444}
   m_RootOrder: 0
@@ -971,6 +964,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8308824, g: 0.8308824, b: 0.8308824, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1157,6 +1151,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.65302724, y: 1, z: 0.9374688}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

@@ -1,5 +1,5 @@
 ﻿Cartoon FX Remaster, version R 1.1
-2021/04/21
+2021/11/19
 © 2012-2021 - Jean Moreno
 ==================================
 
@@ -94,6 +94,13 @@ I'd be happy to see any effects used in your project, so feel free to drop me a 
 
 RELEASE NOTES
 -------------
+
+R 1.1.2
+- Added "Screen Distortion" shader, and a few effect variants using it
+- Fixed fireball materials
+- Fixed compilation errors on some platforms (e.g. PS4)
+- Prevent possible asmdef conflict with Toony Colors Pro 2
+- Strip shaders for the unused render pipeline during build, depending on if built-in or URP is used
 
 R 1.1.1
 - Fixed AABB errors spamming in the console in Unity 2020.2+ with some effects (e.g. "CFXR Fire Trail")

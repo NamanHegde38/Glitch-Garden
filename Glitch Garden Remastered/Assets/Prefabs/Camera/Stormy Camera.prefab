@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-959398618376532502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602702402097393267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 0}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 1
+  m_FrequencyGain: 1
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
+--- !u!1001 &384519191635587013
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6843101920553353651, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_AmplitudeGain
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101920553353651, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_FrequencyGain
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101921379355792, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101921379355792, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101921379355792, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101921379355792, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101921379355792, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101921379355792, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101921379355792, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101921379355792, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101921379355792, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101921379355792, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101921379355792, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843101921379355794, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+      propertyPath: m_Name
+      value: Stormy Camera
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+--- !u!1 &6602702402097393267 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6843101920553353654, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}
+  m_PrefabInstance: {fileID: 384519191635587013}
+  m_PrefabAsset: {fileID: 0}

@@ -517,6 +517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WindlinesSpeedy
       objectReference: {fileID: 0}
+    - target: {fileID: 4583498114781608800, guid: 26b13bf6b4d523d4ba72c000e639f5f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
     - target: {fileID: 4584395030131710222, guid: 26b13bf6b4d523d4ba72c000e639f5f5, type: 3}
       propertyPath: ShapeModule.radius.value
       value: 0.5

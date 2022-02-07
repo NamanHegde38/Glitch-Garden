@@ -21,35 +21,35 @@ public class DefenderToolbar : MonoBehaviour {
             switch (defenderButton) {
                 case DefenderType.Trophy:
                     trophyButton.SetActive(true);
-                    trophyButton.transform.localPosition = new Vector2(_order, trophyButton.transform.position.y);
+                    trophyButton.transform.localPosition = new Vector2(_order, trophyButton.transform.localPosition.y);
                     break;
                 case DefenderType.DoubleTrophy:
                     doubleTrophyButton.SetActive(true);
-                    doubleTrophyButton.transform.localPosition = new Vector2(_order, doubleTrophyButton.transform.position.y);
+                    doubleTrophyButton.transform.localPosition = new Vector2(_order, doubleTrophyButton.transform.localPosition.y);
                     break;
                 case DefenderType.Cactus:
                     cactusButton.SetActive(true);
-                    cactusButton.transform.localPosition = new Vector2(_order, cactusButton.transform.position.y);
+                    cactusButton.transform.localPosition = new Vector2(_order, cactusButton.transform.localPosition.y);
                     break;
                 case DefenderType.Scarecrow:
                     scarecrowButton.SetActive(true);
-                    scarecrowButton.transform.localPosition = new Vector2(_order, scarecrowButton.transform.position.y);
+                    scarecrowButton.transform.localPosition = new Vector2(_order, scarecrowButton.transform.localPosition.y);
                     break;
                 case DefenderType.Statue:
                     statueButton.SetActive(true);
-                    statueButton.transform.localPosition = new Vector2(_order, statueButton.transform.position.y);
+                    statueButton.transform.localPosition = new Vector2(_order, statueButton.transform.localPosition.y);
                     break;
                 case DefenderType.Gravestone:
                     gravestoneButton.SetActive(true);
-                    gravestoneButton.transform.localPosition = new Vector2(_order, gravestoneButton.transform.position.y);
+                    gravestoneButton.transform.localPosition = new Vector2(_order, gravestoneButton.transform.localPosition.y);
                     break;
                 case DefenderType.Vendor:
                     vendorButton.SetActive(true);
-                    vendorButton.transform.localPosition = new Vector2(_order, vendorButton.transform.position.y);
+                    vendorButton.transform.localPosition = new Vector2(_order, vendorButton.transform.localPosition.y);
                     break;
                 case DefenderType.Gnome:
                     gnomeButton.SetActive(true);
-                    gnomeButton.transform.localPosition = new Vector2(_order, gnomeButton.transform.position.y);
+                    gnomeButton.transform.localPosition = new Vector2(_order, gnomeButton.transform.localPosition.y);
                     break;
                 case DefenderType.None:
                     break;

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8897267009274799023}
   - component: {fileID: 2716343134039644309}
   - component: {fileID: 528801369009883849}
+  - component: {fileID: 3787137866364133300}
   m_Layer: 6
   m_Name: Defender Spawn Feedback
   m_TagString: Untagged
@@ -49,6 +50,7 @@ MonoBehaviour:
   Feedbacks:
   - {fileID: 2716343134039644309}
   - {fileID: 528801369009883849}
+  - {fileID: 3787137866364133300}
   InitializationMode: 2
   SafeMode: 3
   Direction: 0
@@ -164,6 +166,52 @@ MonoBehaviour:
   Mode: 1
   CachedRecycle: 0
   ParticlesPrefab: {fileID: 1017363053716141007, guid: 326b992d3e7101742a2d65489b27774b, type: 3}
+  RandomParticlePrefabs: []
+  PositionMode: 0
+  InstantiateParticlesPosition: {fileID: 0}
+  TargetWorldPosition: {x: 0, y: 0, z: 0}
+  Offset: {x: 0, y: 0, z: 0}
+  NestParticles: 0
+  ApplyRotation: 0
+  ApplyScale: 0
+--- !u!114 &3787137866364133300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867953944812280012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdfe4b9b079619143a9748eeee75e698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Active: 1
+  Label: Particles Instantiation
+  Chance: 100
+  Timing:
+    TimescaleMode: 0
+    InitialDelay: 0
+    CooldownDuration: 0
+    ExcludeFromHoldingPauses: 0
+    InterruptsOnStop: 1
+    NumberOfRepeats: 0
+    RepeatForever: 0
+    DelayBetweenRepeats: 1
+    MMFeedbacksDirectionCondition: 0
+    PlayDirection: 0
+    ConstantIntensity: 0
+    UseIntensityInterval: 0
+    IntensityIntervalMin: 0
+    IntensityIntervalMax: 0
+    Sequence: {fileID: 0}
+    TrackID: 0
+    Quantized: 0
+    TargetBPM: 120
+  DebugActive: 0
+  Mode: 1
+  CachedRecycle: 0
+  ParticlesPrefab: {fileID: 1065795756539242509, guid: d71dd14250b75dd42bcfbb67e63ef4bd, type: 3}
   RandomParticlePrefabs: []
   PositionMode: 0
   InstantiateParticlesPosition: {fileID: 0}

@@ -1,4 +1,3 @@
-using System;
 using MoreMountains.Feedbacks;
 using UnityEngine;
 
@@ -11,6 +10,10 @@ public class Defender : MonoBehaviour {
     [SerializeField] private MMFeedbacks spawnFeedback;
 
     private void Start() {
+        PlaySpawnFeedback();
+    }
+
+    private void PlaySpawnFeedback() {
         spawnFeedback.Initialization();
         spawnFeedback.PlayFeedbacks();
     }

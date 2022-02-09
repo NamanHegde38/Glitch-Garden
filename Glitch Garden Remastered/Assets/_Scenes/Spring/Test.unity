@@ -128,6 +128,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5001409170209838440, guid: a04bc3e8f1370ce4e9287181f303fa81, type: 3}
   m_PrefabInstance: {fileID: 1522778823}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &539112563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 539112565}
+  - component: {fileID: 539112564}
+  m_Layer: 0
+  m_Name: Level Setup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &539112564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539112563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8fdcf617942cec4c9fc629ebc8ca21e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trophyPrefab: {fileID: 8146631765225127200, guid: 293d5a4aa1230b1428f0c0233fa49d45, type: 3}
+  doubleTrophyPrefab: {fileID: 905618881598576522, guid: 81ca4735027e71a41a1eab7102a751f7, type: 3}
+  cactusPrefab: {fileID: 4866951754202404884, guid: 1dc7a50b914aff84e869ae0efef9abec, type: 3}
+  scarecrowPrefab: {fileID: 2889872511896781424, guid: d83fee35bfc0abd4b8d80854296bc366, type: 3}
+  statuePrefab: {fileID: 248900622758511775, guid: 1b2a9b975cff41f4785b0251c9fd9947, type: 3}
+  gravestonePrefab: {fileID: 4513974879543475930, guid: 6e5f81b40cf379d43a85f411a9ede4d9, type: 3}
+  vendorPrefab: {fileID: 4021622032478014005, guid: 8fcd1ffed3510144e86a7c61c4872658, type: 3}
+  gnomePrefab: {fileID: 7068735682638521994, guid: 0892b01b29e166040be89a65b096cd22, type: 3}
+  level: {fileID: 11400000, guid: 1433d8531acdf1c438a1dea2f003c996, type: 2}
+--- !u!4 &539112565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539112563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &663682076 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5001409170209838440, guid: a04bc3e8f1370ce4e9287181f303fa81, type: 3}
@@ -291,37 +344,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5001409170209838440, guid: a04bc3e8f1370ce4e9287181f303fa81, type: 3}
   m_PrefabInstance: {fileID: 795629000}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &901082692
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 901082693}
-  m_Layer: 0
-  m_Name: Level Setup
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &901082693
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 901082692}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &979847634 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5001409170209838440, guid: a04bc3e8f1370ce4e9287181f303fa81, type: 3}

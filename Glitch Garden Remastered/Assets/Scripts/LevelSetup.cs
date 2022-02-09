@@ -26,6 +26,8 @@ public class LevelSetup : MonoBehaviour {
     private GameObject _postProcessing;
     private GameObject _cinemachineCamera;
 
+    private Season _season;
+
     private void Awake() {
         SetComponents();
         SetLevel();
@@ -126,5 +128,10 @@ public class LevelSetup : MonoBehaviour {
         _gameCanvas = GameObject.FindWithTag("Game Canvas");
         _cinemachineCamera = GameObject.FindWithTag("Cinemachine");
         _postProcessing = GameObject.FindWithTag("Post Processing");
+        _season = level.GetSeason();
+    }
+
+    public Season GetSeason() {
+        return _season;
     }
 }

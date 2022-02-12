@@ -33,9 +33,6 @@ public class Level : SerializedScriptableObject {
     private int deviationPercent;
     
     [BoxGroup("Level")] [SerializeField]
-    private Season season;
-    
-    [BoxGroup("Level")] [SerializeField]
     [AssetSelector(Paths = "Assets/Prefabs/Canvas", ExpandAllMenuItems = false)]
     private GameObject gameCanvas;
     
@@ -81,10 +78,6 @@ public class Level : SerializedScriptableObject {
     
     public float GetDeviationPercent() {
         return (float)deviationPercent / 100;
-    }
-    
-    public Season GetSeason() {
-        return season;
     }
     
     public GameObject GetGameCanvas() {

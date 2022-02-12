@@ -128,10 +128,5 @@ public class LevelSetup : MonoBehaviour {
         _gameCanvas = GameObject.FindWithTag("Game Canvas");
         _cinemachineCamera = GameObject.FindWithTag("Cinemachine");
         _postProcessing = GameObject.FindWithTag("Post Processing");
-        _season = level.GetSeason();
-    }
-
-    public Season GetSeason() {
-        return _season;
     }
 }

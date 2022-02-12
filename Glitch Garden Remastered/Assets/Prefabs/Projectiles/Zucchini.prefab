@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f65fb69e62ede40ba6ab769bfd92c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  criticalPercentage: 10
+  criticalPercentage: 0
   criticalMultiplier: 2.5
   projectileFeedback: {fileID: 7291193834947888630}
   criticalHitFeedback: {fileID: 7783547710519583495}

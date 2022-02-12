@@ -16,19 +16,7 @@ public class AttackerSpawner : MonoBehaviour {
     private bool _spawn = true;
     private float _spawnDelay;
     private float _delayDeviation;
-
-    private IEnumerator Start() {
-        _gameTimer = FindObjectOfType<GameTimer>();
-
-        while (_spawn) {
-            _levelTime = _gameTimer.GetGameTime();
-            _spawnDelay = Mathf.Lerp(_startSpawnDelay, _endSpawnDelay, _levelTime);
-            _delayDeviation = _spawnDelay * _deviationPercent;
-            yield return new WaitForSeconds(Random.Range(_spawnDelay - _delayDeviation, _spawnDelay + _delayDeviation));
-            SpawnAttacker();
-        }
-    }
-
+    
     public void SetStartSpawnDelay(float startSpawnDelay) {
         _startSpawnDelay = startSpawnDelay;
     }
@@ -54,6 +42,19 @@ public class AttackerSpawner : MonoBehaviour {
         Spawn(_attackerPrefabArray[attackerIndex]);
     }
 
+    private IEnumerator Start() {
+        _gameTimer = FindObjectOfType<GameTimer>();
+
+        while (_spawn) {
+            _levelTime = _gameTimer.GetGameTime();
+            _spawnDelay = Mathf.Lerp(_startSpawnDelay, _endSpawnDelay, _levelTime);
+            _delayDeviation = _spawnDelay * _deviationPercent;
+            yield return new WaitForSeconds(Random.Range(_spawnDelay - _delayDeviation, _spawnDelay + _delayDeviation));
+            SpawnAttacker();
+        }
+    }
+
+    
     private void Spawn(Attacker myAttacker) {
         var spawnPos = new Vector2(transform.position.x + 1.5f, transform.position.y);
         if (myAttacker.GetIfHasSpawnAnimation()) {

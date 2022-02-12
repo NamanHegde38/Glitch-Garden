@@ -80,7 +80,7 @@ public class Level : SerializedScriptableObject {
     }
     
     public float GetDeviationPercent() {
-        return deviationPercent / 100;
+        return (float)deviationPercent / 100;
     }
     
     public Season GetSeason() {

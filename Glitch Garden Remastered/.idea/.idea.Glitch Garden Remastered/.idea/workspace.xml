@@ -29,7 +29,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@12.1.0/Runtime/2D/Light2DManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Defender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Feel/MMFeedbacks/MMFeedbacks/Core/MMFeedback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DefenderMaterial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelSetup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,13 +54,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderType.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameTimer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/StarDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderToolbar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Seasons.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/StarDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelSetup.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20VId6ihQVmluV6EwYpfyB6NSoz" />
@@ -163,7 +163,9 @@
       <workItem from="1644150211237" duration="622000" />
       <workItem from="1644264830938" duration="1000" />
       <workItem from="1644265361894" duration="668000" />
-      <workItem from="1644435057376" duration="1574000" />
+      <workItem from="1644435057376" duration="2324000" />
+      <workItem from="1644520715430" duration="739000" />
+      <workItem from="1644613626602" duration="1168000" />
     </task>
     <servers />
   </component>

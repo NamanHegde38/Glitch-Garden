@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0314bfbc889d18849abc0182d1d3e458, type: 3}
-  m_Name: Level 06
+  m_Name: Level 02
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -47,19 +47,19 @@ MonoBehaviour:
       Data: 0
     - Name: 
       Entry: 3
-      Data: 4
+      Data: 7
     - Name: 
       Entry: 3
       Data: 0
     - Name: 
       Entry: 3
-      Data: 4
+      Data: 7
     - Name: 
       Entry: 3
       Data: 0
     - Name: 
       Entry: 3
-      Data: 4
+      Data: 7
     - Name: 
       Entry: 3
       Data: 0
@@ -171,16 +171,15 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  levelTime: 200
+  levelTime: 160
   stars: 100
   starsOverTime: 50
-  defenders: 0100000003000000040000000700000006000000
+  defenders: 010000000300000007000000
   attackers:
   - {fileID: 5578897586487247713, guid: f70f63ab56228c841867d6ae02efba21, type: 3}
-  - {fileID: 4763575078995949799, guid: 4b0b253e7398911488a8779b3b38bbc8, type: 3}
-  spawnDelay: {x: 5.0121074, y: 25.060534}
+  spawnDelay: {x: 7.062989, y: 30}
   deviationPercent: 75
   season: 0
   gameCanvas: {fileID: 2752734745704182350, guid: 1a5cd23ad74a28946ae6cab3ee2b844e, type: 3}
-  postProcessing: {fileID: 5949754356429625670, guid: 8f0d1a70952757b41ad80090161e742a, type: 3}
+  postProcessing: {fileID: 2393007175128214050, guid: ef9f614db8a3c114489f497c011784be, type: 3}
   camera: {fileID: 6337261607967178079, guid: c6bcc7cfdde195f499ef8a3f8f6cacac, type: 3}

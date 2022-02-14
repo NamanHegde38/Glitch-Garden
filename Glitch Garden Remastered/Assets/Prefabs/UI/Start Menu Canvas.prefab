@@ -320,7 +320,7 @@ Canvas:
   m_GameObject: {fileID: 7886133598381377529}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -371,7 +371,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1527
 --- !u!1 &7886133599385106583
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,7 +746,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
-        m_MethodName: LoadNextScene
+        m_MethodName: LoadOptions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

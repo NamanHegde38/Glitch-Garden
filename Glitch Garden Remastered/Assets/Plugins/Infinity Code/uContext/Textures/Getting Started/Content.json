@@ -1,0 +1,521 @@
+[
+  {
+    "title": "Intro",
+    "image": "001. Intro.png"
+  },
+  {
+    "title": "Standalone Tools",
+    "slides":
+    [
+      {
+        "title": "Bookmarks",
+        "image": "300. Bookmarks.png",
+        "help": "bookmarks",
+        "added": 1.0,
+        "updated": 1.0
+      },
+      {
+        "title": "Context Menu",
+        "added": 1.0,
+        "updated": 1.0,
+        "slides":
+        [
+          {
+            "title": "How to open",
+            "image": "100. Open Context Menu.png",
+            "help": "context-menu"
+          },
+          {
+            "title": "Breadcrumbs",
+            "image": "101. Breadcrumbs.png",
+            "help": "breadcrumbs"
+          },
+          {
+            "title": "Windows",
+            "image": "102. Windows.png",
+            "help": "windows"
+          },
+          {
+            "title": "Open Window",
+            "image": "103. Open Window.png",
+            "help": "windows"
+          },
+          {
+            "title": "Popup Window",
+            "image": "104. Popup Window.png",
+            "help": "popup-window"
+          },
+          {
+            "title": "Debug mode for Component",
+            "image": "104.50. Debug Mode For Component.png",
+            "help": "components"
+          },
+          {
+            "title": "Actions",
+            "image": "105. Actions.png",
+            "help": "actions",
+            "slides":
+            [
+              {
+                "title": "History Action",
+                "image": "802. History Action.png",
+                "help": "history"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Distance Tool",
+        "image": "903. Distance Tool.png",
+        "help": "distance-tool",
+        "added": 2.0,
+        "updated": 2.0
+      },
+      {
+        "title": "Editor Icon Browser",
+        "image": "950. Editor Icon Browser.png",
+        "help": "editor-icon-browser",
+        "added": 2.02,
+        "updated": 2.02
+      },
+      {
+        "title": "Recent Scenes",
+        "image": "801. Recent Scenes.png",
+        "help": "recent-scenes",
+        "added": 2.0,
+        "updated": 2.0
+      },
+      {
+        "title": "Smart Search",
+        "image": "500. Smart Search.png",
+        "help": "smart-search",
+        "added": 1.0,
+        "updated": 1.0
+      },
+      {
+        "title": "Toolbar",
+        "slides": 
+        [
+          {
+            "title": "Timer & Timescale",
+            "image": "702. Timer and Timescale.png",
+            "help": "timer",
+            "added": 2.08,
+            "updated": 2.08
+          },
+          {
+            "title": "Windows",
+            "image": "700. Windows In Toolbar.png",
+            "help": "windows-2",
+            "added": 1.12,
+            "updated": 1.12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Scene View Tools",
+    "slides":
+    [
+      {
+        "title": "Highlighter",
+        "image": "919. Highlighter.png",
+        "help": "highlighter",
+        "added": 1.08,
+        "updated": 1.08
+      },
+      {
+        "title": "Object Placer",
+        "image": "200. Object Placer.png",
+        "help": "object-placer",
+        "added": 1.07,
+        "updated": 1.07
+      },
+      {
+        "title": "Object Toolbar",
+        "image": "140. GameObject Toolbar.png",
+        "help": "object-toolbar",
+        "added": 2.02,
+        "updated": 2.02,
+        "slides":
+        [
+          {
+            "title": "Related Components",
+            "image": "141. Related Components.png",
+            "help": "related-components",
+            "added": 2.03,
+            "updated": 2.03
+          }
+        ]
+      },
+      {
+        "title": "Quick Access Bar",
+        "image": "160. Quick Access Bar.png",
+        "help": "quick-access-bar",
+        "added": 2.02,
+        "updated": 2.02
+      },
+      {
+        "title": "Selection Bounds",
+        "image": "905. Selection Bounds.png",
+        "help": "selection-bounds",
+        "added": 2.01,
+        "updated": 2.01
+      },
+      {
+        "title": "Tool Values",
+        "image": "906. Tool Values.png",
+        "help": "tool-values",
+        "added": 2.0,
+        "updated": 2.0,
+        "slides":
+        [
+          {
+            "title": "Transform Editor Window",
+            "image": "906.50. Tool Values.png",
+            "help": "transform-editor-window",
+            "added": 2.01,
+            "updated": 2.01
+          }
+        ]
+      },
+      {
+        "title": "Size of Terrain Brush",
+        "image": "910. Size of Terrain Brush.png",
+        "help": "terrain-editor-brush-size",
+        "added": 1.0,
+        "updated": 1.0
+      },
+      {
+        "title": "Waila",
+        "image": "400. Waila.png",
+        "help": "waila-what-am-i-looking-at",
+        "added": 1.0,
+        "updated": 1.0,
+        "slides":
+        [
+          {
+            "title": "Smart Selection",
+            "image": "401. Smart Selection.png",
+            "help": "smart-selection",
+            "added": 1.0,
+            "updated": 1.0
+          },
+          {
+            "title": "Terrain Info",
+            "image": "402. Real World Terrain Info.png",
+            "help": "waila-what-am-i-looking-at",
+            "added": 1.03,
+            "updated": 1.03
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Navigation Tools",
+    "slides":
+    [
+      {
+        "title": "Frame Selected Bounds",
+        "image": "904.65. Frame Selected Bounds.png",
+        "help": "frame-selected-bounds",
+        "added": 2.02,
+        "updated": 2.02
+      },
+      {
+        "title": "Jump To Point",
+        "image": "904.75. Jump To Point.png",
+        "help": "jump-to-point",
+        "added": 2.02,
+        "updated": 2.02
+      },
+      {
+        "title": "Quick Preview",
+        "image": "601. Quick Preview.png",
+        "help": "quick-preview",
+        "added": 1.0,
+        "updated": 1.0
+      },
+      {
+        "title": "View Gallery",
+        "image": "600. View Gallery.png",
+        "help": "view-gallery",
+        "added": 1.03,
+        "updated": 1.03,
+        "slides":
+        [
+          {
+            "title": "View State for Selection",
+            "image": "602. View State for Selection.png",
+            "help": "view-state-for-selection",
+            "added": 1.12,
+            "updated": 1.12
+          },
+          {
+            "title": "Views And Cameras Action",
+            "image": "603. Views And Cameras Action.png",
+            "help": "views-and-cameras",
+            "added": 1.0,
+            "updated": 1.0
+          },
+          {
+            "title": "View State In Scene View",
+            "image": "604. View State In Scene View.png",
+            "help": "view-state-in-scene-view",
+            "added": 2.03,
+            "updated": 2.03
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "GameObject Tools",
+    "slides":
+    [
+      {
+        "title": "Add Component by Shortcut",
+        "image": "908. Add Component by Shortcut.png",
+        "help": "add-component-by-shortcut",
+        "added": 1.0,
+        "updated": 1.0
+      },
+      {
+        "title": "Drop To Floor",
+        "image": "904.50. Drop To Floor.png",
+        "help": "drop-to-floor",
+        "added": 2.01,
+        "updated": 2.01
+      },
+      {
+        "title": "Duplicate Tool",
+        "image": "902. Duplicate Tool.png",
+        "help": "duplicate-tool",
+        "added": 1.11,
+        "updated": 1.11
+      },
+      {
+        "title": "Group and Ungroup",
+        "image": "904. Group and Ungroup.png",
+        "help": "group-gameobjects",
+        "added": 1.07,
+        "updated": 1.07
+      },
+      {
+        "title": "Missing Script Fixer",
+        "image": "926. Missing Script Fixer.png",
+        "help": "missing-script-fixer",
+        "added": 2.10,
+        "updated": 2.10
+      },
+      {
+        "title": "Quick Replace",
+        "image": "201. Quick Replace.png",
+        "help": "replace-gameobjects",
+        "added": 1.08,
+        "updated": 1.08
+      },
+      {
+        "title": "Pivot Tool",
+        "image": "925. Pivot Tool.png",
+        "help": "pivot-tool",
+        "added": 2.10,
+        "updated": 2.10
+      },
+      {
+        "title": "Rename by Shortcut",
+        "image": "909. Rename.png",
+        "help": "rename-by-shortcut",
+        "added": 1.08,
+        "updated": 1.08
+      },
+      {
+        "title": "Rotate by Shortcut",
+        "image": "904.25. Rotate By Shortcut.png",
+        "help": "rotate-by-shortcut",
+        "added": 2.04,
+        "updated": 2.04
+      },
+      {
+        "title": "Selection History",
+        "image": "800. Selection History.png",
+        "help": "selection-history",
+        "added": 1.10,
+        "updated": 1.10
+      }
+    ]
+  },
+  {
+    "title": "Inspector Tools",
+    "slides":
+    [
+      {
+        "title": "Drag from Object Fields",
+        "image": "922. Drag From Object Fields.png",
+        "help": "drag-from-object-fields",
+        "added": 2.08,
+        "updated": 2.08
+      },
+      {
+        "title": "Inspector Bar",
+        "image": "913. Inspector Bar.png",
+        "help": "inspector-bar",
+        "added": 2.06,
+        "updated": 2.06
+      },
+      {
+        "title": "Nested Editors",
+        "image": "920. Nested Editors.png",
+        "help": "nested-editors",
+        "added": 2.08,
+        "updated": 2.08
+      },
+      {
+        "title": "Object Field Selector",
+        "image": "928. Object Field Selector.png",
+        "help": "object-field-selector",
+        "added": 2.11,
+        "updated": 2.11
+      }
+    ]
+  },
+  {
+    "title": "Hierarchy Tools",
+    "slides":
+    [
+      {
+        "title": "Backgrounds",
+        "image": "924. Hierarchy Backgrounds.png",
+        "help": "backgrounds",
+        "added": 2.09,
+        "updated": 2.09
+      },
+      {
+        "title": "Best Icons For GameObject",
+        "image": "899. Best Icons For GameObject.png",
+        "help": "best-icons-for-gameobject",
+        "added": 2.03,
+        "updated": 2.03
+      },
+      {
+        "title": "Components In Hierarchy",
+        "image": "900. Hierarchy Icons.png",
+        "help": "components-in-hierarchy",
+        "added": 1.10,
+        "updated": 1.10
+      },
+      {
+        "title": "Enable / Disable GameObject",
+        "image": "914. Hierachy Enable Disable.png",
+        "help": "enabledisable-gameobjects",
+        "added": 2.05,
+        "updated": 2.05
+      },
+      {
+        "title": "Errors and Exceptions",
+        "image": "915. Hierarchy Errors.png",
+        "help": "display-errors-and-exceptions",
+        "added": 1.12,
+        "updated": 1.12
+      },
+      {
+        "title": "Headers",
+        "image": "916. Hierarchy Header.png",
+        "help": "headers",
+        "added": 2.06,
+        "updated": 2.06
+      },
+      {
+        "title": "Row Settings",
+        "image": "917. Hierarchy Icon Selector.png",
+        "help": "row-settings",
+        "added": 2.06,
+        "updated": 2.06
+      },
+      {
+        "title": "Solo Visibility",
+        "image": "918. Hierarchy Solo Visibility.png",
+        "help": "solo-visibility",
+        "added": 2.05,
+        "updated": 2.05
+      },
+      {
+        "title": "Tree",
+        "image": "923. Hierarchy Tree.png",
+        "help": "tree",
+        "added": 2.09,
+        "updated": 2.09
+      }
+    ]
+  },
+  {
+    "title": "Interacting with Windows",
+    "slides":
+    [
+      {
+        "title": "Switch Between Scene and Game Views",
+        "image": "907. Switcher.png",
+        "help": "switch-between-scene-and-game-views",
+        "added": 1.0,
+        "updated": 1.0
+      },
+      {
+        "title": "Favorite Windows",
+        "image": "701. Favorite Windows.png",
+        "help": "favorite-windows-2",
+        "added": 1.12,
+        "updated": 1.12
+      }
+    ]
+  },
+  {
+    "title": "Behavior Improvements",
+    "slides":
+    [
+      {
+        "title": "Change Value of Number Fields Using Arrow",
+        "image": "921. Change Value of Numeric Fields.png",
+        "help": "change-value-of-numeric-fields",
+        "added": 2.08,
+        "updated": 2.08
+      },
+      {
+        "title": "Custom Tool Switcher",
+        "image": "927. Custom Tool Switcher.png",
+        "help": "custom-tool-switcher",
+        "added": 2.10,
+        "updated": 2.10
+      },
+      {
+        "title": "Drag And Drop from Project to Canvas",
+        "image": "911. Drag and Drop to Canvas.png",
+        "help": "drag-and-drop-from-project-to-canvas",
+        "added": 1.01,
+        "updated": 1.01
+      },
+      {
+        "title": "Enum Field Search",
+        "image": "929. Enum Field Search.png",
+        "help": "enum-field-search",
+        "added": 2.11,
+        "updated": 2.11
+      }
+    ]
+  },
+  {
+    "title": "Integration",
+    "slides":
+    [
+      {
+        "title": "Real World Terrain",
+        "image": "912. Real World Terrain Extra.png",
+        "help": "real-world-terrain-1",
+        "added": 1.06,
+        "updated": 1.06
+      }
+    ]
+  }
+]

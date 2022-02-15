@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5568773421321822470}
   - component: {fileID: 8955540864692013219}
-  - component: {fileID: 3796418163740101233}
   - component: {fileID: 1778907874747302218}
   m_Layer: 0
   m_Name: Level Controller
@@ -55,19 +54,6 @@ MonoBehaviour:
   loseSFX: {fileID: 8300000, guid: 87eba9097aa97de4e9d6c4d997b0ecc0, type: 3}
   winFeedback: {fileID: 75465526390549177}
   loseFeedback: {fileID: 1194640036659421245}
---- !u!114 &3796418163740101233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2759262394746859115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a684b9afead8c949a4b2d73e5d869ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeToWait: 0
 --- !u!82 &1778907874747302218
 AudioSource:
   m_ObjectHideFlags: 0

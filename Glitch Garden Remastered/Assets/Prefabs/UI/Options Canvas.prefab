@@ -110,7 +110,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.6295, y: 0}
+  m_AnchoredPosition: {x: 3.6295013, y: 0}
   m_SizeDelta: {x: -12.7412, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &388611166624925889
@@ -874,7 +874,7 @@ Canvas:
   m_GameObject: {fileID: 388611167358509097}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -925,7 +925,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 784375
 --- !u!1 &388611167401429530
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,7 +1501,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -3.5, y: 1.4}
+  m_AnchoredPosition: {x: -3.5, y: 1.3999996}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &388611168416302770
@@ -1723,8 +1723,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: OptionsController, Assembly-CSharp
-        m_MethodName: SaveAndExit
+        m_TargetAssemblyTypeName: LevelLoader, Project
+        m_MethodName: LoadMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1768,6 +1768,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -3.511, y: 0}
+  m_AnchoredPosition: {x: -3.5110016, y: 0}
   m_SizeDelta: {x: -17.022, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

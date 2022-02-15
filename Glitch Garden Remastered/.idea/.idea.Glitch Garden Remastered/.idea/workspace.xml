@@ -51,7 +51,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Lobber.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderType.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameTimer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderToolbar.cs" />
@@ -63,6 +62,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelSetup.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TooltipScreenSpaceUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tooltip.cs" />
+      <option value="$PROJECT_DIR$/Assets/Misc/CustomRenderPassFeature.cs" />
+      <option value="$PROJECT_DIR$/Assets/Shaders/Fade.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20VId6ihQVmluV6EwYpfyB6NSoz" />
@@ -76,7 +79,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -169,7 +172,12 @@
       <workItem from="1644520715430" duration="739000" />
       <workItem from="1644613626602" duration="1168000" />
       <workItem from="1644665942173" duration="5764000" />
-      <workItem from="1644835987024" duration="2193000" />
+      <workItem from="1644835987024" duration="5053000" />
+      <workItem from="1644865219335" duration="2392000" />
+      <workItem from="1644923122207" duration="119000" />
+      <workItem from="1644923270175" duration="3987000" />
+      <workItem from="1644943967093" duration="2000" />
+      <workItem from="1644944058929" duration="601000" />
     </task>
     <servers />
   </component>

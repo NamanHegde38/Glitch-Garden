@@ -27,7 +27,7 @@ public class LevelController : MonoBehaviour {
         _spawnerArray = FindObjectsOfType<AttackerSpawner>();
         _musicPlayer = FindObjectOfType<MusicPlayer>();
         _audioSource = GetComponent<AudioSource>();
-        _levelLoader = GetComponent<LevelLoader>();
+        _levelLoader = FindObjectOfType<LevelLoader>().GetComponent<LevelLoader>();
         _masterVolume = PlayerPrefsController.GetMasterVolume();
 
         if (winLabel) {

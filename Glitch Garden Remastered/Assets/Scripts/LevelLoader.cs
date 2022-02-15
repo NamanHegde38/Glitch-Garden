@@ -1,58 +1,91 @@
 using System.Collections;
+using MoreMountains.Feedbacks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour {
 
     [SerializeField] private float timeToWait = 3f;
+    [SerializeField] private MMFeedbacks loadStartFeedback, loadEndFeedback;
     
     private int _currentSceneIndex;
 
     private void Start() {
+        loadEndFeedback.Initialization();
+        loadEndFeedback.PlayFeedbacks();
+
         _currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
         if (_currentSceneIndex == 0) {
-            StartCoroutine(WaitForTime());
+            StartCoroutine(LoadSceneIndex(_currentSceneIndex + 1, false));
         }
     }
 
-    private IEnumerator WaitForTime() {
-        yield return new WaitForSeconds(timeToWait);
-        LoadNextScene();
+    private IEnumerator LoadSceneString(string scene, bool hasTransition = true) {
+        if (hasTransition && loadStartFeedback) {
+            loadStartFeedback.PlayFeedbacks();
+            yield return new WaitForSeconds(loadStartFeedback.TotalDuration);
+            SceneManager.LoadScene(scene);
+        }
+        else {
+            yield return new WaitForSeconds(timeToWait);
+            SceneManager.LoadScene(scene);
+        }
     }
-
+    
+    private IEnumerator LoadSceneIndex(int index, bool hasTransition = true) {
+        if (hasTransition && loadStartFeedback) {
+            loadStartFeedback.PlayFeedbacks();
+            yield return new WaitForSeconds(loadStartFeedback.TotalDuration);
+            SceneManager.LoadScene(index);
+        }
+        else {
+            yield return new WaitForSeconds(timeToWait);
+            loadStartFeedback.PlayFeedbacks();
+            yield return new WaitForSeconds(loadStartFeedback.TotalDuration);
+            SceneManager.LoadScene(index);
+        }
+    }
+    
     public void RestartScene() {
-        SceneManager.LoadScene(_currentSceneIndex);
+        StartCoroutine(LoadSceneIndex(_currentSceneIndex));
     }
 
     public void LoadMainMenu() {
-        SceneManager.LoadScene("Start Menu");
+        StartCoroutine(LoadSceneString("Start Menu"));
     }
 
     public void LoadLevelSelect() {
-        SceneManager.LoadScene("Level Select Menu");
+        StartCoroutine(LoadSceneString("Level Select Menu"));
     }
 
     public void LoadLevel(int levelNumber) {
-        SceneManager.LoadScene("Level " + levelNumber);
+        var levelString = levelNumber.ToString();
+        if (levelNumber < 10) {
+            levelString = "0" + levelNumber;
+        }
+        StartCoroutine(LoadSceneString("Level " + levelString));
     }
     
     public void LoadOptions() {
-        SceneManager.LoadScene("Options Menu");
+        StartCoroutine(LoadSceneString("Options Menu"));
     }
 
     public void LoadNextScene() {
-        SceneManager.LoadScene(_currentSceneIndex + 1);
+        StartCoroutine(LoadSceneIndex(_currentSceneIndex + 1));
     }
 
     public void LoadWinMenu() {
-        SceneManager.LoadScene("Win Menu");
+        StartCoroutine(LoadSceneString("Win Menu"));
     }
     
     public void LoadGameOver() {
-        SceneManager.LoadScene("Game Over");
+        StartCoroutine(LoadSceneString("Game Over"));
     }
 
-    public void QuitGame() {
+    public IEnumerator QuitGame() {
+        loadStartFeedback.PlayFeedbacks();
+        yield return new WaitForSeconds(loadStartFeedback.TotalDuration);
         Application.Quit();
     }
 }

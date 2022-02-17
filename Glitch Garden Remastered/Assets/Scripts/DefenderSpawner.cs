@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour {
@@ -25,14 +26,21 @@ public class DefenderSpawner : MonoBehaviour {
     private DefenderType _defenderType;
 
     private const string Defenders = "Defenders";
+
+    private LevelController _levelController;
     
 
     private void Start() {
-        _starDisplay = FindObjectOfType<StarDisplay>();
+        _levelController = FindObjectOfType<LevelController>().GetComponent<LevelController>();
+        _levelController.OnLevelStart += StartGame;
         _mainCam = Camera.main;
         CreateDefenderParent();
     }
 
+    private void StartGame(object sender, EventArgs e) {
+        _starDisplay = FindObjectOfType<StarDisplay>();
+    }
+    
     private void CreateDefenderParent() {
         _defenderParent = GameObject.Find(Defenders);
         if (!_defenderParent) {

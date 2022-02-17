@@ -16,7 +16,14 @@ public class DefenderToolbar : MonoBehaviour {
     
     private int _order = 2;
 
+    private LevelController _levelController;
+    
     private void Start() {
+        _levelController = FindObjectOfType<LevelController>();
+        _levelController.OnLevelStart += StartGame;
+    }
+
+    private void StartGame(object sender, EventArgs e) {
         foreach (var defenderButton in _defenders) {
             switch (defenderButton) {
                 case DefenderType.Trophy:

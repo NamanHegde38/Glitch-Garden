@@ -1,3 +1,4 @@
+using System;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -26,21 +27,41 @@ public class LevelSetup : MonoBehaviour {
     private GameObject _postProcessing;
     private GameObject _cinemachineCamera;
 
-    private Season _season;
+    private LevelController _levelController;
 
     private void Awake() {
         SetComponents();
         SetLevel();
     }
 
-    private void SetLevel() {
+    private void Start() {
+        _levelController.OnLevelStart += SetLevelOnStart;
+    }
+
+    private void SetLevelOnStart(object sender, EventArgs e) {
+        
+        _levelTimer = GameObject.FindWithTag("Level Timer");
+        _starText = GameObject.FindWithTag("Star Text");
+        _defenderButtons = GameObject.FindWithTag("Defender Buttons");
+        
         _levelTimer.GetComponent<GameTimer>().SetGameTime(level.GetLevelTime());
 
         _starText.GetComponent<StarDisplay>().SetStars(level.GetStars());
         _starText.GetComponent<StarDisplay>().SetStarsOverTime(level.GetStarsOverTime());
         
         _defenderButtons.GetComponent<DefenderToolbar>().SetDefenders(level.GetDefenders());
-        
+
+        for (var i = 0; i < 9; i++) {
+            for (var a = 0; a < 5; a++) {
+                if (level.GetDefenderLayout()[i, a] != DefenderType.None) {
+                    SpawnDefender(SelectDefenderPrefab(level.GetDefenderLayout()[i, a]), new Vector2(i+1, 5-a));
+                }
+            }
+        }
+    }
+    
+    private void SetLevel() {
+
         foreach (var attackerSpawner in _attackerSpawners) {
             attackerSpawner.GetComponent<AttackerSpawner>().SetStartSpawnDelay(level.GetMaxSpawnDelay());
             attackerSpawner.GetComponent<AttackerSpawner>().SetEndSpawnDelay(level.GetMinSpawnDelay());
@@ -61,14 +82,6 @@ public class LevelSetup : MonoBehaviour {
         if (_cinemachineCamera != level.GetCamera()) {
             Destroy(_cinemachineCamera);
             Instantiate(level.GetCamera()); 
-        }
-        
-        for (var i = 0; i < 9; i++) {
-            for (var a = 0; a < 5; a++) {
-                if (level.GetDefenderLayout()[i, a] != DefenderType.None) {
-                    SpawnDefender(SelectDefenderPrefab(level.GetDefenderLayout()[i, a]), new Vector2(i+1, 5-a));
-                }
-            }
         }
     }
 
@@ -121,12 +134,10 @@ public class LevelSetup : MonoBehaviour {
     }
     
     private void SetComponents() {
-        _levelTimer = GameObject.FindWithTag("Level Timer");
-        _starText = GameObject.FindWithTag("Star Text");
-        _defenderButtons = GameObject.FindWithTag("Defender Buttons");
         _attackerSpawners = GameObject.FindGameObjectsWithTag("Attacker Spawner");
         _gameCanvas = GameObject.FindWithTag("Game Canvas");
         _cinemachineCamera = GameObject.FindWithTag("Cinemachine");
         _postProcessing = GameObject.FindWithTag("Post Processing");
+        _levelController = FindObjectOfType<LevelController>().GetComponent<LevelController>();
     }
 }

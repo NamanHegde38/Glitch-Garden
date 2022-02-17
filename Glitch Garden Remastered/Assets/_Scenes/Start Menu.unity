@@ -705,7 +705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tooltipText: Unlock by finishing a season
-  padding: {x: 24, y: 8}
+  padding: {x: 40, y: 8}
   tweenTime: 0.2
   tweenEase: 6
 --- !u!225 &705613864
@@ -733,6 +733,7 @@ GameObject:
   - component: {fileID: 731924530}
   - component: {fileID: 731924529}
   - component: {fileID: 731924532}
+  - component: {fileID: 731924533}
   m_Layer: 5
   m_Name: Boss Rush
   m_TagString: Untagged
@@ -959,6 +960,25 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &731924533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731924527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee6dcc6f7a37eb47bfe7433937da79e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredLevel: 15
+  requiresFirstBoss: 0
+  requiresSecondBoss: 0
+  requiresThirdBoss: 0
+  requiresFourthBoss: 0
+  requiresFifthBoss: 0
+  hasTooltip: 1
 --- !u!114 &851960363 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5843862947336578517, guid: bf556409a2deec0459cea6284a6b95f8, type: 3}
@@ -1084,7 +1104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tooltipText: Unlock by beating all levels
-  padding: {x: 24, y: 8}
+  padding: {x: 40, y: 8}
   tweenTime: 0.2
   tweenEase: 6
 --- !u!225 &1181618579
@@ -1179,6 +1199,7 @@ GameObject:
   - component: {fileID: 1426704162}
   - component: {fileID: 1426704161}
   - component: {fileID: 1426704164}
+  - component: {fileID: 1426704165}
   m_Layer: 5
   m_Name: Survival
   m_TagString: Untagged
@@ -1405,6 +1426,25 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1426704165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426704159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee6dcc6f7a37eb47bfe7433937da79e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredLevel: 60
+  requiresFirstBoss: 1
+  requiresSecondBoss: 1
+  requiresThirdBoss: 1
+  requiresFourthBoss: 1
+  requiresFifthBoss: 1
+  hasTooltip: 1
 --- !u!1 &1435393859
 GameObject:
   m_ObjectHideFlags: 0

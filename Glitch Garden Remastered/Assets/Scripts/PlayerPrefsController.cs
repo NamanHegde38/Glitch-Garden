@@ -6,6 +6,12 @@ public class PlayerPrefsController : MonoBehaviour {
     private const string DifficultyKey = "Difficulty";
     private const string LevelsUnlockedKey = "Levels Unlocked";
 
+    private const string BeatFirstBossKey = "Beat First Boss";
+    private const string BeatSecondBossKey = "Beat Second Boss";
+    private const string BeatThirdBossKey = "Beat Third Boss";
+    private const string BeatFourthBossKey = "Beat Fourth Boss";
+    private const string BeatFifthBossKey = "Beat Fifth Boss";
+
     private const float MinVolume = 0f;
     private const float MaxVolume = 1f;
 
@@ -42,8 +48,54 @@ public class PlayerPrefsController : MonoBehaviour {
         return PlayerPrefs.GetInt(DifficultyKey, 1);
     }
 
+    public static void FirstBossDefeated() {
+        PlayerPrefs.SetInt(BeatFirstBossKey, 1);
+        PlayerPrefs.Save();
+    }
+    
+    public static void SecondBossDefeated() {
+        PlayerPrefs.SetInt(BeatSecondBossKey, 1);
+        PlayerPrefs.Save();
+    }
+    
+    public static void ThirdBossDefeated() {
+        PlayerPrefs.SetInt(BeatThirdBossKey, 1);
+        PlayerPrefs.Save();
+    }
+    
+    public static void FourthBossDefeated() {
+        PlayerPrefs.SetInt(BeatFourthBossKey, 1);
+        PlayerPrefs.Save();
+    }
+    
+    public static void FifthBossDefeated() {
+        PlayerPrefs.SetInt(BeatFifthBossKey, 1);
+        PlayerPrefs.Save();
+    }
+    
+    public static int GetFirstBossDefeated() {
+        return PlayerPrefs.GetInt(BeatFirstBossKey, 0);
+    }
+    
+    public static int GetSecondBossDefeated() {
+        return PlayerPrefs.GetInt(BeatSecondBossKey, 0);
+    }
+    
+    public static int GetThirdBossDefeated() {
+        return PlayerPrefs.GetInt(BeatThirdBossKey, 0);
+    }
+    
+    public static int GetFourthBossDefeated() {
+        return PlayerPrefs.GetInt(BeatFourthBossKey, 0);
+    }
+    
+    public static int GetFifthBossDefeated() {
+        return PlayerPrefs.GetInt(BeatFifthBossKey, 0);
+    }
+    
     public static void UnlockLevel(int level) {
         if (level <= GetLevelsUnlocked()) return;
+        if (level > 60) return;
         
         Debug.Log("Unlocked Level " + level);
         PlayerPrefs.SetInt(LevelsUnlockedKey, level);

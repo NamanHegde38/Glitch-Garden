@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using MoreMountains.Feedbacks;
 using UnityEngine;
@@ -11,6 +12,7 @@ public class LevelController : MonoBehaviour {
     [SerializeField] private AudioClip winSFX, loseSFX;
     [SerializeField] private MMFeedbacks winFeedback;
     [SerializeField] private MMFeedbacks loseFeedback;
+    [SerializeField] private MMFeedbacks countdownFeedback;
 
     private int _numberOfAttackers;
     private bool _levelTimerFinished;
@@ -21,9 +23,15 @@ public class LevelController : MonoBehaviour {
     private LevelLoader _levelLoader;
     private MusicPlayer _musicPlayer;
     private float _masterVolume;
-    
 
+    public event EventHandler OnLevelStart;
+    
+    public void StartGame() {
+        OnLevelStart?.Invoke(this, EventArgs.Empty);
+    }
+    
     private void Start() {
+        countdownFeedback.PlayFeedbacks();
         _spawnerArray = FindObjectsOfType<AttackerSpawner>();
         _musicPlayer = FindObjectOfType<MusicPlayer>();
         _audioSource = GetComponent<AudioSource>();

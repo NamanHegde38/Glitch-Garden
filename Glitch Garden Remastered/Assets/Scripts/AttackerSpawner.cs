@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class AttackerSpawner : MonoBehaviour {
     
@@ -13,10 +15,12 @@ public class AttackerSpawner : MonoBehaviour {
     private float _levelTime;
     private int _timePercent;
     
-    private bool _spawn = true;
+    private bool _spawn = false;
     private float _spawnDelay;
     private float _delayDeviation;
-    
+
+    private LevelController _levelController;
+
     public void SetStartSpawnDelay(float startSpawnDelay) {
         _startSpawnDelay = startSpawnDelay;
     }
@@ -42,9 +46,18 @@ public class AttackerSpawner : MonoBehaviour {
         Spawn(_attackerPrefabArray[attackerIndex]);
     }
 
-    private IEnumerator Start() {
-        _gameTimer = FindObjectOfType<GameTimer>();
+    private void Start() {
+        _levelController = FindObjectOfType<LevelController>().GetComponent<LevelController>();
+        _levelController.OnLevelStart += StartGame;
+    }
 
+    private void StartGame(object sender, EventArgs e) {
+        _spawn = true;
+        _gameTimer = FindObjectOfType<GameTimer>();
+        StartCoroutine(WhileSpawn());
+    }
+
+    private IEnumerator WhileSpawn() {
         while (_spawn) {
             _levelTime = _gameTimer.GetGameTime();
             _spawnDelay = Mathf.Lerp(_startSpawnDelay, _endSpawnDelay, _levelTime);

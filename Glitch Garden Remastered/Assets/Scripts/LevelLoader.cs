@@ -67,6 +67,14 @@ public class LevelLoader : MonoBehaviour {
         StartCoroutine(LoadSceneString("Level " + levelString));
     }
     
+    public void LoadBossLevel(int bossNumber) {
+        var levelString = bossNumber.ToString();
+        if (bossNumber < 10) {
+            levelString = "0" + bossNumber;
+        }
+        StartCoroutine(LoadSceneString("Boss " + levelString));
+    }
+    
     public void LoadOptions() {
         StartCoroutine(LoadSceneString("Options Menu"));
     }

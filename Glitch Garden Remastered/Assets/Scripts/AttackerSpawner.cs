@@ -15,7 +15,7 @@ public class AttackerSpawner : MonoBehaviour {
     private float _levelTime;
     private int _timePercent;
     
-    private bool _spawn = false;
+    private bool _spawn;
     private float _spawnDelay;
     private float _delayDeviation;
 
@@ -59,14 +59,19 @@ public class AttackerSpawner : MonoBehaviour {
 
     private IEnumerator WhileSpawn() {
         while (_spawn) {
-            _levelTime = _gameTimer.GetGameTime();
-            _spawnDelay = Mathf.Lerp(_startSpawnDelay, _endSpawnDelay, _levelTime);
+            _spawnDelay = Mathf.Lerp(_startSpawnDelay, _endSpawnDelay, GetLevelTime());
             _delayDeviation = _spawnDelay * _deviationPercent;
             yield return new WaitForSeconds(Random.Range(_spawnDelay - _delayDeviation, _spawnDelay + _delayDeviation));
             SpawnAttacker();
         }
     }
 
+    private float GetLevelTime() {
+        if (!_levelController.GetIsBossLevel()) {
+            return _gameTimer.GetGameTime();
+        }
+        return 0;
+    }
     
     private void Spawn(Attacker myAttacker) {
         var spawnPos = new Vector2(transform.position.x + 1.5f, transform.position.y);

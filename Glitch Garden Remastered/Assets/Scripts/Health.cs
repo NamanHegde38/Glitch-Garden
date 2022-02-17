@@ -1,3 +1,4 @@
+using System;
 using MoreMountains.Feedbacks;
 using UnityEngine;
 
@@ -13,6 +14,11 @@ public class Health : MonoBehaviour {
     
     private Animator _animator;
 
+    public event EventHandler<OnDamageDealtEventArgs> OnDamageDealt;
+
+    public class OnDamageDealtEventArgs : EventArgs {
+        public int Damage;
+    }
 
     private int _difficulty = 1;
     private static readonly int Hurt = Animator.StringToHash("Hurt");
@@ -24,7 +30,7 @@ public class Health : MonoBehaviour {
         health = SetHealth(health);
     }
 
-    private int SetHealth(float baseHealth) {
+    public int SetHealth(float baseHealth) {
         switch (_difficulty) {
             case 1:
                 baseHealth *= 1f;
@@ -51,7 +57,9 @@ public class Health : MonoBehaviour {
         if (hurtFeedback) {
             hurtFeedback?.PlayFeedbacks();
         }
-
+        
+        OnDamageDealt?.Invoke(this, new OnDamageDealtEventArgs{Damage = damage});
+        
         if (health > 0) return;
         
         if (deathFeedback) {

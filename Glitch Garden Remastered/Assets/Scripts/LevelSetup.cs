@@ -19,7 +19,11 @@ public class LevelSetup : MonoBehaviour {
     [BoxGroup("Level")]
     [SerializeField] private Level level;
 
+    [SerializeField] private bool isBossLevel;
+    [SerializeField] private int bossHealth;
+
     private GameObject _levelTimer;
+    private GameObject _bossHealth;
     private GameObject _starText;
     private GameObject _defenderButtons;
     private GameObject[] _attackerSpawners;
@@ -39,12 +43,19 @@ public class LevelSetup : MonoBehaviour {
     }
 
     private void SetLevelOnStart(object sender, EventArgs e) {
-        
-        _levelTimer = GameObject.FindWithTag("Level Timer");
+
+        if (!isBossLevel) {
+            _levelTimer = GameObject.FindWithTag("Level Timer");
+            _levelTimer.GetComponent<GameTimer>().SetGameTime(level.GetLevelTime());
+        }
+        else {
+            _bossHealth = GameObject.FindWithTag("Boss");
+            _bossHealth.GetComponent<Health>().SetHealth(bossHealth);
+        }
         _starText = GameObject.FindWithTag("Star Text");
         _defenderButtons = GameObject.FindWithTag("Defender Buttons");
         
-        _levelTimer.GetComponent<GameTimer>().SetGameTime(level.GetLevelTime());
+        
 
         _starText.GetComponent<StarDisplay>().SetStars(level.GetStars());
         _starText.GetComponent<StarDisplay>().SetStarsOverTime(level.GetStarsOverTime());

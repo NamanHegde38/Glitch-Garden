@@ -717,6 +717,8 @@ MonoBehaviour:
   winFeedback: {fileID: 75465526390549177}
   loseFeedback: {fileID: 1194640036659421245}
   countdownFeedback: {fileID: 3612014372115742228}
+  isBossLevel: 0
+  bossNumber: 0
 --- !u!82 &1778907874747302218
 AudioSource:
   m_ObjectHideFlags: 0

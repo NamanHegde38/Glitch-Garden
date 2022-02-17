@@ -30,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seasons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@12.1.0/Runtime/2D/Light2DManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Defender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BossHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Feel/MMFeedbacks/MMFeedbacks/Core/MMFeedback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HighlightButton.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,7 +51,6 @@
       <option value="$PROJECT_DIR$/Assets/AllIn1SpriteShader/URP/Resources/AllIn1Urp2dRenderer.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Lobber.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderType.cs" />
@@ -63,19 +63,23 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Tooltip.cs" />
       <option value="$PROJECT_DIR$/Assets/Misc/CustomRenderPassFeature.cs" />
       <option value="$PROJECT_DIR$/Assets/Shaders/Fade.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameStartUI.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderToolbar.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelSetup.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HighlightButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelectManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPrefsController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ModeButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BossButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BossLevelController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Boss.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelSetup.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BossHealthBar.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20VId6ihQVmluV6EwYpfyB6NSoz" />
@@ -193,7 +197,11 @@
       <workItem from="1645005231981" duration="2403000" />
       <workItem from="1645045513437" duration="5741000" />
       <workItem from="1645052157516" duration="2631000" />
-      <workItem from="1645093145732" duration="2950000" />
+      <workItem from="1645093145732" duration="3575000" />
+      <workItem from="1645101498412" duration="2668000" />
+      <workItem from="1645106619552" duration="1179000" />
+      <workItem from="1645116541427" duration="425000" />
+      <workItem from="1645127900010" duration="4365000" />
     </task>
     <servers />
   </component>

@@ -8,11 +8,15 @@ public class LevelController : MonoBehaviour {
 
     [SerializeField] private GameObject winLabel, loseLabel;
     [SerializeField] private float waitToLoad;
+    [SerializeField] private float waitToStart;
 
     [SerializeField] private AudioClip winSFX, loseSFX;
     [SerializeField] private MMFeedbacks winFeedback;
     [SerializeField] private MMFeedbacks loseFeedback;
     [SerializeField] private MMFeedbacks countdownFeedback;
+
+    [SerializeField] private bool isBossLevel = false;
+    [SerializeField] private int bossNumber;
 
     private int _numberOfAttackers;
     private bool _levelTimerFinished;
@@ -29,9 +33,12 @@ public class LevelController : MonoBehaviour {
     public void StartGame() {
         OnLevelStart?.Invoke(this, EventArgs.Empty);
     }
+
+    public bool GetIsBossLevel() {
+        return isBossLevel;
+    }
     
-    private void Start() {
-        countdownFeedback.PlayFeedbacks();
+    private IEnumerator Start() {
         _spawnerArray = FindObjectsOfType<AttackerSpawner>();
         _musicPlayer = FindObjectOfType<MusicPlayer>();
         _audioSource = GetComponent<AudioSource>();
@@ -44,6 +51,9 @@ public class LevelController : MonoBehaviour {
         if (loseLabel) {
             loseLabel.SetActive(false);
         }
+
+        yield return new WaitForSeconds(waitToStart);
+        countdownFeedback.PlayFeedbacks();
     }
 
     public void AttackerSpawned() {
@@ -54,7 +64,12 @@ public class LevelController : MonoBehaviour {
         _numberOfAttackers--;
 
         if (_numberOfAttackers <= 0 && _levelTimerFinished) {
-            StartCoroutine(HandleWinCondition());
+            if (isBossLevel) {
+                
+            }
+            else {
+                StartCoroutine(HandleWinCondition());
+            }
         }
     }
 
@@ -71,10 +86,33 @@ public class LevelController : MonoBehaviour {
         _audioSource.Play();
         
         winFeedback.PlayFeedbacks();
-        
-        var currentLevel = SceneManager.GetActiveScene().buildIndex - 3;
-        PlayerPrefsController.UnlockLevel(currentLevel + 1);
-        
+
+        if (isBossLevel) {
+            if (bossNumber > 0 && bossNumber <= 5) {
+                switch (bossNumber) {
+                    case 1:
+                        PlayerPrefsController.FirstBossDefeated();
+                        break;
+                    case 2:
+                        PlayerPrefsController.SecondBossDefeated();
+                        break;
+                    case 3:
+                        PlayerPrefsController.ThirdBossDefeated();
+                        break;
+                    case 4:
+                        PlayerPrefsController.FourthBossDefeated();
+                        break;
+                    case 5:
+                        PlayerPrefsController.FifthBossDefeated();
+                        break;
+                }
+            }
+        }
+        else {
+            var currentLevel = SceneManager.GetActiveScene().buildIndex - 3;
+            PlayerPrefsController.UnlockLevel(currentLevel + 1);
+        }
+
         yield return new WaitForSeconds(waitToLoad);
         _levelLoader.LoadWinMenu();
     }

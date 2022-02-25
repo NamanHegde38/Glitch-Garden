@@ -172,8 +172,8 @@ MonoBehaviour:
       Entry: 8
       Data: 
   levelTime: 240
-  stars: 100
-  starsOverTime: 50
+  stars: 250
+  starsOverTime: 100
   defenders: 0100000002000000030000000400000005000000060000000700000008000000
   attackers:
   - {fileID: 7719527824389724520, guid: 5f9b45967bf805145b9a845c97193e3d, type: 3}
@@ -181,8 +181,8 @@ MonoBehaviour:
   - {fileID: 951437123571574406, guid: edcfae1b2e5e6dc44b029485632bf5cd, type: 3}
   - {fileID: 8025121730428812678, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
   - {fileID: 5578897586487247713, guid: f70f63ab56228c841867d6ae02efba21, type: 3}
-  spawnDelay: {x: 30, y: 30}
-  deviationPercent: 75
+  spawnDelay: {x: 60, y: 60}
+  deviationPercent: 90
   gameCanvas: {fileID: 2752734745704182350, guid: 1a5cd23ad74a28946ae6cab3ee2b844e, type: 3}
   postProcessing: {fileID: 2393007175128214050, guid: ef9f614db8a3c114489f497c011784be, type: 3}
   camera: {fileID: 6337261607967178079, guid: c6bcc7cfdde195f499ef8a3f8f6cacac, type: 3}

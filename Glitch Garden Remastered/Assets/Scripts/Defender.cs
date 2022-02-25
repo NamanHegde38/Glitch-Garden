@@ -1,3 +1,5 @@
+using System;
+using DG.Tweening;
 using MoreMountains.Feedbacks;
 using UnityEngine;
 
@@ -9,13 +11,24 @@ public class Defender : MonoBehaviour {
 
     [SerializeField] private MMFeedbacks spawnFeedback;
 
+    [SerializeField] private float tweenTime = 0.2f;
+    [SerializeField] private Ease tweenEase = Ease.InQuad;
+
+    private Health _health;
+    
     private void Start() {
         PlaySpawnFeedback();
+        _health = GetComponent<Health>();
     }
 
     private void PlaySpawnFeedback() {
         spawnFeedback.Initialization();
         spawnFeedback.PlayFeedbacks();
+    }
+
+    private void Update() {
+        if (transform.localPosition.x > 0) return;
+        _health.DealDamage(5000);
     }
 
     public void AddStars(int amount) {
@@ -32,6 +45,10 @@ public class Defender : MonoBehaviour {
 
     public DefenderType GetDefenderType() {
         return type;
+    }
+
+    public void MoveDefenderX(float moveAmount) {
+        transform.DOLocalMoveX(transform.localPosition.x - moveAmount, tweenTime).SetEase(tweenEase);
     }
 }
 

@@ -25,7 +25,7 @@ public class Level : SerializedScriptableObject {
     private Attacker[] attackers;
     
     [BoxGroup("Spawners")] [SerializeField]
-    [MinMaxSlider(3, 30)]
+    [MinMaxSlider(3, 60)]
     private Vector2 spawnDelay = new Vector2(3, 30);
 
     [BoxGroup("Spawners")] [SerializeField]

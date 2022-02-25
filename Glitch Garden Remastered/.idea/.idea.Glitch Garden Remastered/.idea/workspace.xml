@@ -21,6 +21,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DefenderType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Boss_Move.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StarDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/TimeRecorder/Editor/TimeRecorder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level.cs" root0="FORCE_HIGHLIGHTING" />
@@ -30,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seasons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@12.1.0/Runtime/2D/Light2DManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Defender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss_Idle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BossHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Feel/MMFeedbacks/MMFeedbacks/Core/MMFeedback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,9 +58,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderType.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameTimer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Seasons.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StarDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TooltipScreenSpaceUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tooltip.cs" />
       <option value="$PROJECT_DIR$/Assets/Misc/CustomRenderPassFeature.cs" />
@@ -80,6 +80,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BossHealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
+      <option value="$PROJECT_DIR$/Assets/Boss_Move.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DamageCollider.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Boss_Idle.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20VId6ihQVmluV6EwYpfyB6NSoz" />
@@ -202,6 +207,10 @@
       <workItem from="1645106619552" duration="1179000" />
       <workItem from="1645116541427" duration="425000" />
       <workItem from="1645127900010" duration="4365000" />
+      <workItem from="1645179918622" duration="5466000" />
+      <workItem from="1645817504777" duration="2000" />
+      <workItem from="1645822374726" duration="1000" />
+      <workItem from="1645822487510" duration="600000" />
     </task>
     <servers />
   </component>

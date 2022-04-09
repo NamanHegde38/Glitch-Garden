@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Bat : MonoBehaviour {
@@ -13,6 +14,13 @@ public class Bat : MonoBehaviour {
 
         if (otherObject.GetComponent<Defender>()) {
             _attacker.Attack(otherObject);
+        }
+    }
+
+    private void OnTriggerExit(Collider other) {
+        var otherObject = other.gameObject;
+        if (otherObject.GetComponent<Defender>()) {
+            _attacker.StopAttack();
         }
     }
 }

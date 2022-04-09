@@ -304,6 +304,8 @@ MonoBehaviour:
   material: 3
   type: 1
   spawnFeedback: {fileID: 739042804508159885}
+  tweenTime: 1
+  tweenEase: 5
 --- !u!61 &7936926575533576159
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -58,7 +58,10 @@ public class Attacker : MonoBehaviour {
     public void Attack(GameObject target) {
         _anim.SetBool(IsAttacking, true);
         _currentTarget = target;
-        
+    }
+
+    public void StopAttack() {
+        _anim.SetBool(IsAttacking, false);
     }
 
     public void StrikeCurrentTarget(float damage) {

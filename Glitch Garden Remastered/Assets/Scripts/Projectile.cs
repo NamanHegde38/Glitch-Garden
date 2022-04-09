@@ -40,12 +40,13 @@ public class Projectile : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other) {
         var health = other.GetComponent<Health>();
-        var attacker = other.GetComponent<Attacker>();
 
-        if (!attacker || !health) return;
+        if (!health) return;
         if (Random.Range(1, 101) < criticalPercentage) {
             health.DealDamage(Mathf.RoundToInt(_damage * criticalMultiplier));
-            criticalHitFeedback.PlayFeedbacks();
+            if (criticalHitFeedback) {
+                criticalHitFeedback.PlayFeedbacks();
+            }
         }
         else {
             health.DealDamage(_damage);

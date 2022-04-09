@@ -109,6 +109,8 @@ MonoBehaviour:
   material: 0
   type: 4
   spawnFeedback: {fileID: 2058168143149615779}
+  tweenTime: 1
+  tweenEase: 5
 --- !u!114 &2889872511896781425
 MonoBehaviour:
   m_ObjectHideFlags: 0

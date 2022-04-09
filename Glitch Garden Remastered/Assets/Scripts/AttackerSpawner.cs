@@ -43,6 +43,7 @@ public class AttackerSpawner : MonoBehaviour {
     
     private void SpawnAttacker() {
         var attackerIndex = Random.Range(0, _attackerPrefabArray.Length);
+        if (_attackerPrefabArray.Length <= 0) return;
         Spawn(_attackerPrefabArray[attackerIndex]);
     }
 

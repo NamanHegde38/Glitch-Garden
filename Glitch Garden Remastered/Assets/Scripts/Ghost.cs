@@ -28,6 +28,13 @@ public class Ghost : MonoBehaviour {
         }
     }
     
+    private void OnTriggerExit(Collider other) {
+        var otherObject = other.gameObject;
+        if (otherObject.GetComponent<Defender>()) {
+            _attacker.StopAttack();
+        }
+    }
+    
     public void Shockwave() {
         attackFeedback.PlayFeedbacks();
     }

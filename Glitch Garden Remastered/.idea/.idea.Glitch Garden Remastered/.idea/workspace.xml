@@ -21,7 +21,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DefenderType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Boss_Move.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StarDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/TimeRecorder/Editor/TimeRecorder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level.cs" root0="FORCE_HIGHLIGHTING" />
@@ -29,32 +28,28 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelSelectManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DefenderToolbar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seasons.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss_State_Change.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@12.1.0/Runtime/2D/Light2DManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Defender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss_Idle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ThunderProjectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BossHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Feel/MMFeedbacks/MMFeedbacks/Core/MMFeedback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BossPoisonProjectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HighlightButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BossProjectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DefenderMaterial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelSetup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Plugins/TimeRecorder/Editor/TimeRecorder.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DefenderMaterial.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Blit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shredder.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Lizard.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Fox.cs" />
       <option value="$PROJECT_DIR$/Assets/AllIn1SpriteShader/URP/Resources/AllIn1Urp2dRenderer.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderButton.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Lobber.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderType.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameTimer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Seasons.cs" />
@@ -72,19 +67,35 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ModeButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BossButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BossLevelController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Boss.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelSetup.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/BossHealthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
       <option value="$PROJECT_DIR$/Assets/Boss_Move.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DamageCollider.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BossProjectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Boss_Move.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Boss_State_Change.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BossHealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Bat.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Fox.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Jelly.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Lizard.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ThunderProjectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IceProjectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Boss_Attack.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Boss_Poison_Attack.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Boss_Idle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BossPoisonProjectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Boss.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20VId6ihQVmluV6EwYpfyB6NSoz" />
@@ -98,7 +109,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -211,6 +222,24 @@
       <workItem from="1645817504777" duration="2000" />
       <workItem from="1645822374726" duration="1000" />
       <workItem from="1645822487510" duration="600000" />
+      <workItem from="1645823136818" duration="679000" />
+      <workItem from="1645826792397" duration="595000" />
+      <workItem from="1645889074877" duration="1690000" />
+      <workItem from="1645911348186" duration="674000" />
+      <workItem from="1646767094804" duration="1072000" />
+      <workItem from="1647023375716" duration="8049000" />
+      <workItem from="1647290617107" duration="1229000" />
+      <workItem from="1647458677385" duration="4279000" />
+      <workItem from="1647973776221" duration="4926000" />
+      <workItem from="1648919972981" duration="2000" />
+      <workItem from="1648982521102" duration="2000" />
+      <workItem from="1648986552331" duration="4000" />
+      <workItem from="1648986581525" duration="16000" />
+      <workItem from="1648986627139" duration="5631000" />
+      <workItem from="1649000789044" duration="717000" />
+      <workItem from="1649177831968" duration="5062000" />
+      <workItem from="1649425081424" duration="12782000" />
+      <workItem from="1649494059741" duration="3040000" />
     </task>
     <servers />
   </component>

@@ -62,6 +62,6 @@ public class Shooter : MonoBehaviour {
         projectile.SetDamage(projectileDamage);
         projectile.SetShotStraight(true, projectileSpeed);
         
-        Destroy(projectile, 5f);
+        Destroy(projectileSpawn, 5f);
     }
 }

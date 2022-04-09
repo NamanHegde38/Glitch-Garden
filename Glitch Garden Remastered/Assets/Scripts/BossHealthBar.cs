@@ -5,9 +5,6 @@ using UnityEngine.UI;
 
 public class BossHealthBar : MonoBehaviour {
 
-    [SerializeField] private float tweenTime = 0.2f;
-    [SerializeField] private Ease tweenEase = Ease.OutQuad;
-    
     private Health _bossHealth;
     private Slider _healthBar;
 
@@ -25,6 +22,7 @@ public class BossHealthBar : MonoBehaviour {
     }
 
     private void DealDamage(object sender, Health.OnDamageDealtEventArgs args) {
-        _healthBar.DOValue(args.Damage, tweenTime).SetEase(tweenEase);
+        //_healthBar.DOValue(_bossHealth.GetHealth(), tweenTime).SetEase(tweenEase);
+        _healthBar.value = _bossHealth.GetHealth();
     }
 }

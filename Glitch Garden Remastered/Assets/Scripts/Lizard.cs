@@ -18,6 +18,13 @@ public class Lizard : MonoBehaviour {
             _attacker.Attack(otherObject);
         }
     }
+    
+    private void OnTriggerExit(Collider other) {
+        var otherObject = other.gameObject;
+        if (otherObject.GetComponent<Defender>()) {
+            _attacker.StopAttack();
+        }
+    }
 
     public void Land() {
         landFeedback.PlayFeedbacks();

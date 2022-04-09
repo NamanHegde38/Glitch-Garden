@@ -225,6 +225,8 @@ MonoBehaviour:
   material: 4
   type: 3
   spawnFeedback: {fileID: 8095486877357494741}
+  tweenTime: 1
+  tweenEase: 5
 --- !u!114 &3147619478962841921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,6 +289,7 @@ MonoBehaviour:
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   hurtFeedback: {fileID: 3994980098497819726}
   deathFeedback: {fileID: 671529774049111944}
+  freezeSpeed: 0.5
 --- !u!1001 &802066626372088442
 PrefabInstance:
   m_ObjectHideFlags: 0

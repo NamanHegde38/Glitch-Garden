@@ -45,6 +45,9 @@ public class Boss : MonoBehaviour {
     [BoxGroup("Poison Attack")]
     [SerializeField] private Transform poisonGunPos;
     
+    [BoxGroup("Mega Laser")]
+    [SerializeField] private Vector2 laserSize = new(10, 0.5f);
+    
     private GameObject _projectileParent;
     private GameObject _defenderParent;
     
@@ -147,7 +150,17 @@ public class Boss : MonoBehaviour {
 
         Destroy(projectileInstance, 10f);
     }
-    
+
+    public void MegaLaser(int damage) {
+        var position = transform.position;
+        var pointA = new Vector2(position.x - laserSize.x + 0.1f, position.y - laserSize.y + 0.1f);
+        var pointB = new Vector2(position.x - 0.1f, position.y + laserSize.y - 0.1f);
+        var defendersToAttack = Physics2D.OverlapAreaAll(pointA, pointB, defenderLayer);
+        foreach (var defender in defendersToAttack) {
+            defender.GetComponent<Health>().DealDamage(damage);
+        }
+    }
+
     private Vector2 GetRandomDefenderPos() {
         var randomChild = Random.Range(0, _defenderParent.transform.childCount);
         var randomDefender = _defenderParent.transform.GetChild(randomChild);

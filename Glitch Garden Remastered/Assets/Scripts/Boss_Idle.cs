@@ -3,13 +3,14 @@ using UnityEngine;
 
 public class Boss_Idle : StateMachineBehaviour {
 
-    [SerializeField] [Range(0, 1)] private float moveChance = 0.14f;
-    [SerializeField] [Range(0, 1)] private float standardAttackChance = 0.14f;
-    [SerializeField] [Range(0, 1)] private float windAttackChance = 0.14f;
-    [SerializeField] [Range(0, 1)] private float fireAttackChance = 0.14f;
-    [SerializeField] [Range(0, 1)] private float thunderAttackChance = 0.14f;
-    [SerializeField] [Range(0, 1)] private float iceAttackChance = 0.14f;
-    [SerializeField] [Range(0, 1)] private float poisonAttackChance = 0.14f;
+    [SerializeField] [Range(0, 1)] private float moveChance = 0.125f;
+    [SerializeField] [Range(0, 1)] private float standardAttackChance = 0.125f;
+    [SerializeField] [Range(0, 1)] private float windAttackChance = 0.125f;
+    [SerializeField] [Range(0, 1)] private float fireAttackChance = 0.125f;
+    [SerializeField] [Range(0, 1)] private float thunderAttackChance = 0.125f;
+    [SerializeField] [Range(0, 1)] private float iceAttackChance = 0.125f;
+    [SerializeField] [Range(0, 1)] private float poisonAttackChance = 0.125f;
+    [SerializeField] [Range(0, 1)] private float megaLaserChance = 0.125f;
     
     private static readonly int Move = Animator.StringToHash("Move");
 
@@ -23,6 +24,7 @@ public class Boss_Idle : StateMachineBehaviour {
     private static readonly int ThunderAttack = Animator.StringToHash("ThunderAttack");
     private static readonly int IceAttack = Animator.StringToHash("IceAttack");
     private static readonly int PoisonAttack = Animator.StringToHash("PoisonAttack");
+    private static readonly int MegaLaser = Animator.StringToHash("MegaLaser");
 
     public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
         _defenderParent = GameObject.Find("Defenders");
@@ -71,7 +73,14 @@ public class Boss_Idle : StateMachineBehaviour {
                 }
             }
             
-            else if (rng < moveChance + windAttackChance + fireAttackChance + thunderAttackChance + iceAttackChance + poisonAttackChance + standardAttackChance) {
+            else if (rng < moveChance + windAttackChance + fireAttackChance + thunderAttackChance + iceAttackChance + poisonAttackChance + megaLaserChance) {
+                if (_defenderParent.transform.childCount > 0) {
+                    animator.SetTrigger(MegaLaser);
+                    _timer = MAXTimer;
+                }
+            }
+            
+            else if (rng < moveChance + windAttackChance + fireAttackChance + thunderAttackChance + iceAttackChance + poisonAttackChance + megaLaserChance + standardAttackChance) {
                 if (_defenderParent.transform.childCount > 0) {
                     animator.SetTrigger(Attack);
                     _timer = MAXTimer;

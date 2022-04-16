@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using MoreMountains.Feedbacks;
 using UnityEngine;
 
@@ -71,15 +72,17 @@ public class Health : MonoBehaviour {
         
         if (health > 0) return;
         
-        if (deathFeedback) {
-            deathFeedback?.PlayFeedbacks();
-        }
-        
+
         if (GetComponent<Attacker>()) {
+            _animator.SetTrigger(Death);
+            deathFeedback.PlayFeedbacks();
+        }
+        else if (GetComponent<Boss>()) {
             _animator.SetTrigger(Death);
         }
         else if (GetComponent<Defender>()) {
             DestroyObject();
+            deathFeedback.PlayFeedbacks();
         }
     }
 
@@ -115,7 +118,14 @@ public class Health : MonoBehaviour {
     }
     
     public void DestroyObject() {
+        transform.DOKill();
         Destroy(gameObject);
+    }
+
+    public void PlayDeathFeedbacks() {
+        if (deathFeedback) {
+            deathFeedback.PlayFeedbacks();
+        }
     }
     
     private void TriggerDeathVFX() {

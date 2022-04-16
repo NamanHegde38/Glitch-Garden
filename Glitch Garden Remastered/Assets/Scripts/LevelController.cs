@@ -29,7 +29,7 @@ public class LevelController : MonoBehaviour {
     private float _masterVolume;
 
     public event EventHandler OnLevelStart;
-    
+
     public void StartGame() {
         OnLevelStart?.Invoke(this, EventArgs.Empty);
     }
@@ -64,13 +64,12 @@ public class LevelController : MonoBehaviour {
         _numberOfAttackers--;
 
         if (_numberOfAttackers <= 0 && _levelTimerFinished) {
-            if (isBossLevel) {
-                
-            }
-            else {
-                StartCoroutine(HandleWinCondition());
-            }
+            StartCoroutine(HandleWinCondition());
         }
+    }
+
+    public void WinLevel() {
+        HandleWinCondition();
     }
 
     private IEnumerator HandleWinCondition() {

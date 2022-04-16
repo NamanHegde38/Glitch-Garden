@@ -69,7 +69,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BossLevelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelSetup.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
       <option value="$PROJECT_DIR$/Assets/Boss_Move.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DamageCollider.cs" />
@@ -91,10 +90,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/IceProjectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Boss_Attack.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Boss_Poison_Attack.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BossPoisonProjectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Boss_Idle.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Boss_State_Change.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Boss.cs" />
     </changedPaths>
   </component>
@@ -241,6 +241,8 @@
       <workItem from="1649425081424" duration="12782000" />
       <workItem from="1649494059741" duration="3636000" />
       <workItem from="1649953233041" duration="3495000" />
+      <workItem from="1649965370192" duration="2076000" />
+      <workItem from="1650024875680" duration="1655000" />
     </task>
     <servers />
   </component>

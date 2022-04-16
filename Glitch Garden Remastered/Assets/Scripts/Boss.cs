@@ -161,6 +161,10 @@ public class Boss : MonoBehaviour {
         }
     }
 
+    public void FinishLevel() {
+        FindObjectOfType<LevelController>().WinLevel();
+    }
+
     private Vector2 GetRandomDefenderPos() {
         var randomChild = Random.Range(0, _defenderParent.transform.childCount);
         var randomDefender = _defenderParent.transform.GetChild(randomChild);

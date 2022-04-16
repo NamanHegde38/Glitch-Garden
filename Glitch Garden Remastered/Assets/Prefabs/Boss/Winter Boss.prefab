@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8134432105147980851
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3504649344876439565, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d8551ac91be05e54da05d9d8909c8585, type: 3}
+    - target: {fileID: 3504649345415455400, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: numberOfStages
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455403, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455403, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455403, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455403, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455403, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455403, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455403, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455403, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455403, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455403, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455403, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455404, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_Name
+      value: Winter Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455405, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: bb754a7656a70aa4ca085b84276a6eca, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46a765581ef7c224488196c20ffd131d, type: 3}

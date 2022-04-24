@@ -177,6 +177,8 @@ MonoBehaviour:
   defenders: 020000000800000003000000
   attackers:
   - {fileID: 8025121730428812678, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+  shinyAttackers:
+  - {fileID: 880269941835041672, guid: 32e2dceed8561a3468dd93a855a3a19c, type: 3}
   spawnDelay: {x: 7.062989, y: 30}
   deviationPercent: 75
   gameCanvas: {fileID: 890969830880804578, guid: f613979c628348c4d9c30586bbb032d9, type: 3}

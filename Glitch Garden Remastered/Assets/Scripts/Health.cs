@@ -18,8 +18,14 @@ public class Health : MonoBehaviour {
     [Header("Freeze")]
     [SerializeField] private float freezeSpeed = 0.5f;
 
+    [Header("Health Bar")]
+    [SerializeField] private bool hasHealthBar = true;
+    [SerializeField] private GameObject healthBarPrefab;
+    [SerializeField] private Vector2 barOffset = new(0, 0.5f);
+
     private Animator _animator;
     private bool _poisoned;
+    private GameObject _healthBar;
 
     private List<int> _poisonTickTimers = new List<int>();
 
@@ -32,6 +38,16 @@ public class Health : MonoBehaviour {
     private int _difficulty = 1;
     private static readonly int Hurt = Animator.StringToHash("Hurt");
     private static readonly int Death = Animator.StringToHash("Death");
+
+    private void Awake() {
+        var position = transform.position;
+        if (!hasHealthBar) return;
+        
+        _healthBar = Instantiate(healthBarPrefab, new Vector2(position.x + barOffset.x, position.y + barOffset.y), Quaternion.identity);
+        _healthBar.transform.SetParent(GameObject.FindGameObjectWithTag("Health Bar Canvas").transform);
+        _healthBar.transform.localScale /= 160;
+        _healthBar.GetComponent<HealthBar>().GetHealthOwner(transform);
+    }
 
     private void Start() {
         _difficulty = PlayerPrefsController.GetDifficulty();
@@ -75,6 +91,7 @@ public class Health : MonoBehaviour {
 
         if (GetComponent<Attacker>()) {
             _animator.SetTrigger(Death);
+            _healthBar.GetComponent<HealthBar>().FadeOutHealthBar();
             deathFeedback.PlayFeedbacks();
         }
         else if (GetComponent<Boss>()) {
@@ -82,6 +99,7 @@ public class Health : MonoBehaviour {
         }
         else if (GetComponent<Defender>()) {
             DestroyObject();
+            _healthBar.GetComponent<HealthBar>().FadeOutHealthBar();
             deathFeedback.PlayFeedbacks();
         }
     }
@@ -127,7 +145,11 @@ public class Health : MonoBehaviour {
             deathFeedback.PlayFeedbacks();
         }
     }
-    
+
+    public Vector2 GetOffset() {
+        return barOffset;
+    }
+
     private void TriggerDeathVFX() {
         if (!deathVFX) return;
         var deathVFXObject = Instantiate(deathVFX, transform.position, transform.rotation);

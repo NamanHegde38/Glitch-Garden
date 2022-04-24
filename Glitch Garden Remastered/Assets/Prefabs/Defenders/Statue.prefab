@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4910c348aa480fb40a1fac22f4bc8596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starCost: 50
+  starCost: 75
   material: 1
   type: 5
   spawnFeedback: {fileID: 7806999902971158674}
@@ -114,10 +114,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90bd07db723e2e640833b9655467f221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 4000
+  health: 2000
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   hurtFeedback: {fileID: 3513198386194914492}
   deathFeedback: {fileID: 8632856982160331881}
+  freezeSpeed: 0.5
+  hasHealthBar: 1
+  healthBarPrefab: {fileID: 837323596646068973, guid: a342a9ce22689944f9e5b203272e8f28, type: 3}
+  barOffset: {x: 0, y: 0.6}
 --- !u!114 &242517606534845881
 MonoBehaviour:
   m_ObjectHideFlags: 0

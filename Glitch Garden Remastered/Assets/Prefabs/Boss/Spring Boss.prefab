@@ -7,6 +7,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2672039006769265571}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2672039006769265571}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DestroyObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DestroyObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Health, Project
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Health, Project
+      objectReference: {fileID: 0}
     - target: {fileID: 3981870466494211818, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -14,6 +42,18 @@ PrefabInstance:
     - target: {fileID: 3981870466494211821, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870466734645180, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: Feedbacks.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870466734645180, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: Feedbacks.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870466734645180, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: Feedbacks.Array.data[7]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3981870467037326410, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
       propertyPath: m_Controller
@@ -67,9 +107,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326414, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: health
+      value: 15000
+      objectReference: {fileID: 0}
     - target: {fileID: 3981870467037326415, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
       propertyPath: numberOfStages
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+--- !u!114 &2672039006769265571 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3981870467037326414, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+  m_PrefabInstance: {fileID: 1321401071911360493}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90bd07db723e2e640833b9655467f221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

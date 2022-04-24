@@ -120,6 +120,9 @@ MonoBehaviour:
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   hurtFeedback: {fileID: 7917159317506878107}
   deathFeedback: {fileID: 5703211287456329981}
+  freezeSpeed: 0.5
+  healthBarPrefab: {fileID: 837323596646068973, guid: a342a9ce22689944f9e5b203272e8f28, type: 3}
+  barOffset: {x: 0, y: 0.6}
 --- !u!1 &905618881611621291
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,11 +962,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13032cd57102f0843b665c615b2d7eb3, type: 3}
---- !u!4 &4812135421595143671 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 343178082463927630, guid: 13032cd57102f0843b665c615b2d7eb3, type: 3}
-  m_PrefabInstance: {fileID: 5047150958827962553}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4427711587605209878 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8897267009274799023, guid: 13032cd57102f0843b665c615b2d7eb3, type: 3}
@@ -975,6 +973,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841b72de2996c5c40bfb394f3d0e0a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &4812135421595143671 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 343178082463927630, guid: 13032cd57102f0843b665c615b2d7eb3, type: 3}
+  m_PrefabInstance: {fileID: 5047150958827962553}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7995118715145448612
 PrefabInstance:
   m_ObjectHideFlags: 0

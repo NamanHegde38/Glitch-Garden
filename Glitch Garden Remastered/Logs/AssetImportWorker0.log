@@ -15,7 +15,7 @@ D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55216
+62249
 Successfully changed project path to: D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
 D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 355.22 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 349.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -64,79 +64,79 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013172 seconds.
+Registered in 0.013028 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 331.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 334.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.119 seconds
+- Completed reload, in  1.096 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1119ms)
+	ReloadAssembly (1096ms)
 		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (860ms)
-			LoadAssemblies (101ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (146ms)
+			SetupTypeCache (128ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (598ms)
+			SetupLoadedEditorAssemblies (591ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (332ms)
+				RefreshPlugins (335ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (190ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013532 seconds.
+Registered in 0.014388 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 428.61 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 341.15 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.925 seconds
+- Completed reload, in  3.870 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3926ms)
-		BeginReloadAssembly (153ms)
+	ReloadAssembly (3872ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (3605ms)
-			LoadAssemblies (161ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (3562ms)
+			LoadAssemblies (150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (428ms)
+			SetupTypeCache (425ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (143ms)
-			SetupLoadedEditorAssemblies (2814ms)
+			RebuildScriptCaches (166ms)
+			SetupLoadedEditorAssemblies (2755ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (429ms)
-				BeforeProcessingInitializeOnLoad (212ms)
-				ProcessInitializeOnLoadAttributes (1823ms)
-				ProcessInitializeOnLoadMethodAttributes (325ms)
+				RefreshPlugins (341ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (1861ms)
+				ProcessInitializeOnLoadMethodAttributes (317ms)
 				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -145,13 +145,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 3.79 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6715 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 88 unused Assets / (0.9 MB). Loaded Objects now: 7226.
-Memory consumption went from 416.6 MB to 415.7 MB.
-Total: 46.184500 ms (FindLiveObjects: 0.840000 ms CreateObjectMapping: 0.360400 ms MarkObjects: 44.452500 ms  DeleteObjects: 0.529500 ms)
+Unloading 6718 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (0.9 MB). Loaded Objects now: 7229.
+Memory consumption went from 417.8 MB to 416.9 MB.
+Total: 42.867600 ms (FindLiveObjects: 0.865300 ms CreateObjectMapping: 0.485200 ms MarkObjects: 40.894000 ms  DeleteObjects: 0.621000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,214 +165,172 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 155459.067769 seconds.
-  path: Assets/Animations/Boss/Winter Boss.controller
-  artifactKey: Guid(bb754a7656a70aa4ca085b84276a6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Winter Boss.controller using Guid(bb754a7656a70aa4ca085b84276a6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3da488b4f44ca775f8bce7daf712f1') in 0.072146 seconds 
+  Time since last request: 3853.581360 seconds.
+  path: Assets/_Scenes/Spring/Day/Level 01.unity
+  artifactKey: Guid(65ed8d9db523e4e469f2d46c7102d14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Spring/Day/Level 01.unity using Guid(65ed8d9db523e4e469f2d46c7102d14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87df5c683065f7a69c15132b4ec08b6d') in 0.017367 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 55.326060 seconds.
-  path: Assets/Prefabs/Boss/Attacks
-  artifactKey: Guid(4ea81c31940a00c4f8bbb3bcab799ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss/Attacks using Guid(4ea81c31940a00c4f8bbb3bcab799ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92eeb6825c172e8743520ddf99397d7') in 0.005772 seconds 
+  Time since last request: 92.491750 seconds.
+  path: Assets/_Scenes/Boss/Boss 01.unity
+  artifactKey: Guid(e163ebc5c24e8284d89dce1fecea8d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss/Boss 01.unity using Guid(e163ebc5c24e8284d89dce1fecea8d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1375a95678e2b3cb236c173a44bdb4b2') in 0.005861 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.189512 seconds.
-  path: Assets/Prefabs/Boss/Boss Poison Projectile.prefab
-  artifactKey: Guid(4eccf4e4d4cfcff40b0e7bb627413b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss/Boss Poison Projectile.prefab using Guid(4eccf4e4d4cfcff40b0e7bb627413b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b32dc4dce40bee01529728b1470cf7') in 0.331357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.066485 seconds.
-  path: Assets/Prefabs/Boss/Mega Laser.prefab
-  artifactKey: Guid(43d3a42fd48e1484ab8dc334c44de4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss/Mega Laser.prefab using Guid(43d3a42fd48e1484ab8dc334c44de4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1087c5125854d97444fe499d069fb773') in 0.696393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.794596 seconds.
-  path: Assets/Prefabs/Boss/Final Boss.prefab
-  artifactKey: Guid(46a765581ef7c224488196c20ffd131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss/Final Boss.prefab using Guid(46a765581ef7c224488196c20ffd131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58c13328bc63af0e4d5c95b2a5eaf07') in 0.832464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.199304 seconds.
-  path: Assets/Prefabs/Boss/Winter Boss.prefab
-  artifactKey: Guid(80376384a5402a347a1aac9cefb9a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss/Winter Boss.prefab using Guid(80376384a5402a347a1aac9cefb9a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cd436d45364df9eb86832dfdbb1468') in 0.175836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 261.352129 seconds.
-  path: Assets/Presets/AnimatorStateTransition.preset
-  artifactKey: Guid(3efdd89d89ffd9a4eb515a29bf87a635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/AnimatorStateTransition.preset using Guid(3efdd89d89ffd9a4eb515a29bf87a635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc89e39e0c1945b19dfb1e2752db29bb') in 0.008270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 122.825373 seconds.
-  path: Assets/Animations/Boss/Winter Boss.controller
-  artifactKey: Guid(bb754a7656a70aa4ca085b84276a6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Winter Boss.controller using Guid(bb754a7656a70aa4ca085b84276a6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da08d9a54fd0d3364a2a73fadedc84b') in 0.018697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 115.499135 seconds.
-  path: Assets/Prefabs/Boss/Winter Boss.prefab
-  artifactKey: Guid(80376384a5402a347a1aac9cefb9a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss/Winter Boss.prefab using Guid(80376384a5402a347a1aac9cefb9a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f49f8a3e87fa291f3e323cac07e67db') in 0.196005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 140.755889 seconds.
-  path: Assets/Prefabs/Boss/Autumn Boss.prefab
-  artifactKey: Guid(3fc5c3702d143c145a75e7f8328804c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss/Autumn Boss.prefab using Guid(3fc5c3702d143c145a75e7f8328804c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ff1a75e03702257ee75d6bef33e687') in 0.224955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.985236 seconds.
+  Time since last request: 16.285138 seconds.
   path: Assets/Prefabs/Boss/Summer Boss.prefab
   artifactKey: Guid(eceb2c953f77da24d8b3aa42d640449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss/Summer Boss.prefab using Guid(eceb2c953f77da24d8b3aa42d640449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4a94570f8dcd8d20c3176876336974') in 0.230848 seconds 
+Start importing Assets/Prefabs/Boss/Summer Boss.prefab using Guid(eceb2c953f77da24d8b3aa42d640449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd796fd0dd82cb7cebf940b8dce9926ac') in 0.599030 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.493030 seconds.
+  Time since last request: 5.836155 seconds.
   path: Assets/Prefabs/Boss/Spring Boss.prefab
   artifactKey: Guid(bc66084d8e3953242a87ab155f05dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss/Spring Boss.prefab using Guid(bc66084d8e3953242a87ab155f05dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6eaee3fc5f4b5b3945161c4f87f5407') in 0.251971 seconds 
+Start importing Assets/Prefabs/Boss/Spring Boss.prefab using Guid(bc66084d8e3953242a87ab155f05dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf8f8223eb32ec8f39476fec84dc4de') in 0.281247 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.632060 seconds.
-  path: Assets/Animations/Boss/Winter Boss 1.controller
-  artifactKey: Guid(95346f885f736c246b9f897345473546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Winter Boss 1.controller using Guid(95346f885f736c246b9f897345473546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372135194044350aaa11063b851ac295') in 0.020673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.240837 seconds.
-  path: Assets/Animations/Boss/Winter Boss 2.controller
-  artifactKey: Guid(227a9725e9e4d5644bfa90ccc9ea4443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Winter Boss 2.controller using Guid(227a9725e9e4d5644bfa90ccc9ea4443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97ab69156eafb518cec0b5dd49ff714') in 0.019893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.918065 seconds.
-  path: Assets/Animations/Boss/Winter Boss 3.controller
-  artifactKey: Guid(e2ac1dead88f31b41aecd48599017a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Winter Boss 3.controller using Guid(e2ac1dead88f31b41aecd48599017a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8e53f23dae193fdec6e0e04d010943') in 0.020543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.468372 seconds.
-  path: Assets/Animations/Boss/Autumn.controller
-  artifactKey: Guid(95346f885f736c246b9f897345473546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Autumn.controller using Guid(95346f885f736c246b9f897345473546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211ac5ba088aabea62b466fc73f2adc2') in 0.019813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.355316 seconds.
-  path: Assets/Animations/Boss/Final Boss.controller
-  artifactKey: Guid(22b8188238e13024b89b5e136ea54c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Final Boss.controller using Guid(22b8188238e13024b89b5e136ea54c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a442d067ae683845e8670b2ecef321') in 0.020185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.311770 seconds.
-  path: Assets/Animations/Boss/Autumn Boss.controller
-  artifactKey: Guid(95346f885f736c246b9f897345473546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Autumn Boss.controller using Guid(95346f885f736c246b9f897345473546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6624245e94858c304c4dcca8122e04f2') in 0.016465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.268797 seconds.
-  path: Assets/Animations/Boss/Summer Boss.controller
-  artifactKey: Guid(227a9725e9e4d5644bfa90ccc9ea4443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Summer Boss.controller using Guid(227a9725e9e4d5644bfa90ccc9ea4443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9635010a71adc1d5a6fe1639953f034') in 0.019591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.111595 seconds.
-  path: Assets/Animations/Boss/Spring Boss.controller
-  artifactKey: Guid(e2ac1dead88f31b41aecd48599017a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Spring Boss.controller using Guid(e2ac1dead88f31b41aecd48599017a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429bd904225a663c41e7f1e97a5aa939') in 0.016305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.197858 seconds.
-  path: Assets/Animations/Boss
-  artifactKey: Guid(67e1b96e27267a94ba0953ee04740d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss using Guid(67e1b96e27267a94ba0953ee04740d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6b3a9866fb5358b5ae0c3d1a20f38a') in 0.009325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.775597 seconds.
-  path: Assets/Animations/Boss/Controllers
-  artifactKey: Guid(5c182a16942bb7d408107562a3f7cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Controllers using Guid(5c182a16942bb7d408107562a3f7cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271d699b3636705180b02a62fb2f3d8e') in 0.005198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 265.115875 seconds.
-  path: Assets/Sprites/Bosses/Autumn.png
-  artifactKey: Guid(6a6e8b79a17fdb048ae0270754122952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bosses/Autumn.png using Guid(6a6e8b79a17fdb048ae0270754122952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dbd8f94a5170ba0386db168e40b7fb') in 0.165599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.496919 seconds.
-  path: Assets/Sprites/Bosses/Autumn.png
-  artifactKey: Guid(6a6e8b79a17fdb048ae0270754122952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bosses/Autumn.png using Guid(6a6e8b79a17fdb048ae0270754122952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683352044a322e5ef6deb72fd5ae1da2') in 0.101864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 70.487507 seconds.
+  Time since last request: 3.413721 seconds.
   path: Assets/Prefabs/Boss/Spring Boss.prefab
   artifactKey: Guid(bc66084d8e3953242a87ab155f05dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss/Spring Boss.prefab using Guid(bc66084d8e3953242a87ab155f05dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d6589659a874770868014c2f920ac7') in 0.254780 seconds 
+Start importing Assets/Prefabs/Boss/Spring Boss.prefab using Guid(bc66084d8e3953242a87ab155f05dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70589698e783793786b0d7a86b3d89a1') in 0.262975 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 325.549348 seconds.
-  path: Assets/Animations/Boss/Controllers/Summer Boss.controller
-  artifactKey: Guid(227a9725e9e4d5644bfa90ccc9ea4443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Controllers/Summer Boss.controller using Guid(227a9725e9e4d5644bfa90ccc9ea4443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d35b4aedf74b1d918d841460b20728b') in 0.014172 seconds 
+  Time since last request: 6.204062 seconds.
+  path: Assets/Prefabs/Boss/Summer Boss.prefab
+  artifactKey: Guid(eceb2c953f77da24d8b3aa42d640449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss/Summer Boss.prefab using Guid(eceb2c953f77da24d8b3aa42d640449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2952083aa7f6afd0396943e4f3d0a7d') in 0.240158 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 99.950980 seconds.
+  Time since last request: 0.668032 seconds.
+  path: Assets/Prefabs/Boss/Winter Boss.prefab
+  artifactKey: Guid(80376384a5402a347a1aac9cefb9a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss/Winter Boss.prefab using Guid(80376384a5402a347a1aac9cefb9a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3de444603b275b3f55d6bdacf08e4c') in 0.182260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.614589 seconds.
+  path: Assets/Prefabs/Boss/Autumn Boss.prefab
+  artifactKey: Guid(3fc5c3702d143c145a75e7f8328804c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss/Autumn Boss.prefab using Guid(3fc5c3702d143c145a75e7f8328804c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c51d4598d66dc7521d1504423f1bda8') in 0.212805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.196082 seconds.
+  path: Assets/Prefabs/Boss/Winter Boss.prefab
+  artifactKey: Guid(80376384a5402a347a1aac9cefb9a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss/Winter Boss.prefab using Guid(80376384a5402a347a1aac9cefb9a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4cffad8b52d20fa07e3e4808143d55') in 0.194041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.993882 seconds.
+  path: Assets/Prefabs/Boss/Autumn Boss.prefab
+  artifactKey: Guid(3fc5c3702d143c145a75e7f8328804c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss/Autumn Boss.prefab using Guid(3fc5c3702d143c145a75e7f8328804c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0b0330b201f66ab7b2b6b40ecb2748') in 0.216911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.080201 seconds.
+  path: Assets/Prefabs/Boss/Final Boss.prefab
+  artifactKey: Guid(46a765581ef7c224488196c20ffd131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss/Final Boss.prefab using Guid(46a765581ef7c224488196c20ffd131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262c23c938fb1961e698fe03f84a445a') in 0.157623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.235299 seconds.
+  path: Assets/Prefabs/Boss/Winter Boss.prefab
+  artifactKey: Guid(80376384a5402a347a1aac9cefb9a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss/Winter Boss.prefab using Guid(80376384a5402a347a1aac9cefb9a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1dff1a92c3487d53524b311a00a284') in 0.185905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.742017 seconds.
+  path: Assets/Animations/Boss/Controllers/Winter Boss.controller
+  artifactKey: Guid(bb754a7656a70aa4ca085b84276a6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss/Controllers/Winter Boss.controller using Guid(bb754a7656a70aa4ca085b84276a6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a72c6ce2fbf326267e0813849a780fe') in 0.017739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.409278 seconds.
+  path: Assets/Animations/Boss/Controllers/Winter Boss.controller
+  artifactKey: Guid(bb754a7656a70aa4ca085b84276a6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss/Controllers/Winter Boss.controller using Guid(bb754a7656a70aa4ca085b84276a6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52778124df11071b50f7cf6403f450ba') in 0.016588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.114284 seconds.
+  path: Assets/Prefabs/Boss/Autumn Boss.prefab
+  artifactKey: Guid(3fc5c3702d143c145a75e7f8328804c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss/Autumn Boss.prefab using Guid(3fc5c3702d143c145a75e7f8328804c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e9dd78d567b54458845c079b271c95') in 0.212298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.042716 seconds.
+  path: Assets/Animations/Boss/Controllers/Autumn Boss.controller
+  artifactKey: Guid(95346f885f736c246b9f897345473546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss/Controllers/Autumn Boss.controller using Guid(95346f885f736c246b9f897345473546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51f7a4d54f11042527a88dda216dacc') in 0.015011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.473085 seconds.
+  path: Assets/Prefabs/Boss/Summer Boss.prefab
+  artifactKey: Guid(eceb2c953f77da24d8b3aa42d640449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss/Summer Boss.prefab using Guid(eceb2c953f77da24d8b3aa42d640449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a91f243b0542f75617c31ccfe829725') in 0.246313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.330447 seconds.
+  path: Assets/Prefabs/Boss/Spring Boss.prefab
+  artifactKey: Guid(bc66084d8e3953242a87ab155f05dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss/Spring Boss.prefab using Guid(bc66084d8e3953242a87ab155f05dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ce9c01466d593d70f03f5cfa3cf467') in 0.272797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.334785 seconds.
   path: Assets/Animations/Boss/Controllers/Spring Boss.controller
   artifactKey: Guid(e2ac1dead88f31b41aecd48599017a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Boss/Controllers/Spring Boss.controller using Guid(e2ac1dead88f31b41aecd48599017a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c1628195624a62c3c50567d6dc410d') in 0.011862 seconds 
+Start importing Assets/Animations/Boss/Controllers/Spring Boss.controller using Guid(e2ac1dead88f31b41aecd48599017a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e610f79b51ffe9ef05ea4da130709d8') in 0.011908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.324971 seconds.
+  path: Assets/_Scenes/Boss/Boss 02.unity
+  artifactKey: Guid(38c451b94477a8744a2b768d0f02b6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss/Boss 02.unity using Guid(38c451b94477a8744a2b768d0f02b6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637f12bb8025d8705df0d9a2072eda1a') in 0.005469 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013867 seconds.
+Registered in 0.013140 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.434 seconds
+- Completed reload, in  3.280 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3435ms)
+	ReloadAssembly (3281ms)
 		BeginReloadAssembly (208ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (3095ms)
-			LoadAssemblies (154ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2930ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (411ms)
+			SetupTypeCache (389ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (2352ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (2230ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (163ms)
-				ProcessInitializeOnLoadAttributes (1832ms)
-				ProcessInitializeOnLoadMethodAttributes (321ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (1745ms)
+				ProcessInitializeOnLoadMethodAttributes (289ms)
 				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 7.82 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6517 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (0.9 MB). Loaded Objects now: 7299.
-Memory consumption went from 414.6 MB to 413.8 MB.
-Total: 40.485200 ms (FindLiveObjects: 0.547100 ms CreateObjectMapping: 0.184900 ms MarkObjects: 39.240500 ms  DeleteObjects: 0.511200 ms)
+Unloading 65 unused Assets / (0.9 MB). Loaded Objects now: 7297.
+Memory consumption went from 415.1 MB to 414.2 MB.
+Total: 34.491300 ms (FindLiveObjects: 0.524700 ms CreateObjectMapping: 0.182900 ms MarkObjects: 33.250300 ms  DeleteObjects: 0.531900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -385,53 +343,77 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 108.589017 seconds.
+  path: Assets/_Scenes/Boss/Boss 02.unity
+  artifactKey: Guid(38c451b94477a8744a2b768d0f02b6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss/Boss 02.unity using Guid(38c451b94477a8744a2b768d0f02b6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b76c3f820f1421212a07fb4d7917c7') in 0.011078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.722316 seconds.
+  path: Assets/_Scenes/Boss/Boss 03.unity
+  artifactKey: Guid(01f6542c36cf88b4f8d5dded306c9d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss/Boss 03.unity using Guid(01f6542c36cf88b4f8d5dded306c9d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a568e06ff5e7c30efa892d0bc89349d') in 0.005420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.600516 seconds.
+  path: Assets/_Scenes/Boss/Boss 03.unity
+  artifactKey: Guid(01f6542c36cf88b4f8d5dded306c9d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss/Boss 03.unity using Guid(01f6542c36cf88b4f8d5dded306c9d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d556383796a678986e83bb89786f12') in 0.001867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.738810 seconds.
+  path: Assets/_Scenes/Boss/Boss 04.unity
+  artifactKey: Guid(6d08f54ae5bd2e44ebb50bc3da8993cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss/Boss 04.unity using Guid(6d08f54ae5bd2e44ebb50bc3da8993cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647d4d30d0ec285ec27b0693221f30fc') in 0.005344 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012685 seconds.
+Registered in 0.013453 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.61 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.41 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.472 seconds
+- Completed reload, in  3.524 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3473ms)
+	ReloadAssembly (3525ms)
 		BeginReloadAssembly (187ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (3151ms)
-			LoadAssemblies (135ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (3201ms)
+			LoadAssemblies (141ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (417ms)
+			SetupTypeCache (427ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (2401ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (2413ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (173ms)
-				ProcessInitializeOnLoadAttributes (1887ms)
-				ProcessInitializeOnLoadMethodAttributes (303ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (1888ms)
+				ProcessInitializeOnLoadMethodAttributes (318ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 6.13 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6517 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7314.
-Memory consumption went from 414.6 MB to 413.7 MB.
-Total: 40.125200 ms (FindLiveObjects: 0.583600 ms CreateObjectMapping: 0.224700 ms MarkObjects: 38.768000 ms  DeleteObjects: 0.547100 ms)
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7312.
+Memory consumption went from 415.1 MB to 414.2 MB.
+Total: 36.531800 ms (FindLiveObjects: 0.517100 ms CreateObjectMapping: 0.208500 ms MarkObjects: 35.171000 ms  DeleteObjects: 0.633400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -445,14 +427,257 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 161.893859 seconds.
-  path: Assets/Prefabs/Boss/Spring Boss.prefab
-  artifactKey: Guid(bc66084d8e3953242a87ab155f05dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss/Spring Boss.prefab using Guid(bc66084d8e3953242a87ab155f05dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce527c5cf4bc90838e80b9adee1c4c52') in 0.532309 seconds 
+  Time since last request: 327.563734 seconds.
+  path: Assets/Prefabs/Boss/Winter Boss.prefab
+  artifactKey: Guid(80376384a5402a347a1aac9cefb9a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss/Winter Boss.prefab using Guid(80376384a5402a347a1aac9cefb9a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d167524451b14b381b9a78f2e3d8fb') in 0.441560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.409488 seconds.
+  path: Assets/Prefabs/Boss/Final Boss.prefab
+  artifactKey: Guid(46a765581ef7c224488196c20ffd131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss/Final Boss.prefab using Guid(46a765581ef7c224488196c20ffd131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c81b18d6602e86f8983b1f4322b8d20') in 0.157947 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.015376 seconds.
+Registered in 0.012796 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.223 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3224ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2887ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (411ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (2125ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (1657ms)
+				ProcessInitializeOnLoadMethodAttributes (280ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (0.9 MB). Loaded Objects now: 7368.
+Memory consumption went from 415.3 MB to 414.4 MB.
+Total: 41.333700 ms (FindLiveObjects: 0.600500 ms CreateObjectMapping: 0.269000 ms MarkObjects: 39.765500 ms  DeleteObjects: 0.697200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 315.933458 seconds.
+  path: Assets/Animations/Boss/Controllers/Autumn Boss.controller
+  artifactKey: Guid(95346f885f736c246b9f897345473546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss/Controllers/Autumn Boss.controller using Guid(95346f885f736c246b9f897345473546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a9786aaeead2a5be42f5c6d87dbee1') in 0.051802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 166.783210 seconds.
+  path: Assets/_Scenes/Boss/Boss 04.unity
+  artifactKey: Guid(6d08f54ae5bd2e44ebb50bc3da8993cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss/Boss 04.unity using Guid(6d08f54ae5bd2e44ebb50bc3da8993cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc19f75d9ab39d747b041e5751919eed') in 0.001970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.345713 seconds.
+  path: Assets/Prefabs/Defenders/Statue.prefab
+  artifactKey: Guid(1b2a9b975cff41f4785b0251c9fd9947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenders/Statue.prefab using Guid(1b2a9b975cff41f4785b0251c9fd9947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48603a8ddb15b0a4e37bde46a37d09d') in 0.771017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.550576 seconds.
+  path: Assets/Prefabs/Defenders/Gravestone.prefab
+  artifactKey: Guid(6e5f81b40cf379d43a85f411a9ede4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenders/Gravestone.prefab using Guid(6e5f81b40cf379d43a85f411a9ede4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8544b0b4cfc64788f55d0a3aef3e1c') in 0.049884 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013415 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.206 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3207ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2868ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (400ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (2114ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (1621ms)
+				ProcessInitializeOnLoadMethodAttributes (283ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7424.
+Memory consumption went from 415.3 MB to 414.5 MB.
+Total: 34.611700 ms (FindLiveObjects: 0.589700 ms CreateObjectMapping: 0.190900 ms MarkObjects: 33.244100 ms  DeleteObjects: 0.584900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 178.523683 seconds.
+  path: Assets/Levels/3. Autumn/Level 31.asset
+  artifactKey: Guid(c60e7fbfd2b35cd4f957b1a7f0dad74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/3. Autumn/Level 31.asset using Guid(c60e7fbfd2b35cd4f957b1a7f0dad74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425bc37f458b5fb466a59a41dee90b89') in 0.187722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.614739 seconds.
+  path: Assets/Levels/5. Boss/Boss 04.asset
+  artifactKey: Guid(828c696a101e2da46ae201e08d62501c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/5. Boss/Boss 04.asset using Guid(828c696a101e2da46ae201e08d62501c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9ef5bfe0df05c06d599e3c9e5fb893') in 0.083686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.200463 seconds.
+  path: Assets/Levels/5. Boss/Boss 03.asset
+  artifactKey: Guid(52ddd77fc739bc946978d2e3ee824d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/5. Boss/Boss 03.asset using Guid(52ddd77fc739bc946978d2e3ee824d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c351f16099cf885e646d2af92deddbe') in 0.044728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.984622 seconds.
+  path: Assets/Levels/5. Boss/Boss 02.asset
+  artifactKey: Guid(64cd5375cb3555d4f81dd9715e08a6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/5. Boss/Boss 02.asset using Guid(64cd5375cb3555d4f81dd9715e08a6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ec3a868e600b0001024b682bb373cb') in 0.049788 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013579 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.224 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3225ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (2892ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (406ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (2134ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (1659ms)
+				ProcessInitializeOnLoadMethodAttributes (277ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7439.
+Memory consumption went from 415.4 MB to 414.6 MB.
+Total: 34.504000 ms (FindLiveObjects: 0.532100 ms CreateObjectMapping: 0.195700 ms MarkObjects: 33.222100 ms  DeleteObjects: 0.552400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1259.990420 seconds.
+  path: Assets/Scripts/Lobber.cs
+  artifactKey: Guid(13d1790f763791e48a5175ded2a4697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lobber.cs using Guid(13d1790f763791e48a5175ded2a4697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a1dcf96086252ea159ec415757e229') in 0.022653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.582909 seconds.
+  path: Assets/Scripts/Shooter.cs
+  artifactKey: Guid(a425d9ff381e60446ba268ed17ffbc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Shooter.cs using Guid(a425d9ff381e60446ba268ed17ffbc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c8f740314d0525b023a74630b2a011') in 0.005260 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013176 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -462,41 +687,41 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 2.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.467 seconds
+- Completed reload, in  3.293 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3468ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (3294ms)
+		BeginReloadAssembly (194ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (3141ms)
-			LoadAssemblies (140ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (2963ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (409ms)
+			SetupTypeCache (405ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (2376ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (2196ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (170ms)
-				ProcessInitializeOnLoadAttributes (1866ms)
-				ProcessInitializeOnLoadMethodAttributes (301ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (1716ms)
+				ProcessInitializeOnLoadMethodAttributes (288ms)
 				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 6.80 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6516 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (0.9 MB). Loaded Objects now: 7370.
-Memory consumption went from 414.6 MB to 413.8 MB.
-Total: 43.562000 ms (FindLiveObjects: 0.779100 ms CreateObjectMapping: 0.271000 ms MarkObjects: 42.014900 ms  DeleteObjects: 0.494800 ms)
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7454.
+Memory consumption went from 415.5 MB to 414.6 MB.
+Total: 38.157900 ms (FindLiveObjects: 0.728100 ms CreateObjectMapping: 0.314300 ms MarkObjects: 36.492300 ms  DeleteObjects: 0.621400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -511,7 +736,302 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012897 seconds.
+Registered in 0.014516 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.464 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3465ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (3133ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (387ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (2407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (1872ms)
+				ProcessInitializeOnLoadMethodAttributes (336ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7469.
+Memory consumption went from 415.5 MB to 414.6 MB.
+Total: 39.257000 ms (FindLiveObjects: 0.639900 ms CreateObjectMapping: 0.276100 ms MarkObjects: 37.788300 ms  DeleteObjects: 0.550800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013655 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.190 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3191ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (2876ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (2168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (1670ms)
+				ProcessInitializeOnLoadMethodAttributes (304ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7484.
+Memory consumption went from 415.5 MB to 414.6 MB.
+Total: 34.165900 ms (FindLiveObjects: 0.540600 ms CreateObjectMapping: 0.205300 ms MarkObjects: 32.837200 ms  DeleteObjects: 0.581000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013561 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.374 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3375ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (3047ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (2331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (1812ms)
+				ProcessInitializeOnLoadMethodAttributes (313ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7499.
+Memory consumption went from 415.5 MB to 414.7 MB.
+Total: 35.209400 ms (FindLiveObjects: 0.691000 ms CreateObjectMapping: 0.288900 ms MarkObjects: 33.609800 ms  DeleteObjects: 0.617900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013521 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.166 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3167ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (2847ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (2138ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (1664ms)
+				ProcessInitializeOnLoadMethodAttributes (283ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7514.
+Memory consumption went from 415.5 MB to 414.7 MB.
+Total: 34.740200 ms (FindLiveObjects: 0.544400 ms CreateObjectMapping: 0.190600 ms MarkObjects: 33.463400 ms  DeleteObjects: 0.540100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014327 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.377 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3378ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (3058ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (385ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (2327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (1796ms)
+				ProcessInitializeOnLoadMethodAttributes (325ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7529.
+Memory consumption went from 415.6 MB to 414.7 MB.
+Total: 39.531800 ms (FindLiveObjects: 0.639800 ms CreateObjectMapping: 0.277600 ms MarkObjects: 37.989000 ms  DeleteObjects: 0.623500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013921 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -521,41 +1041,690 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.343 seconds
+- Completed reload, in  3.453 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3344ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (3454ms)
+		BeginReloadAssembly (194ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (3004ms)
-			LoadAssemblies (143ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (3117ms)
+			LoadAssemblies (149ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (420ms)
+			SetupTypeCache (395ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (2260ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (2366ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (158ms)
-				ProcessInitializeOnLoadAttributes (1720ms)
-				ProcessInitializeOnLoadMethodAttributes (342ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (1859ms)
+				ProcessInitializeOnLoadMethodAttributes (303ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 8.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7544.
+Memory consumption went from 415.6 MB to 414.7 MB.
+Total: 38.288500 ms (FindLiveObjects: 0.734200 ms CreateObjectMapping: 0.446400 ms MarkObjects: 36.540000 ms  DeleteObjects: 0.566300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016950 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.166 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3167ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (2846ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (2097ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (1624ms)
+				ProcessInitializeOnLoadMethodAttributes (276ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7559.
+Memory consumption went from 415.6 MB to 414.7 MB.
+Total: 34.307000 ms (FindLiveObjects: 0.610700 ms CreateObjectMapping: 0.183000 ms MarkObjects: 32.888700 ms  DeleteObjects: 0.623000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020166 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4039ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (3663ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (429ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (2836ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (2265ms)
+				ProcessInitializeOnLoadMethodAttributes (348ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 8.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7574.
+Memory consumption went from 415.6 MB to 414.8 MB.
+Total: 39.229300 ms (FindLiveObjects: 0.679100 ms CreateObjectMapping: 0.284300 ms MarkObjects: 37.015800 ms  DeleteObjects: 1.247600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015980 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3929ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (3536ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (460ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (2677ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (2110ms)
+				ProcessInitializeOnLoadMethodAttributes (328ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 7.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7589.
+Memory consumption went from 415.6 MB to 414.8 MB.
+Total: 36.544200 ms (FindLiveObjects: 0.594200 ms CreateObjectMapping: 0.260400 ms MarkObjects: 34.996100 ms  DeleteObjects: 0.691900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013481 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.455 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3456ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (3101ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (405ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (2360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (1871ms)
+				ProcessInitializeOnLoadMethodAttributes (294ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7604.
+Memory consumption went from 415.7 MB to 414.8 MB.
+Total: 37.763900 ms (FindLiveObjects: 0.588500 ms CreateObjectMapping: 0.187800 ms MarkObjects: 36.242700 ms  DeleteObjects: 0.743100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014774 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.794 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3795ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (3425ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (411ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (2640ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (2084ms)
+				ProcessInitializeOnLoadMethodAttributes (340ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 6.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 9.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6517 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7385.
-Memory consumption went from 414.6 MB to 413.8 MB.
-Total: 37.582100 ms (FindLiveObjects: 0.524600 ms CreateObjectMapping: 0.234400 ms MarkObjects: 36.333400 ms  DeleteObjects: 0.488400 ms)
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7619.
+Memory consumption went from 415.7 MB to 414.8 MB.
+Total: 46.403400 ms (FindLiveObjects: 1.146300 ms CreateObjectMapping: 1.273500 ms MarkObjects: 43.355100 ms  DeleteObjects: 0.627000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013892 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.599 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3600ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (3222ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (521ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (2320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (1821ms)
+				ProcessInitializeOnLoadMethodAttributes (300ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7634.
+Memory consumption went from 415.8 MB to 414.9 MB.
+Total: 36.349100 ms (FindLiveObjects: 0.694700 ms CreateObjectMapping: 0.294900 ms MarkObjects: 34.811900 ms  DeleteObjects: 0.545900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013811 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.398 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3399ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (3037ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (411ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (2302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (1793ms)
+				ProcessInitializeOnLoadMethodAttributes (293ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 8.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7649.
+Memory consumption went from 415.8 MB to 414.9 MB.
+Total: 44.556700 ms (FindLiveObjects: 0.754000 ms CreateObjectMapping: 0.540700 ms MarkObjects: 42.460400 ms  DeleteObjects: 0.799200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013825 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.823 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3824ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (3475ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (2701ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (2131ms)
+				ProcessInitializeOnLoadMethodAttributes (352ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 7.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7664.
+Memory consumption went from 415.8 MB to 415.0 MB.
+Total: 35.629800 ms (FindLiveObjects: 0.568500 ms CreateObjectMapping: 0.220600 ms MarkObjects: 34.210300 ms  DeleteObjects: 0.629000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015767 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.724 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3725ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (3378ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (429ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (2598ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (2061ms)
+				ProcessInitializeOnLoadMethodAttributes (336ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7679.
+Memory consumption went from 415.9 MB to 415.0 MB.
+Total: 37.258200 ms (FindLiveObjects: 0.625800 ms CreateObjectMapping: 0.198400 ms MarkObjects: 35.746900 ms  DeleteObjects: 0.685300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017466 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.942 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3943ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (3586ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (440ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (2738ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (2188ms)
+				ProcessInitializeOnLoadMethodAttributes (338ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 11.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7694.
+Memory consumption went from 415.9 MB to 415.0 MB.
+Total: 43.010100 ms (FindLiveObjects: 0.764400 ms CreateObjectMapping: 0.337700 ms MarkObjects: 41.226300 ms  DeleteObjects: 0.679200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013926 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3861ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (3526ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (2692ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (2128ms)
+				ProcessInitializeOnLoadMethodAttributes (344ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7709.
+Memory consumption went from 415.9 MB to 415.0 MB.
+Total: 39.492200 ms (FindLiveObjects: 0.969100 ms CreateObjectMapping: 0.577600 ms MarkObjects: 37.027200 ms  DeleteObjects: 0.916400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -569,125 +1738,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 306.857386 seconds.
-  path: Assets/Prefabs/Boss/Summer Boss.prefab
-  artifactKey: Guid(eceb2c953f77da24d8b3aa42d640449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss/Summer Boss.prefab using Guid(eceb2c953f77da24d8b3aa42d640449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac64c59c73985dcc8cd7ce0caa394804') in 0.495186 seconds 
+  Time since last request: 2848.905578 seconds.
+  path: Assets/Prefabs/Defenders/Statue.prefab
+  artifactKey: Guid(1b2a9b975cff41f4785b0251c9fd9947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenders/Statue.prefab using Guid(1b2a9b975cff41f4785b0251c9fd9947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c51c9ac2767c925d9a69203e893b2e') in 0.573258 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015798 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.477 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3478ms)
-		BeginReloadAssembly (199ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (3140ms)
-			LoadAssemblies (150ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (415ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (101ms)
-			SetupLoadedEditorAssemblies (2362ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (1856ms)
-				ProcessInitializeOnLoadMethodAttributes (303ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 6.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6516 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (0.9 MB). Loaded Objects now: 7441.
-Memory consumption went from 414.7 MB to 413.8 MB.
-Total: 36.945400 ms (FindLiveObjects: 0.636200 ms CreateObjectMapping: 0.228800 ms MarkObjects: 35.509200 ms  DeleteObjects: 0.569200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 8.048358 seconds.
+  path: Assets/Prefabs/Defenders/Double Trophy.prefab
+  artifactKey: Guid(81ca4735027e71a41a1eab7102a751f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenders/Double Trophy.prefab using Guid(81ca4735027e71a41a1eab7102a751f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00191bbe17cfdf5ea4a9dfbd1fe0e980') in 0.097938 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013106 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.247 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3248ms)
-		BeginReloadAssembly (193ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (2914ms)
-			LoadAssemblies (153ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (409ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (2162ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (155ms)
-				ProcessInitializeOnLoadAttributes (1673ms)
-				ProcessInitializeOnLoadMethodAttributes (295ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 6.44 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6517 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7456.
-Memory consumption went from 414.7 MB to 413.9 MB.
-Total: 38.030900 ms (FindLiveObjects: 0.715400 ms CreateObjectMapping: 0.393400 ms MarkObjects: 36.340800 ms  DeleteObjects: 0.579200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 5.753350 seconds.
+  path: Assets/Prefabs/Defenders/Gnome.prefab
+  artifactKey: Guid(0892b01b29e166040be89a65b096cd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenders/Gnome.prefab using Guid(0892b01b29e166040be89a65b096cd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215ad50acd7637e98cf113bc2f6136e2') in 0.172779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.785122 seconds.
+  path: Assets/Prefabs/Defenders/Gravestone.prefab
+  artifactKey: Guid(6e5f81b40cf379d43a85f411a9ede4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenders/Gravestone.prefab using Guid(6e5f81b40cf379d43a85f411a9ede4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8c4dd5e287a98d5067f6d3f84acd9f') in 0.090894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.134110 seconds.
+  path: Assets/Prefabs/Defenders/Scarecrow.prefab
+  artifactKey: Guid(d83fee35bfc0abd4b8d80854296bc366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenders/Scarecrow.prefab using Guid(d83fee35bfc0abd4b8d80854296bc366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65104f66540b079a6e9f2605730e06f') in 0.144027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.246545 seconds.
+  path: Assets/Prefabs/Defenders/Scarecrow.prefab
+  artifactKey: Guid(d83fee35bfc0abd4b8d80854296bc366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenders/Scarecrow.prefab using Guid(d83fee35bfc0abd4b8d80854296bc366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb7c64e5df7a268c3edd283762a01ab') in 0.078968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.168209 seconds.
+  path: Assets/Prefabs/Defenders/Trophy.prefab
+  artifactKey: Guid(293d5a4aa1230b1428f0c0233fa49d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenders/Trophy.prefab using Guid(293d5a4aa1230b1428f0c0233fa49d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fef2609381eef9e54d76a12dc5b4502') in 0.060207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.123032 seconds.
+  path: Assets/Prefabs/Defenders/Vendor.prefab
+  artifactKey: Guid(8fcd1ffed3510144e86a7c61c4872658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenders/Vendor.prefab using Guid(8fcd1ffed3510144e86a7c61c4872658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f60c0afbb890e397e439e77ae04f752') in 0.285150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.809870 seconds.
+  path: Assets/Prefabs/Defenders/Gnome.prefab
+  artifactKey: Guid(0892b01b29e166040be89a65b096cd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenders/Gnome.prefab using Guid(0892b01b29e166040be89a65b096cd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3588bb9fe74a50680caf1489c1dd69') in 0.074581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.763050 seconds.
+  path: Assets/_Scenes/Start Menu.unity
+  artifactKey: Guid(8b89af2bc9f5cbb4d9bca7ba19485143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Start Menu.unity using Guid(8b89af2bc9f5cbb4d9bca7ba19485143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358793a0f257d71071df34c5b617db03') in 0.006529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.946766 seconds.
+  path: Assets/_Scenes/_Menus
+  artifactKey: Guid(e10bbb5a967097c4785a895e1e9c418e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/_Menus using Guid(e10bbb5a967097c4785a895e1e9c418e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ba710dc6a34f7b54c32cc30827ad9c') in 0.007352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.071654 seconds.
+  path: Assets/_Scenes/Boss Rush Menu.unity
+  artifactKey: Guid(fea16dd2858e8414f9d972f16779d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Boss Rush Menu.unity using Guid(fea16dd2858e8414f9d972f16779d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fc3d7f90c7fc4c17eb01286f5280da') in 0.010026 seconds 

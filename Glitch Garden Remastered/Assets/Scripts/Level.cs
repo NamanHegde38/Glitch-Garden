@@ -24,6 +24,10 @@ public class Level : SerializedScriptableObject {
     [AssetList(Path = "Prefabs/Attackers")]
     private Attacker[] attackers;
     
+    [BoxGroup("Characters")] [SerializeField]
+    [AssetList(Path = "Prefabs/Shiny")]
+    private Attacker[] shinyAttackers;
+    
     [BoxGroup("Spawners")] [SerializeField]
     [MinMaxSlider(3, 60)]
     private Vector2 spawnDelay = new Vector2(3, 30);
@@ -66,6 +70,10 @@ public class Level : SerializedScriptableObject {
     
     public Attacker[] GetAttackers() {
         return attackers;
+    }
+    
+    public Attacker[] GetShinyAttackers() {
+        return shinyAttackers;
     }
 
     public float GetMinSpawnDelay() {

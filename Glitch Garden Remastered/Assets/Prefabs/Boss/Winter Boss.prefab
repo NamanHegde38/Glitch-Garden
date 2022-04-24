@@ -15,6 +15,14 @@ PrefabInstance:
       propertyPath: numberOfStages
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455401, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: health
+      value: 60000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504649345415455401, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
+      propertyPath: hasHealthBar
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3504649345415455403, guid: 46a765581ef7c224488196c20ffd131d, type: 3}
       propertyPath: m_RootOrder
       value: 0

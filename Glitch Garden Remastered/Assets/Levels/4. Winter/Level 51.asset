@@ -178,6 +178,9 @@ MonoBehaviour:
   attackers:
   - {fileID: 951437123571574406, guid: edcfae1b2e5e6dc44b029485632bf5cd, type: 3}
   - {fileID: 8025121730428812678, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+  shinyAttackers:
+  - {fileID: 2204081919345383891, guid: 241d3ec838fbf454599e795253ef1c8e, type: 3}
+  - {fileID: 880269941835041672, guid: 32e2dceed8561a3468dd93a855a3a19c, type: 3}
   spawnDelay: {x: 5.0121074, y: 25.060534}
   deviationPercent: 75
   gameCanvas: {fileID: 890969830880804578, guid: f613979c628348c4d9c30586bbb032d9, type: 3}

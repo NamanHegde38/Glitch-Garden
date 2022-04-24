@@ -20,7 +20,6 @@ public class LevelSetup : MonoBehaviour {
     [SerializeField] private Level level;
 
     [SerializeField] private bool isBossLevel;
-    [SerializeField] private int bossHealth;
 
     private GameObject _levelTimer;
     private GameObject _bossHealth;
@@ -48,10 +47,6 @@ public class LevelSetup : MonoBehaviour {
             _levelTimer = GameObject.FindWithTag("Level Timer");
             _levelTimer.GetComponent<GameTimer>().SetGameTime(level.GetLevelTime());
         }
-        else {
-            _bossHealth = GameObject.FindWithTag("Boss");
-            _bossHealth.GetComponent<Health>().SetHealth(bossHealth);
-        }
         _starText = GameObject.FindWithTag("Star Text");
         _defenderButtons = GameObject.FindWithTag("Defender Buttons");
         
@@ -78,6 +73,7 @@ public class LevelSetup : MonoBehaviour {
             attackerSpawner.GetComponent<AttackerSpawner>().SetEndSpawnDelay(level.GetMinSpawnDelay());
             attackerSpawner.GetComponent<AttackerSpawner>().SetDeviationPercent(level.GetDeviationPercent());
             attackerSpawner.GetComponent<AttackerSpawner>().SetAttackerArray(level.GetAttackers());
+            attackerSpawner.GetComponent<AttackerSpawner>().SetShinyArray(level.GetShinyAttackers());
         }
 
         if (_gameCanvas != level.GetGameCanvas()) {

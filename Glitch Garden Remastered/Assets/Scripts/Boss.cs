@@ -162,6 +162,7 @@ public class Boss : MonoBehaviour {
     }
 
     public void FinishLevel() {
+        Debug.Log(FindObjectOfType<LevelController>());
         FindObjectOfType<LevelController>().WinLevel();
     }
 

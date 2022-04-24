@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4910c348aa480fb40a1fac22f4bc8596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starCost: 325
+  starCost: 250
   material: 0
   type: 8
   spawnFeedback: {fileID: 5535985687385376274}
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 3889493902735154671, guid: 22a7af4c738efc64f9760d79e9f3f999, type: 3}
   gun: {fileID: 7362317443606675502}
-  projectileDamage: 240
+  projectileDamage: 180
   jumpPower: 2.5
   tweenTime: 1.35
   tweenEase:
@@ -281,6 +281,10 @@ MonoBehaviour:
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   hurtFeedback: {fileID: 8155233305707740896}
   deathFeedback: {fileID: 7239878918071542407}
+  freezeSpeed: 0.5
+  hasHealthBar: 1
+  healthBarPrefab: {fileID: 837323596646068973, guid: a342a9ce22689944f9e5b203272e8f28, type: 3}
+  barOffset: {x: 0, y: 0.6}
 --- !u!1 &7362317443606675502
 GameObject:
   m_ObjectHideFlags: 0

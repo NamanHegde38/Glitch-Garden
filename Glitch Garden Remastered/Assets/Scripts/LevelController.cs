@@ -69,7 +69,8 @@ public class LevelController : MonoBehaviour {
     }
 
     public void WinLevel() {
-        HandleWinCondition();
+        Debug.Log("Level Won");
+        StartCoroutine(HandleWinCondition());
     }
 
     private IEnumerator HandleWinCondition() {

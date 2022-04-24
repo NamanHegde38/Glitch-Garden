@@ -539,7 +539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1771983417078617791, guid: df90e895f11c7714c9211fbc91894d13, type: 3}
   muzzlePrefab: {fileID: 3617117429756482479, guid: 8ffdf36c33f19dd42bf0377a8c8065a2, type: 3}
-  projectileDamage: 100
+  projectileDamage: 175
   projectileSpeed: 2
   projectileArea: 0.25
   maxNumberOfTimesToAttack: 5
@@ -1292,7 +1292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1771983417078617791, guid: df90e895f11c7714c9211fbc91894d13, type: 3}
   muzzlePrefab: {fileID: 3617117429756482479, guid: 8ffdf36c33f19dd42bf0377a8c8065a2, type: 3}
-  projectileDamage: 100
+  projectileDamage: 175
   projectileSpeed: 2
   projectileArea: 0.25
   maxNumberOfTimesToAttack: 5
@@ -1514,7 +1514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1771983417078617791, guid: df90e895f11c7714c9211fbc91894d13, type: 3}
   muzzlePrefab: {fileID: 3617117429756482479, guid: 8ffdf36c33f19dd42bf0377a8c8065a2, type: 3}
-  projectileDamage: 100
+  projectileDamage: 175
   projectileSpeed: 2
   projectileArea: 0.25
   maxNumberOfTimesToAttack: 5
@@ -2262,7 +2262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1771983417078617791, guid: df90e895f11c7714c9211fbc91894d13, type: 3}
   muzzlePrefab: {fileID: 3617117429756482479, guid: 8ffdf36c33f19dd42bf0377a8c8065a2, type: 3}
-  projectileDamage: 100
+  projectileDamage: 175
   projectileSpeed: 2
   projectileArea: 0.25
   maxNumberOfTimesToAttack: 5

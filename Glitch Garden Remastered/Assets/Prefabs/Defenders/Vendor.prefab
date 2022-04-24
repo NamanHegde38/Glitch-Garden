@@ -193,6 +193,9 @@ MonoBehaviour:
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   hurtFeedback: {fileID: 6833832954961412791}
   deathFeedback: {fileID: 147682546095659271}
+  freezeSpeed: 0.5
+  healthBarPrefab: {fileID: 837323596646068973, guid: a342a9ce22689944f9e5b203272e8f28, type: 3}
+  barOffset: {x: 0, y: 0.6}
 --- !u!1 &4021622032967999523
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,11 +449,6 @@ PrefabInstance:
       objectReference: {fileID: 8374235191411175875, guid: 85ca9dc19a5507547a8a106cd91ac5d6, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d866aa11da5f4c443b0c28906fca4097, type: 3}
---- !u!4 &482277913607135567 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6583153098844425216, guid: d866aa11da5f4c443b0c28906fca4097, type: 3}
-  m_PrefabInstance: {fileID: 6768184460479540559}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &147682546095659271 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6909022750669354056, guid: d866aa11da5f4c443b0c28906fca4097, type: 3}
@@ -462,6 +460,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841b72de2996c5c40bfb394f3d0e0a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &482277913607135567 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6583153098844425216, guid: d866aa11da5f4c443b0c28906fca4097, type: 3}
+  m_PrefabInstance: {fileID: 6768184460479540559}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6772743905225786504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -519,11 +522,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d05fc831b693ae144865ec7ee3d591b1, type: 3}
---- !u!4 &9033939666708601479 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2351616715879013903, guid: d05fc831b693ae144865ec7ee3d591b1, type: 3}
-  m_PrefabInstance: {fileID: 6772743905225786504}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &6833832954961412791 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 228338256704013887, guid: d05fc831b693ae144865ec7ee3d591b1, type: 3}
@@ -535,3 +533,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841b72de2996c5c40bfb394f3d0e0a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &9033939666708601479 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2351616715879013903, guid: d05fc831b693ae144865ec7ee3d591b1, type: 3}
+  m_PrefabInstance: {fileID: 6772743905225786504}
+  m_PrefabAsset: {fileID: 0}

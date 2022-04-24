@@ -4,12 +4,15 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class AttackerSpawner : MonoBehaviour {
+
+    [SerializeField] private int shinyOdds = 512;
     
     private float _startSpawnDelay = 30;
     private float _endSpawnDelay = 7;
     private float _deviationPercent = 0.75f;
     
     private Attacker[] _attackerPrefabArray;
+    private Attacker[] _shinyPrefabArray;
 
     private GameTimer _gameTimer;
     private float _levelTime;
@@ -36,6 +39,10 @@ public class AttackerSpawner : MonoBehaviour {
     public void SetAttackerArray(Attacker[] attackerPrefabArray) {
         _attackerPrefabArray = attackerPrefabArray;
     }
+    
+    public void SetShinyArray(Attacker[] shinyPrefabArray) {
+        _shinyPrefabArray = shinyPrefabArray;
+    }
 
     public void StopSpawning() {
         _spawn = false;
@@ -44,7 +51,12 @@ public class AttackerSpawner : MonoBehaviour {
     private void SpawnAttacker() {
         var attackerIndex = Random.Range(0, _attackerPrefabArray.Length);
         if (_attackerPrefabArray.Length <= 0) return;
-        Spawn(_attackerPrefabArray[attackerIndex]);
+        Spawn(OneInProbability(shinyOdds) ? _shinyPrefabArray[attackerIndex] : _attackerPrefabArray[attackerIndex]);
+    }
+
+    private bool OneInProbability(int input) {
+        var random = Random.Range(0, input + 1);
+        return random <= 1;
     }
 
     private void Start() {

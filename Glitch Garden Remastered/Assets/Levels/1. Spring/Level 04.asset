@@ -178,9 +178,11 @@ MonoBehaviour:
   attackers:
   - {fileID: 5578897586487247713, guid: f70f63ab56228c841867d6ae02efba21, type: 3}
   - {fileID: 4763575078995949799, guid: 4b0b253e7398911488a8779b3b38bbc8, type: 3}
+  shinyAttackers:
+  - {fileID: 6461323858175288498, guid: be9e6d4702f760248bed3e5f1ce8db89, type: 3}
+  - {fileID: 5934979277713348057, guid: af30456fc39cc0340b433ceea0b12935, type: 3}
   spawnDelay: {x: 7.062989, y: 30}
   deviationPercent: 75
-  season: 0
   gameCanvas: {fileID: 2752734745704182350, guid: 1a5cd23ad74a28946ae6cab3ee2b844e, type: 3}
   postProcessing: {fileID: 2393007175128214050, guid: ef9f614db8a3c114489f497c011784be, type: 3}
   camera: {fileID: 6337261607967178079, guid: c6bcc7cfdde195f499ef8a3f8f6cacac, type: 3}

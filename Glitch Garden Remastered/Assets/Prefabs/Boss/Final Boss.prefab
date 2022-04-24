@@ -874,18 +874,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3504649345415455400}
-        m_TargetAssemblyTypeName: Boss, Project
-        m_MethodName: FinishLevel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   StopEvents:
     m_PersistentCalls:
       m_Calls: []
@@ -1284,11 +1272,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90bd07db723e2e640833b9655467f221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5000
+  health: 100000
   deathVFX: {fileID: 3504649344623502425}
   hurtFeedback: {fileID: 3504649344708852030}
   deathFeedback: {fileID: 3504649344378573147}
   freezeSpeed: 0.5
+  hasHealthBar: 0
+  healthBarPrefab: {fileID: 0}
+  barOffset: {x: 0, y: 0.5}
 --- !u!1 &3504649345750661914
 GameObject:
   m_ObjectHideFlags: 0

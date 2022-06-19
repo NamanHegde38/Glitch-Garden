@@ -20,6 +20,7 @@ public class LevelSetup : MonoBehaviour {
     [SerializeField] private Level level;
 
     [SerializeField] private bool isBossLevel;
+    [SerializeField] private bool isSurvivalLevel;
 
     private GameObject _levelTimer;
     private GameObject _bossHealth;
@@ -43,7 +44,7 @@ public class LevelSetup : MonoBehaviour {
 
     private void SetLevelOnStart(object sender, EventArgs e) {
 
-        if (!isBossLevel) {
+        if (!isBossLevel && !isSurvivalLevel) {
             _levelTimer = GameObject.FindWithTag("Level Timer");
             _levelTimer.GetComponent<GameTimer>().SetGameTime(level.GetLevelTime());
         }

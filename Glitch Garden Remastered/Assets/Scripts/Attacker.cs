@@ -4,6 +4,7 @@ public class Attacker : MonoBehaviour {
 
     [Header("Settings")]
     [SerializeField] private Transform attackPos;
+    [SerializeField] private int points;
 
     [Header("Particles")]
     [SerializeField] private GameObject woodParticles;
@@ -21,11 +22,13 @@ public class Attacker : MonoBehaviour {
     private Animator _anim;
     private static readonly int IsAttacking = Animator.StringToHash("IsAttacking");
     private LevelController _levelController;
+    private ScoreDisplay _scoreDisplay;
 
     private int _difficulty = 1;
     
     private void Awake() {
         _levelController = FindObjectOfType<LevelController>();
+        _scoreDisplay = FindObjectOfType<ScoreDisplay>();
         
         if (!_levelController) return;
         _levelController.AttackerSpawned();
@@ -114,13 +117,11 @@ public class Attacker : MonoBehaviour {
     }
 
     private void OnDestroy() {
-        if (!_levelController) return;
-        _levelController.AttackerKilled();
+        if (_levelController) {
+            _levelController.AttackerKilled();
+        }
+        if (_scoreDisplay) {
+            _scoreDisplay.AddScore(points);
+        }
     }
-    
-    
-    
-    
-    
-    
 }

@@ -704,7 +704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a217df923d43214c898f16bec3231f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipText: Unlock by finishing a season
+  tooltipText: Unlock by finishing all levels
   padding: {x: 40, y: 8}
   tweenTime: 0.2
   tweenEase: 6
@@ -807,8 +807,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 851960363}
-        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
-        m_MethodName: LoadOptions
+        m_TargetAssemblyTypeName: LevelLoader, Project
+        m_MethodName: LoadBossRushMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1103,7 +1103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a217df923d43214c898f16bec3231f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipText: Unlock by beating all levels
+  tooltipText: Unlock by finishing a season
   padding: {x: 40, y: 8}
   tweenTime: 0.2
   tweenEase: 6
@@ -1273,8 +1273,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 851960363}
-        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
-        m_MethodName: LoadOptions
+        m_TargetAssemblyTypeName: LevelLoader, Project
+        m_MethodName: LoadSurvivalMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

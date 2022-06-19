@@ -205,11 +205,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90bd07db723e2e640833b9655467f221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1400
+  health: 1200
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   hurtFeedback: {fileID: 172080544930290595}
   deathFeedback: {fileID: 2219626955339507965}
   freezeSpeed: 0.5
+  hasHealthBar: 1
   healthBarPrefab: {fileID: 837323596646068973, guid: a342a9ce22689944f9e5b203272e8f28, type: 3}
   barOffset: {x: -0.065, y: 0.6}
 --- !u!114 &951437123571574406
@@ -225,6 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPos: {fileID: 731704395719804822}
+  points: 300
   woodParticles: {fileID: 5433996496088036519, guid: 7e921916e2810524dbe92b3cc3f5249e, type: 3}
   rockParticles: {fileID: 5433996496088036519, guid: 72e719567a438e84d9bcfd05bf5fb93d, type: 3}
   stoneParticles: {fileID: 5433996496088036519, guid: 74e1f3903aec07749bf6d50a299136e9, type: 3}

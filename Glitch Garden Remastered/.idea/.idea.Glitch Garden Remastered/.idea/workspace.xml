@@ -30,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HighlightButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HighScoreDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelSelectManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,8 +46,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Shredder.cs" />
-      <option value="$PROJECT_DIR$/Assets/AllIn1SpriteShader/URP/Resources/AllIn1Urp2dRenderer.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderType.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameTimer.cs" />
@@ -61,10 +60,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/HighlightButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelectManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelButton.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPrefsController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ModeButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BossButton.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BossLevelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
       <option value="$PROJECT_DIR$/Assets/Boss_Move.cs" />
@@ -75,7 +72,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Boss_Move.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BossHealthBar.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bat.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Fox.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Jelly.cs" />
@@ -89,13 +85,18 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Boss_Idle.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Boss_State_Change.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Boss.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelSetup.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Lobber.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPrefsController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HighScoreDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelSetup.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20VId6ihQVmluV6EwYpfyB6NSoz" />
@@ -123,10 +124,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9676">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="9676" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -251,7 +252,13 @@
       <workItem from="1650567790821" duration="705000" />
       <workItem from="1650657997172" duration="1579000" />
       <workItem from="1650740045837" duration="1806000" />
-      <workItem from="1650791806987" duration="3754000" />
+      <workItem from="1650791806987" duration="4498000" />
+      <workItem from="1655481023012" duration="604000" />
+      <workItem from="1655485041466" duration="18000" />
+      <workItem from="1655488429647" duration="1190000" />
+      <workItem from="1655561164250" duration="984000" />
+      <workItem from="1655562270536" duration="1660000" />
+      <workItem from="1655630755860" duration="6342000" />
     </task>
     <servers />
   </component>

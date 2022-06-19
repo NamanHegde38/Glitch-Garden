@@ -125,6 +125,7 @@ MonoBehaviour:
   hurtFeedback: {fileID: 9040158045134165118}
   deathFeedback: {fileID: 7895929826503449309}
   freezeSpeed: 0.5
+  hasHealthBar: 1
   healthBarPrefab: {fileID: 837323596646068973, guid: a342a9ce22689944f9e5b203272e8f28, type: 3}
   barOffset: {x: 0, y: 0.1}
 --- !u!114 &4763575078995949799
@@ -140,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPos: {fileID: 6802008847921937882}
+  points: 100
   woodParticles: {fileID: 5433996496088036519, guid: 7e921916e2810524dbe92b3cc3f5249e, type: 3}
   rockParticles: {fileID: 5433996496088036519, guid: 72e719567a438e84d9bcfd05bf5fb93d, type: 3}
   stoneParticles: {fileID: 5433996496088036519, guid: 74e1f3903aec07749bf6d50a299136e9, type: 3}

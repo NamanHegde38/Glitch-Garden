@@ -15,7 +15,8 @@ public class LevelController : MonoBehaviour {
     [SerializeField] private MMFeedbacks loseFeedback;
     [SerializeField] private MMFeedbacks countdownFeedback;
 
-    [SerializeField] private bool isBossLevel = false;
+    [SerializeField] private bool isBossLevel;
+    [SerializeField] private bool isSurvivalLevel;
     [SerializeField] private int bossNumber;
 
     private int _numberOfAttackers;
@@ -36,6 +37,10 @@ public class LevelController : MonoBehaviour {
 
     public bool GetIsBossLevel() {
         return isBossLevel;
+    }
+    
+    public bool GetIsSurvivalLevel() {
+        return isSurvivalLevel;
     }
     
     private IEnumerator Start() {
@@ -113,6 +118,11 @@ public class LevelController : MonoBehaviour {
             PlayerPrefsController.UnlockLevel(currentLevel + 1);
         }
 
+        if (isSurvivalLevel) {
+            var score = FindObjectOfType<ScoreDisplay>().GetScore();
+            if (score > PlayerPrefsController.GetHighScore()) {}
+            PlayerPrefsController.SetHighScore(score);
+        }
         yield return new WaitForSeconds(waitToLoad);
         _levelLoader.LoadWinMenu();
     }

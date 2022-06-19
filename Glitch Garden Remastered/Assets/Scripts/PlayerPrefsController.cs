@@ -5,6 +5,7 @@ public class PlayerPrefsController : MonoBehaviour {
     private const string MasterVolumeKey = "Master Volume";
     private const string DifficultyKey = "Difficulty";
     private const string LevelsUnlockedKey = "Levels Unlocked";
+    private const string HighScoreKey = "High Score";
 
     private const string BeatFirstBossKey = "Beat First Boss";
     private const string BeatSecondBossKey = "Beat Second Boss";
@@ -46,6 +47,21 @@ public class PlayerPrefsController : MonoBehaviour {
 
     public static int GetDifficulty() {
         return PlayerPrefs.GetInt(DifficultyKey, 1);
+    }
+    
+    public static void SetHighScore(int score) {
+        if (PlayerPrefs.GetInt(HighScoreKey) < score) {
+            Debug.Log("High Score set to " + score);
+            PlayerPrefs.SetInt(HighScoreKey, score);
+            PlayerPrefs.Save();
+        }
+        else {
+            Debug.LogError("High Score is out of range");
+        }
+    }
+    
+    public static int GetHighScore() {
+        return PlayerPrefs.GetInt(HighScoreKey, 0);
     }
 
     public static void FirstBossDefeated() {

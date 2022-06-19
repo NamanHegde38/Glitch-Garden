@@ -80,10 +80,10 @@ public class AttackerSpawner : MonoBehaviour {
     }
 
     private float GetLevelTime() {
-        if (!_levelController.GetIsBossLevel()) {
-            return _gameTimer.GetGameTime();
+        if (_levelController.GetIsBossLevel() || _levelController.GetIsSurvivalLevel() ) {
+            return 0;
         }
-        return 0;
+        return _gameTimer.GetGameTime();
     }
     
     private void Spawn(Attacker myAttacker) {

@@ -75,6 +75,10 @@ public class LevelLoader : MonoBehaviour {
         StartCoroutine(LoadSceneString("Boss " + levelString));
     }
     
+    public void LoadSurvivalLevel() {
+        StartCoroutine(LoadSceneString("Survival"));
+    }
+    
     public void LoadOptions() {
         StartCoroutine(LoadSceneString("Options Menu"));
     }
@@ -83,6 +87,14 @@ public class LevelLoader : MonoBehaviour {
         StartCoroutine(LoadSceneIndex(_currentSceneIndex + 1));
     }
 
+    public void LoadBossRushMenu() {
+        StartCoroutine(LoadSceneString("Boss Rush Menu"));
+    }
+    
+    public void LoadSurvivalMenu() {
+        StartCoroutine(LoadSceneString("Survival Menu"));
+    }
+    
     public void LoadWinMenu() {
         StartCoroutine(LoadSceneString("Win Menu"));
     }

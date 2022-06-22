@@ -818,6 +818,7 @@ MonoBehaviour:
   gnomePrefab: {fileID: 7068735682638521994, guid: 0892b01b29e166040be89a65b096cd22, type: 3}
   level: {fileID: 11400000, guid: 52ddd77fc739bc946978d2e3ee824d77, type: 2}
   isBossLevel: 1
+  isSurvivalLevel: 0
 --- !u!4 &1665513908
 Transform:
   m_ObjectHideFlags: 0
@@ -2199,5 +2200,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4661229276909105652, guid: bd79ac6a3d86e3f45842706d6f5f00fe, type: 3}
+      propertyPath: Sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: e3a07395e893d3140a33cba4d4586c1a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd79ac6a3d86e3f45842706d6f5f00fe, type: 3}

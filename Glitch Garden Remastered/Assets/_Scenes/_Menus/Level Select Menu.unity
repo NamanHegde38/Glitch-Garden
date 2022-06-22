@@ -14499,14 +14499,15 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 --- !u!21 &1136070445
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Sprites/Default
   m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -14683,6 +14684,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4661229276909105652, guid: bd79ac6a3d86e3f45842706d6f5f00fe, type: 3}
+      propertyPath: Sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 0c497d088e4971a40aa1396c1800c1ae, type: 3}
+    - target: {fileID: 6491905398954126441, guid: bd79ac6a3d86e3f45842706d6f5f00fe, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0c497d088e4971a40aa1396c1800c1ae, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd79ac6a3d86e3f45842706d6f5f00fe, type: 3}
 --- !u!1 &1146629604

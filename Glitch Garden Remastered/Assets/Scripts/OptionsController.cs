@@ -1,3 +1,4 @@
+using MoreMountains.Tools;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,21 +8,18 @@ public class OptionsController : MonoBehaviour {
     [SerializeField] private float defaultVolume;
     [SerializeField] private Slider difficultySlider;
     [SerializeField] private int defaultDifficulty;
-
-    private MusicPlayer _musicPlayer;
+    
     private LevelLoader _levelLoader;
 
     private void Start() {
         volumeSlider.value = PlayerPrefsController.GetMasterVolume();
         difficultySlider.value = PlayerPrefsController.GetDifficulty();
-        _musicPlayer = FindObjectOfType<MusicPlayer>();
         _levelLoader = FindObjectOfType<LevelLoader>();
     }
 
     public void ChangeVolume() {
-        if (_musicPlayer) {
-            _musicPlayer.SetVolume(volumeSlider.value);
-        }
+        MMSoundManagerTrackEvent.Trigger(
+            MMSoundManagerTrackEventTypes.SetVolumeTrack, MMSoundManager.MMSoundManagerTracks.Music, volumeSlider.value);
     }
     
     public void SetDefaults() {
@@ -31,7 +29,9 @@ public class OptionsController : MonoBehaviour {
 
     public void SaveAndExit() {
         PlayerPrefsController.SetMasterVolume(volumeSlider.value);
+        Debug.Log(volumeSlider.value);
         PlayerPrefsController.SetDifficulty(Mathf.RoundToInt(difficultySlider.value));
+        Debug.Log(difficultySlider.value);
         _levelLoader.LoadMainMenu();
     }
 }

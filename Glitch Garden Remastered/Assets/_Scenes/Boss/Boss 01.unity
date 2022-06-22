@@ -875,7 +875,7 @@ MonoBehaviour:
   gnomePrefab: {fileID: 7068735682638521994, guid: 0892b01b29e166040be89a65b096cd22, type: 3}
   level: {fileID: 11400000, guid: 30db7b7850a405947991304f595df833, type: 2}
   isBossLevel: 1
-  bossHealth: 15000
+  isSurvivalLevel: 0
 --- !u!4 &1665513908
 Transform:
   m_ObjectHideFlags: 0

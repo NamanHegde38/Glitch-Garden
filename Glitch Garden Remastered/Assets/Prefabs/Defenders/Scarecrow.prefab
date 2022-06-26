@@ -109,6 +109,7 @@ MonoBehaviour:
   material: 0
   type: 4
   spawnFeedback: {fileID: 2058168143149615779}
+  starCollectFeedback: {fileID: 0}
   tweenTime: 1
   tweenEase: 5
 --- !u!114 &2889872511896781425
@@ -126,7 +127,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1847021967768691701, guid: aa05744246ff7d24193b0fc1f79b5191, type: 3}
   gun: {fileID: 2889872512028325032}
   projectileSpeed: 10
-  projectileDamage: 9
+  projectileDamage: 20
   attackerLayer:
     serializedVersion: 2
     m_Bits: 128
@@ -501,6 +502,18 @@ PrefabInstance:
     - target: {fileID: 5078511792177269625, guid: 41d021ea69a1ebb4d9603e9ec51c84ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5930653502369645007, guid: 41d021ea69a1ebb4d9603e9ec51c84ac, type: 3}
+      propertyPath: Sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 9a15eafe198c7a94ca6045bea253e487, type: 3}
+    - target: {fileID: 5930653502369645007, guid: 41d021ea69a1ebb4d9603e9ec51c84ac, type: 3}
+      propertyPath: MaxVolume
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5930653502369645007, guid: 41d021ea69a1ebb4d9603e9ec51c84ac, type: 3}
+      propertyPath: MinVolume
+      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41d021ea69a1ebb4d9603e9ec51c84ac, type: 3}

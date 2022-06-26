@@ -1,3 +1,4 @@
+using MoreMountains.Feedbacks;
 using UnityEngine;
 
 public class Attacker : MonoBehaviour {
@@ -6,15 +7,25 @@ public class Attacker : MonoBehaviour {
     [SerializeField] private Transform attackPos;
     [SerializeField] private int points;
 
+    [Header("Feedbacks")]
+    [SerializeField] private MMFeedbacks attackerSpawnFeedback;
+
     [Header("Particles")]
     [SerializeField] private GameObject woodParticles;
     [SerializeField] private GameObject rockParticles;
     [SerializeField] private GameObject stoneParticles;
     [SerializeField] private GameObject metalParticles;
     [SerializeField] private GameObject organicParticles;
-
     [SerializeField] private float particlesLifetime = 0.3f;
+    
+    [Header("Sound Effects")]
+    [SerializeField] private MMFeedbacks woodFeedback;
+    [SerializeField] private MMFeedbacks rockFeedback;
+    [SerializeField] private MMFeedbacks stoneFeedback;
+    [SerializeField] private MMFeedbacks metalFeedback;
+    [SerializeField] private MMFeedbacks organicFeedback;
 
+    [Header("Miscellaneous")]
     [SerializeField] private bool hasSpawnAnimation;
 
     private float _currentSpeed;
@@ -29,7 +40,7 @@ public class Attacker : MonoBehaviour {
     private void Awake() {
         _levelController = FindObjectOfType<LevelController>();
         _scoreDisplay = FindObjectOfType<ScoreDisplay>();
-        
+
         if (!_levelController) return;
         _levelController.AttackerSpawned();
     }
@@ -37,6 +48,8 @@ public class Attacker : MonoBehaviour {
     private void Start() {
         _difficulty = PlayerPrefsController.GetDifficulty();
         _anim = GetComponent<Animator>();
+        
+        attackerSpawnFeedback.PlayFeedbacks();
     }
 
     private void Update() {
@@ -77,22 +90,27 @@ public class Attacker : MonoBehaviour {
             case DefenderMaterial.Wood:
                 var spawnedWoodParticles = Instantiate(woodParticles, attackPos.position, Quaternion.identity);
                 Destroy(spawnedWoodParticles, particlesLifetime);
+                woodFeedback.PlayFeedbacks();
                 break;
             case DefenderMaterial.Rock:
                 var spawnedRockParticles = Instantiate(rockParticles, attackPos.position, Quaternion.identity);
                 Destroy(spawnedRockParticles, particlesLifetime);
+                rockFeedback.PlayFeedbacks();
                 break;
             case DefenderMaterial.Stone:
                 var spawnedStoneParticles = Instantiate(stoneParticles, attackPos.position, Quaternion.identity);
                 Destroy(spawnedStoneParticles, particlesLifetime);
+                stoneFeedback.PlayFeedbacks();
                 break;
             case DefenderMaterial.Metal:
                 var spawnedMetalParticles = Instantiate(metalParticles, attackPos.position, Quaternion.identity);
                 Destroy(spawnedMetalParticles, particlesLifetime);
+                metalFeedback.PlayFeedbacks();
                 break;
             case DefenderMaterial.Organic:
                 var spawnedOrganicParticles = Instantiate(organicParticles, attackPos.position, Quaternion.identity);
                 Destroy(spawnedOrganicParticles, particlesLifetime);
+                organicFeedback.PlayFeedbacks();
                 break;
         }
         

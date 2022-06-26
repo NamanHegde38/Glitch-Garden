@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using MoreMountains.Feedbacks;
 
 public class Lobber : MonoBehaviour {
 
@@ -13,6 +14,7 @@ public class Lobber : MonoBehaviour {
     [SerializeField] private AnimationCurve tweenEase;
 
     [SerializeField] private LayerMask attackerLayer;
+    [SerializeField] private MMFeedbacks shootFeedback;
 
     private AttackerSpawner _myLaneSpawner;
     private Animator _animator;
@@ -79,6 +81,8 @@ public class Lobber : MonoBehaviour {
         
         projectile.transform.parent = _projectileParent.transform;
         projectile.GetComponent<Projectile>().SetDamage(projectileDamage);
+        
+        shootFeedback.PlayFeedbacks(gun.transform.position);
         
         //projectile.GetComponent<Rigidbody2D>().velocity = CalculateVelocity(closestEnemy.transform);
 

@@ -345,8 +345,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 52, y: 100.899994}
-  m_SizeDelta: {x: 536.5227, y: 201.8096}
+  m_AnchoredPosition: {x: 1, y: 100.899994}
+  m_SizeDelta: {x: 619.99, y: 201.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1008625872
 MonoBehaviour:
@@ -368,7 +368,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Loading...
+  m_text: Remastered
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d78d279f4454fc441ba7c74fcd2dbe68, type: 2}
   m_sharedMaterial: {fileID: 6038375548640053716, guid: d78d279f4454fc441ba7c74fcd2dbe68, type: 2}
@@ -378,8 +378,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4287604412
-  m_fontColor: {r: 0.7372549, g: 0.651377, b: 0.5595765, a: 1}
+    rgba: 4289783281
+  m_fontColor: {r: 0.9433962, g: 0.8984564, b: 0.6897472, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -396,7 +396,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 118.2
+  m_fontSize: 107.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -746,6 +746,10 @@ PrefabInstance:
     - target: {fileID: 5843862947336578516, guid: bf556409a2deec0459cea6284a6b95f8, type: 3}
       propertyPath: m_Name
       value: Level Loader
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843862947336578517, guid: bf556409a2deec0459cea6284a6b95f8, type: 3}
+      propertyPath: timeToWait
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7868118109828863786, guid: bf556409a2deec0459cea6284a6b95f8, type: 3}
       propertyPath: m_Camera

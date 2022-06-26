@@ -404,6 +404,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3889493902735154658}
     m_Modifications:
+    - target: {fileID: 3722384912133269900, guid: 85d37b6c053e58e45893d0b8b66e2b4d, type: 3}
+      propertyPath: Sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 10d902287e4b74c4fb6b1a065f3a71d4, type: 3}
+    - target: {fileID: 3722384912133269900, guid: 85d37b6c053e58e45893d0b8b66e2b4d, type: 3}
+      propertyPath: MaxVolume
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722384912133269900, guid: 85d37b6c053e58e45893d0b8b66e2b4d, type: 3}
+      propertyPath: MinVolume
+      value: 0.45
+      objectReference: {fileID: 0}
     - target: {fileID: 4480718137359441480, guid: 85d37b6c053e58e45893d0b8b66e2b4d, type: 3}
       propertyPath: PositionMode
       value: 0

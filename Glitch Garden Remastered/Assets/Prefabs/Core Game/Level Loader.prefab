@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a684b9afead8c949a4b2d73e5d869ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToWait: 3
+  timeToWait: 0
   loadStartFeedback: {fileID: 7542232171759330469}
   loadEndFeedback: {fileID: 7365394837990048558}
 --- !u!1001 &591954339
@@ -231,15 +231,11 @@ PrefabInstance:
     - target: {fileID: 5496966393304569205, guid: 412dbee2350e29649b7b40e858d550c0, type: 3}
       propertyPath: Feedbacks.Array.data[4]
       value: 
-      objectReference: {fileID: 4686842158349702711}
+      objectReference: {fileID: 8817760185087275610}
     - target: {fileID: 5496966393304569205, guid: 412dbee2350e29649b7b40e858d550c0, type: 3}
       propertyPath: Feedbacks.Array.data[5]
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496966393304569205, guid: 412dbee2350e29649b7b40e858d550c0, type: 3}
-      propertyPath: Feedbacks.Array.data[6]
-      value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5657519343916992675}
     - target: {fileID: 7665630288273471859, guid: 412dbee2350e29649b7b40e858d550c0, type: 3}
       propertyPath: Active
       value: 1
@@ -1675,7 +1671,7 @@ MonoBehaviour:
   RemapZero: 1
   RemapOne: 0
   InstantAlpha: 0
---- !u!114 &4686842158349702711
+--- !u!114 &8817760185087275610
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1714,10 +1710,10 @@ MonoBehaviour:
   RandomSfx: []
   TestButton: 0
   TestStopButton: 0
-  PlayMethod: 0
+  PlayMethod: 2
   PoolSize: 10
-  MinVolume: 1
-  MaxVolume: 1
+  MinVolume: 0.6
+  MaxVolume: 0.6
   MinPitch: 1
   MaxPitch: 1
   SfxAudioMixerGroup: {fileID: 0}
@@ -1910,6 +1906,52 @@ MonoBehaviour:
   RemapZero: 1
   RemapOne: 0
   InstantAlpha: 0
+--- !u!114 &3561821013191708108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3448566422012756013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2ce51367856bd49b72678cc4263225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Active: 1
+  Label: Sound
+  Chance: 100
+  Timing:
+    TimescaleMode: 0
+    InitialDelay: 0
+    CooldownDuration: 0
+    ExcludeFromHoldingPauses: 0
+    InterruptsOnStop: 1
+    NumberOfRepeats: 0
+    RepeatForever: 0
+    DelayBetweenRepeats: 1
+    MMFeedbacksDirectionCondition: 0
+    PlayDirection: 0
+    ConstantIntensity: 0
+    UseIntensityInterval: 0
+    IntensityIntervalMin: 0
+    IntensityIntervalMax: 0
+    Sequence: {fileID: 0}
+    TrackID: 0
+    Quantized: 0
+    TargetBPM: 120
+  DebugActive: 0
+  Sfx: {fileID: 8300000, guid: e0bab816a2b4059478c7087ec70061ea, type: 3}
+  RandomSfx: []
+  TestButton: 0
+  TestStopButton: 0
+  PlayMethod: 2
+  PoolSize: 10
+  MinVolume: 0.6
+  MaxVolume: 0.6
+  MinPitch: 1
+  MaxPitch: 1
+  SfxAudioMixerGroup: {fileID: 0}
 --- !u!114 &6775695208588058616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2071,7 +2113,7 @@ MonoBehaviour:
   - {fileID: 7771424385563179117}
   - {fileID: 6775695208588058616}
   - {fileID: 3337080223198977295}
-  - {fileID: 4270064739655135479}
+  - {fileID: 3561821013191708108}
   - {fileID: 7156277100666192319}
   - {fileID: 1752226651439920089}
   InitializationMode: 2
@@ -2177,52 +2219,6 @@ MonoBehaviour:
   RemapZero: 1
   RemapOne: 0
   InstantAlpha: 1
---- !u!114 &4270064739655135479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3448566422012756013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c2ce51367856bd49b72678cc4263225, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Active: 1
-  Label: Sound
-  Chance: 100
-  Timing:
-    TimescaleMode: 0
-    InitialDelay: 0
-    CooldownDuration: 0
-    ExcludeFromHoldingPauses: 0
-    InterruptsOnStop: 1
-    NumberOfRepeats: 0
-    RepeatForever: 0
-    DelayBetweenRepeats: 1
-    MMFeedbacksDirectionCondition: 0
-    PlayDirection: 0
-    ConstantIntensity: 0
-    UseIntensityInterval: 0
-    IntensityIntervalMin: 0
-    IntensityIntervalMax: 0
-    Sequence: {fileID: 0}
-    TrackID: 0
-    Quantized: 0
-    TargetBPM: 120
-  DebugActive: 0
-  Sfx: {fileID: 8300000, guid: e0bab816a2b4059478c7087ec70061ea, type: 3}
-  RandomSfx: []
-  TestButton: 0
-  TestStopButton: 0
-  PlayMethod: 0
-  PoolSize: 10
-  MinVolume: 1
-  MaxVolume: 1
-  MinPitch: 1
-  MaxPitch: 1
-  SfxAudioMixerGroup: {fileID: 0}
 --- !u!4 &9015867149648541079 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3033126176564286639, guid: a72d9b98903c14d44b66645d67c44882, type: 3}

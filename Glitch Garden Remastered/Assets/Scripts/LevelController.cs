@@ -26,6 +26,7 @@ public class LevelController : MonoBehaviour {
     private AttackerSpawner[] _spawnerArray;
     private AudioSource _audioSource;
     private LevelLoader _levelLoader;
+    private MusicPlayer _musicPlayer;
     private float _masterVolume;
 
     public event EventHandler OnLevelStart;
@@ -44,6 +45,7 @@ public class LevelController : MonoBehaviour {
     
     private IEnumerator Start() {
         _spawnerArray = FindObjectsOfType<AttackerSpawner>();
+        _musicPlayer = FindObjectOfType<MusicPlayer>();
         _audioSource = GetComponent<AudioSource>();
         _levelLoader = FindObjectOfType<LevelLoader>().GetComponent<LevelLoader>();
         _masterVolume = PlayerPrefsController.GetMasterVolume();
@@ -80,11 +82,14 @@ public class LevelController : MonoBehaviour {
         if (_hasLost) yield break;
         if (_hasWon) yield break;
         
-        GameObject.FindWithTag("Music Player").GetComponent<MMFeedbacks>().StopFeedbacks();
-        
         winLabel.SetActive(true);
         _hasWon = true;
-
+        
+        _musicPlayer.SetVolume(0f);
+        _audioSource.volume = _masterVolume;
+        _audioSource.clip = winSFX;
+        _audioSource.Play();
+        
         winFeedback.PlayFeedbacks();
 
         if (isBossLevel) {
@@ -126,11 +131,14 @@ public class LevelController : MonoBehaviour {
         if (_hasLost) yield break;
         if (_hasWon) yield break;
         
-        GameObject.FindWithTag("Music Player").GetComponent<MMFeedbacks>().StopFeedbacks();
-        
         loseLabel.SetActive(true);
         _hasLost = true;
-
+        
+        _musicPlayer.SetVolume(0f);
+        _audioSource.volume = _masterVolume;
+        _audioSource.clip = loseSFX;
+        _audioSource.Play();
+        
         loseFeedback.PlayFeedbacks();
         
         yield return new WaitForSeconds(waitToLoad);

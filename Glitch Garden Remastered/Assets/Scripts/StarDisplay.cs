@@ -38,7 +38,8 @@ public class StarDisplay : MonoBehaviour {
     }
     
     public void AddStars(int amount) {
-        _stars += amount;
+        var resultingStars = _stars + amount;
+        _stars = resultingStars > 999 ? 999 : resultingStars;
         UpdateDisplay();
     }
 

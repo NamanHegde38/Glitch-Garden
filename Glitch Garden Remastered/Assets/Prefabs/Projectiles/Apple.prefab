@@ -331,6 +331,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 432537718566868941}
     m_Modifications:
+    - target: {fileID: 3722384912133269900, guid: 85d37b6c053e58e45893d0b8b66e2b4d, type: 3}
+      propertyPath: Sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 5624ebbb9e0ee1444b6ced508af447a6, type: 3}
     - target: {fileID: 4480718137359441480, guid: 85d37b6c053e58e45893d0b8b66e2b4d, type: 3}
       propertyPath: PositionMode
       value: 0
@@ -466,11 +470,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8675b0793135bc14783c55564a063c3e, type: 3}
---- !u!4 &9119836336490435357 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5078511792177269625, guid: 8675b0793135bc14783c55564a063c3e, type: 3}
-  m_PrefabInstance: {fileID: 4101184167099603044}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &6708547373369985837 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7346454078621520713, guid: 8675b0793135bc14783c55564a063c3e, type: 3}
@@ -482,3 +481,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841b72de2996c5c40bfb394f3d0e0a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &9119836336490435357 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5078511792177269625, guid: 8675b0793135bc14783c55564a063c3e, type: 3}
+  m_PrefabInstance: {fileID: 4101184167099603044}
+  m_PrefabAsset: {fileID: 0}

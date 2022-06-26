@@ -10,6 +10,7 @@ public class Defender : MonoBehaviour {
     [SerializeField] private DefenderType type;
 
     [SerializeField] private MMFeedbacks spawnFeedback;
+    [SerializeField] private MMFeedbacks starCollectFeedback;
 
     [SerializeField] private float tweenTime = 0.2f;
     [SerializeField] private Ease tweenEase = Ease.InQuad;
@@ -33,6 +34,9 @@ public class Defender : MonoBehaviour {
 
     public void AddStars(int amount) {
         FindObjectOfType<StarDisplay>().AddStars(amount);
+        if (starCollectFeedback) {
+            starCollectFeedback.PlayFeedbacks();
+        }
     }
 
     public int GetStarCost() {

@@ -114,7 +114,7 @@ public class LevelController : MonoBehaviour {
             }
         }
         else {
-            var currentLevel = SceneManager.GetActiveScene().buildIndex - 3;
+            var currentLevel = SceneManager.GetActiveScene().buildIndex - 9;
             PlayerPrefsController.UnlockLevel(currentLevel + 1);
         }
 

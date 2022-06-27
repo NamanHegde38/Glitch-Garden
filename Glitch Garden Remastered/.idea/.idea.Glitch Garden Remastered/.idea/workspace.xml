@@ -41,7 +41,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss_Idle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seasons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss_State_Change.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/TimeRecorder/Editor/TimeRecorder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Defender.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -58,7 +57,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DefenderToolbar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HighlightButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelectManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ModeButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BossButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BossLevelController.cs" />
@@ -91,12 +89,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelSetup.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Lobber.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StarDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20VId6ihQVmluV6EwYpfyB6NSoz" />
@@ -114,6 +113,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/Glitch Garden Remastered - PC\Glitch Garden Remastered.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Builds\Glitch Garden Remastered - PC" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -261,7 +268,9 @@
       <workItem from="1655630755860" duration="6342000" />
       <workItem from="1656100174606" duration="4388000" />
       <workItem from="1656230967509" duration="57000" />
-      <workItem from="1656232194366" duration="3698000" />
+      <workItem from="1656232194366" duration="4887000" />
+      <workItem from="1656275638947" duration="284000" />
+      <workItem from="1656276381329" duration="71000" />
     </task>
     <servers />
   </component>

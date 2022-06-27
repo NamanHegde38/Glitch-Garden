@@ -192,7 +192,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &789379528
 GameObject:
@@ -678,7 +678,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -722,7 +722,7 @@ MonoBehaviour:
   gravestonePrefab: {fileID: 4513974879543475930, guid: 6e5f81b40cf379d43a85f411a9ede4d9, type: 3}
   vendorPrefab: {fileID: 4021622032478014005, guid: 8fcd1ffed3510144e86a7c61c4872658, type: 3}
   gnomePrefab: {fileID: 7068735682638521994, guid: 0892b01b29e166040be89a65b096cd22, type: 3}
-  level: {fileID: 11400000, guid: 1433d8531acdf1c438a1dea2f003c996, type: 2}
+  level: {fileID: 11400000, guid: 5a5d8845db7d1aa479560e4e6f80d143, type: 2}
   isBossLevel: 0
   isSurvivalLevel: 0
 --- !u!4 &1665513908
@@ -738,7 +738,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1801928643
 PrefabInstance:
@@ -1502,7 +1502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3608349831205422210, guid: b6967965c2198cc498ab1dfdf8e29e57, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3608349831205422210, guid: b6967965c2198cc498ab1dfdf8e29e57, type: 3}
       propertyPath: m_AnchorMax.x

@@ -505,14 +505,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94e68e33f7824e479ebe5a8cf6b0e38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveChance: 0.125
-  standardAttackChance: 0.125
-  windAttackChance: 0.125
-  fireAttackChance: 0.125
-  thunderAttackChance: 0.125
-  iceAttackChance: 0.125
-  poisonAttackChance: 0.125
-  megaLaserChance: 0.125
+  moveChance: 0.4
+  standardAttackChance: 0
+  windAttackChance: 0.1
+  fireAttackChance: 0.1
+  thunderAttackChance: 0.1
+  iceAttackChance: 0.1
+  poisonAttackChance: 0.1
+  megaLaserChance: 0.2
 --- !u!1101 &-7040040542166118357
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -815,7 +815,7 @@ MonoBehaviour:
   thunderAttackChance: 0
   iceAttackChance: 0
   poisonAttackChance: 0
-  megaLaserChance: 0.14
+  megaLaserChance: 0
 --- !u!1101 &-5479780087748998178
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -3124,14 +3124,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94e68e33f7824e479ebe5a8cf6b0e38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveChance: 0.25
-  standardAttackChance: 0.25
-  windAttackChance: 0.25
-  fireAttackChance: 0.25
+  moveChance: 0.4
+  standardAttackChance: 0.1
+  windAttackChance: 0.2
+  fireAttackChance: 0.3
   thunderAttackChance: 0
   iceAttackChance: 0
   poisonAttackChance: 0
-  megaLaserChance: 0.14
+  megaLaserChance: 0
 --- !u!1101 &4328659733278010359
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -3585,14 +3585,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94e68e33f7824e479ebe5a8cf6b0e38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveChance: 0.16
-  standardAttackChance: 0.16
-  windAttackChance: 0.16
-  fireAttackChance: 0.16
-  thunderAttackChance: 0.16
-  iceAttackChance: 0.16
+  moveChance: 0.4
+  standardAttackChance: 0
+  windAttackChance: 0.12
+  fireAttackChance: 0.12
+  thunderAttackChance: 0.12
+  iceAttackChance: 0.24
   poisonAttackChance: 0
-  megaLaserChance: 0.14
+  megaLaserChance: 0
 --- !u!1101 &6327846627339943219
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -3956,14 +3956,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94e68e33f7824e479ebe5a8cf6b0e38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveChance: 0.3
+  moveChance: 0.4
   standardAttackChance: 0.3
   windAttackChance: 0.3
   fireAttackChance: 0
   thunderAttackChance: 0
   iceAttackChance: 0
   poisonAttackChance: 0
-  megaLaserChance: 0.14
+  megaLaserChance: 0
 --- !u!1101 &7703254220397433346
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -4305,14 +4305,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94e68e33f7824e479ebe5a8cf6b0e38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveChance: 0.2
-  standardAttackChance: 0.2
-  windAttackChance: 0.2
-  fireAttackChance: 0.2
-  thunderAttackChance: 0.2
+  moveChance: 0.4
+  standardAttackChance: 0
+  windAttackChance: 0.15
+  fireAttackChance: 0.15
+  thunderAttackChance: 0.3
   iceAttackChance: 0
   poisonAttackChance: 0
-  megaLaserChance: 0.14
+  megaLaserChance: 0
 --- !u!1102 &8935263960094506563
 AnimatorState:
   serializedVersion: 6

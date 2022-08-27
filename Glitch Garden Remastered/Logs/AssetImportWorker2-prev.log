@@ -1,0 +1,1772 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56985
+Successfully changed project path to: D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
+D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 405.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Projects/Udemy/Glitch-Garden/Glitch Garden Remastered/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   31.0.15.1640
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.022551 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 408.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.257 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1258ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (975ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (698ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (93ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (409ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015737 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 403.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.598 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4600ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (4164ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (466ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (142ms)
+			SetupLoadedEditorAssemblies (3334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (404ms)
+				BeforeProcessingInitializeOnLoad (222ms)
+				ProcessInitializeOnLoadAttributes (2237ms)
+				ProcessInitializeOnLoadMethodAttributes (424ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6878 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (2.3 MB). Loaded Objects now: 7387.
+Memory consumption went from 434.5 MB to 432.2 MB.
+Total: 40.481200 ms (FindLiveObjects: 0.658000 ms CreateObjectMapping: 0.214900 ms MarkObjects: 38.606000 ms  DeleteObjects: 1.000900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1235633.592555 seconds.
+  path: Assets/AllIn1SpriteShader/Materials/Super Cactus.mat
+  artifactKey: Guid(71b750188c43fc54d8c20fef09c3d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllIn1SpriteShader/Materials/Super Cactus.mat using Guid(71b750188c43fc54d8c20fef09c3d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68943350c84cea9989440f31c1752e51') in 0.510698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset Cleaner/Content/ac_delete_scene_asset.png
+  artifactKey: Guid(3fec3bf4c4f5e2d48835dbe2f21aa7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Cleaner/Content/ac_delete_scene_asset.png using Guid(3fec3bf4c4f5e2d48835dbe2f21aa7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d67719dde125e05f8d638f8bfff29f') in 0.029901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/Epic Toon FX/Demo/Textures/Skybox/1.png
+  artifactKey: Guid(b9d479250e7ac0547a32dc79c6ced1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Demo/Textures/Skybox/1.png using Guid(b9d479250e7ac0547a32dc79c6ced1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d355287f96e138fdb656f47747501f') in 0.025633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/34.png
+  artifactKey: Guid(9c6609976e8fd3841bdc2781874e25e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/34.png using Guid(9c6609976e8fd3841bdc2781874e25e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0341e342a20942303f954aa5becf4290') in 0.044664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Preview/_Component_4.png
+  artifactKey: Guid(16a32ae14e0434c57b89cfca1418d9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Preview/_Component_4.png using Guid(16a32ae14e0434c57b89cfca1418d9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9ca08a03a799f39c21de21824dbbb3') in 0.198871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_StarGrade_s_Off.png
+  artifactKey: Guid(758dfb8648edb4bf1b998174c2ecab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_StarGrade_s_Off.png using Guid(758dfb8648edb4bf1b998174c2ecab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0168cdfbf4415efd1ac590f12cbdc3') in 0.029266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_star_green.png
+  artifactKey: Guid(1868c3e3c6eab43068b4e25363442455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_star_green.png using Guid(1868c3e3c6eab43068b4e25363442455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbc7097f80fdcc064b59509c198805b') in 0.030425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/33.png
+  artifactKey: Guid(59f4f2db1fd18ff49852c6a4a32b6303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/33.png using Guid(59f4f2db1fd18ff49852c6a4a32b6303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863b6826307234b815a0a5c3bbdaad77') in 0.027584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/6.png
+  artifactKey: Guid(7a102de3c2813dd409ebcda43dad7831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/6.png using Guid(7a102de3c2813dd409ebcda43dad7831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55aaeef0d1bf84da1426144e56f5941') in 0.025592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/5.png
+  artifactKey: Guid(0f494fb7f2b8b6d4fa78291926779321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/5.png using Guid(0f494fb7f2b8b6d4fa78291926779321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3fb8557ab44a6ca00095c3d60b8e5b') in 0.024315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/13.png
+  artifactKey: Guid(cbc967e3374e3bd4697458d3822f4c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/13.png using Guid(cbc967e3374e3bd4697458d3822f4c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1f3d7276d858956a51eef19b002622') in 0.029420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_star_purple.png
+  artifactKey: Guid(57191edf12ca349538520c87a1a1eeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_star_purple.png using Guid(57191edf12ca349538520c87a1a1eeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadc1831330b454771906ce9987de7db') in 0.032704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Star_Red.Png
+  artifactKey: Guid(e1a814dfaf5fb4898b06a512374c951a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Star_Red.Png using Guid(e1a814dfaf5fb4898b06a512374c951a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa2ad24882092322319f0d3018ad398') in 0.045769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/15.png
+  artifactKey: Guid(5ebb1d77e613d2942a57597549eefbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/15.png using Guid(5ebb1d77e613d2942a57597549eefbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f54b9bacbed7856564de9f58cdbe06') in 0.024091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/7.png
+  artifactKey: Guid(fb0cc176fcc1cca4984c05ba27e67dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/7.png using Guid(fb0cc176fcc1cca4984c05ba27e67dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee20355d4a534f47d3097da7dbb6d58') in 0.023974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Epic Toon FX/Demo/Textures/Skybox/6.png
+  artifactKey: Guid(f521aa7a939e70d42a5bd1122a2a15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Demo/Textures/Skybox/6.png using Guid(f521aa7a939e70d42a5bd1122a2a15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91301dbd809b4e12f3a4c5fc82f8a1b') in 0.031681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/20.png
+  artifactKey: Guid(906e8c77e67c8c1428b3127bfb1f320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/20.png using Guid(906e8c77e67c8c1428b3127bfb1f320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf8b04cfa37489da9747b2f6bd4e898') in 0.024257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Preview/_Component_1.png
+  artifactKey: Guid(3ed727598cd0547a7b3bdc48b44c435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Preview/_Component_1.png using Guid(3ed727598cd0547a7b3bdc48b44c435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e0a0ce7d72fac29595a6cfbf645ee9') in 0.146617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Star_Red.png
+  artifactKey: Guid(985fd49dfd5bb40c089bf5aa121b6bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Star_Red.png using Guid(985fd49dfd5bb40c089bf5aa121b6bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110876b820d01b0989dfcd18845c40ae') in 0.030796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_PictoIcons(x2)/128/Pictoicon_Coin_Star.Png
+  artifactKey: Guid(0a6c7e21273074a659dade7a1e882a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_PictoIcons(x2)/128/Pictoicon_Coin_Star.Png using Guid(0a6c7e21273074a659dade7a1e882a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6032da486e22cd3759778731cade5a0a') in 0.032798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/28.png
+  artifactKey: Guid(fb23008e8cc0b434a970f05d07e09174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/28.png using Guid(fb23008e8cc0b434a970f05d07e09174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf03fdee7ce030a3f8e0ec219ba855f5') in 0.025569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_star_white.png
+  artifactKey: Guid(5a6b42d1cb16d4e80a04cea43bc257bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_star_white.png using Guid(5a6b42d1cb16d4e80a04cea43bc257bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456802df03c93b26269edfbe0b9e9c73') in 0.030605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/30.png
+  artifactKey: Guid(47b224d4c7f3e994293d9a378d8d1cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/30.png using Guid(47b224d4c7f3e994293d9a378d8d1cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28669256397913d8b86b9852fe597756') in 0.023794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_PictoIcons(x2)/64/Pictoicon_Coin_Star.Png
+  artifactKey: Guid(02aaacb6952b1448cbbb8c3f765e4fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_PictoIcons(x2)/64/Pictoicon_Coin_Star.Png using Guid(02aaacb6952b1448cbbb8c3f765e4fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41af515fa71cb8b8b3d34d170a8917ff') in 0.028590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/40.png
+  artifactKey: Guid(765182909b4e9f44a88badd5cd728f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/40.png using Guid(765182909b4e9f44a88badd5cd728f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926f69d4c08c72e4d1c5e71c96de11f6') in 0.024515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Epic Toon FX/Demo/Textures/Skybox/4.png
+  artifactKey: Guid(520b919af3afcc643b5d707d95558218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Demo/Textures/Skybox/4.png using Guid(520b919af3afcc643b5d707d95558218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39822ecc645a5c775541dc451f52ee53') in 0.025631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/26.png
+  artifactKey: Guid(bdf2e165b4055074d8ffaab76ec50d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/26.png using Guid(bdf2e165b4055074d8ffaab76ec50d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fab8b38853a7196c653d9d7d66fe9ac') in 0.023270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX2_T_Star ABP.png
+  artifactKey: Guid(57ede9620bb396148a1e52546396db54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX2_T_Star ABP.png using Guid(57ede9620bb396148a1e52546396db54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00dc6b173fa804c7948afaf0a5543fa9') in 0.025868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/256/Icon_Star_Red.png
+  artifactKey: Guid(f55cc1216ac1e4e8b9bb7d48fbd16de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/256/Icon_Star_Red.png using Guid(f55cc1216ac1e4e8b9bb7d48fbd16de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d59c42c001bcfd3d0402231e2815b8') in 0.045040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Preview/_Component_5.png
+  artifactKey: Guid(1ebc44d63fdce43bc8c3f67864ee5ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Preview/_Component_5.png using Guid(1ebc44d63fdce43bc8c3f67864ee5ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642ebabcd763b9140dfa39d36d961e3d') in 0.171190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/Epic Toon FX/Demo/Textures/Skybox/5.png
+  artifactKey: Guid(f4e339a9935fe0948a5bfa56982dddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Demo/Textures/Skybox/5.png using Guid(f4e339a9935fe0948a5bfa56982dddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390ad3fa04728034f978665e399f9565') in 0.024295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Defenders/Trophy/star.png
+  artifactKey: Guid(27659fbee0a808244b508afae401d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Defenders/Trophy/star.png using Guid(27659fbee0a808244b508afae401d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4beef1917d035734aee3ac6b55a257f') in 0.024304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Epic Toon FX/Textures/star.png
+  artifactKey: Guid(93f8abb6df8f9f348910ec6328660560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Textures/star.png using Guid(93f8abb6df8f9f348910ec6328660560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b11e0ce7e9f8c4288e61a545fab244c') in 0.026413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Attackers/Fox/Shiny Fox Eating Start.png
+  artifactKey: Guid(a4bfb4d25961e8e4cac5500c5c8410a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Attackers/Fox/Shiny Fox Eating Start.png using Guid(a4bfb4d25961e8e4cac5500c5c8410a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b1d6ff1b0b9dd3b3ee974e464d5ac3') in 0.082267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/Epic Toon FX/Textures/star_4x4.png
+  artifactKey: Guid(15237773814b9e944a3bd83c3d9a5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Textures/star_4x4.png using Guid(15237773814b9e944a3bd83c3d9a5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f54ca05b567e3c975832206e85116b5') in 0.028587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Star02_s.png
+  artifactKey: Guid(def9d44e77c3046528bd1809282fe1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Star02_s.png using Guid(def9d44e77c3046528bd1809282fe1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df13d1eb4dfe414f3afc5dd621b57c9') in 0.030279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_StarGrade_l_On.png
+  artifactKey: Guid(fb3d9ab77192f48d29273337d1eb43a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_StarGrade_l_On.png using Guid(fb3d9ab77192f48d29273337d1eb43a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18203ec4d99204438ead7329d11922b') in 0.028289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.606727 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ShopIcon_Gold2.png
+  artifactKey: Guid(928516686caa643f5b6615dc945cff34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ShopIcon_Gold2.png using Guid(928516686caa643f5b6615dc945cff34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db94258af55b5b6371b1bbe46ad5e35') in 0.041699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/64/Icon_Timer.png
+  artifactKey: Guid(29b1656cd12cc4ed79e239a27b7cebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/64/Icon_Timer.png using Guid(29b1656cd12cc4ed79e239a27b7cebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc32b9140ad04b825cc5bd0757989593') in 0.028858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/32/Icon_Sword.png
+  artifactKey: Guid(7e5c0561c7ea843638914af5c368a3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/32/Icon_Sword.png using Guid(7e5c0561c7ea843638914af5c368a3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4262328ad41d3cd8e99143a28ef027') in 0.029657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Shovel.Png
+  artifactKey: Guid(4e1e4e7bc1e404ba49f38d90db688820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Shovel.Png using Guid(4e1e4e7bc1e404ba49f38d90db688820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dfe3913c3d98704cda4c3417e04475') in 0.037054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Sword.Png
+  artifactKey: Guid(955349bdf9af94f67a275cd95eacc26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Sword.Png using Guid(955349bdf9af94f67a275cd95eacc26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2a5d21aa6a548073478ec8f31ffd6a') in 0.043180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/64/Icon_Sword.png
+  artifactKey: Guid(c9365dd17f80d4cd3b90797dafd9c6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/64/Icon_Sword.png using Guid(c9365dd17f80d4cd3b90797dafd9c6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9438c8840a7a6cb19f9f3502b448d52a') in 0.027243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Stopwatch.Png
+  artifactKey: Guid(f13acf95ca8f645cdb4a6b753bd3fbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Stopwatch.Png using Guid(f13acf95ca8f645cdb4a6b753bd3fbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897739a91d90142a1d5d47a48dad7720') in 0.047392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_StatsIcon_Damage.png
+  artifactKey: Guid(413710b631bd5493ebbf1a29b2d82eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_StatsIcon_Damage.png using Guid(413710b631bd5493ebbf1a29b2d82eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09815d196d78e8602eca7ef54cb4d856') in 0.034336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_StatsIcon_Speed.png
+  artifactKey: Guid(c3189121f7e3342a3b2fcc2f495c9e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_StatsIcon_Speed.png using Guid(c3189121f7e3342a3b2fcc2f495c9e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f1d69be9ef87242dcedcaac28b9795') in 0.028721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Target.Png
+  artifactKey: Guid(cba6fba15682e49cdab63583abb7be7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Target.Png using Guid(cba6fba15682e49cdab63583abb7be7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2daeff9dc9dbc57f77b64f53de288c2e') in 0.033995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_StatsIcon_Skeleton.Png
+  artifactKey: Guid(d8ec7bed8b86f4a3d905859476e40a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_StatsIcon_Skeleton.Png using Guid(d8ec7bed8b86f4a3d905859476e40a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7831a77012ca7dfe37bb2dce05ade115') in 0.032558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_SkilIcon_Frame_Yellow.png
+  artifactKey: Guid(5295610f5e29b4503adf5a311b86796c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_SkilIcon_Frame_Yellow.png using Guid(5295610f5e29b4503adf5a311b86796c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d94dc8d851b663e5b3bc687499025e7') in 0.035178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Shield.png
+  artifactKey: Guid(835bb0042ed8d4333baab9882016e7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Shield.png using Guid(835bb0042ed8d4333baab9882016e7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bffeea0d67b2473dac3b07799749bbc') in 0.030136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_Reward_Pass_gold.png
+  artifactKey: Guid(cd9d2a266a4664cd692ce7c032361041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_Reward_Pass_gold.png using Guid(cd9d2a266a4664cd692ce7c032361041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb0f43562603411ef45717d364b66f8') in 0.037067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/Icon_RuneSample_l_1.png
+  artifactKey: Guid(e2d5a1a754bad41da8a24fdabf908717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/Icon_RuneSample_l_1.png using Guid(e2d5a1a754bad41da8a24fdabf908717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1823baa905b2181532133911b6b73d51') in 0.032685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_Reward_Pass_gem.png
+  artifactKey: Guid(8f9c5aecfebbd41eea10f82fb2fbb11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_Reward_Pass_gem.png using Guid(8f9c5aecfebbd41eea10f82fb2fbb11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc9e3c06d9c390dd31ffa1266775eac') in 0.038435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Ranking.Png
+  artifactKey: Guid(a2e6b5827171c44f59255c54a9d53f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Ranking.Png using Guid(a2e6b5827171c44f59255c54a9d53f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee7e30ac6f76608bd30e5dff4bf751f') in 0.042015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ShopIcon_Gold1.png
+  artifactKey: Guid(2340e003a4a6745a8929491f3b365cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ShopIcon_Gold1.png using Guid(2340e003a4a6745a8929491f3b365cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ac52f0b912b533c14a2633d741d05d') in 0.035417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ShopIcon_Gem0.png
+  artifactKey: Guid(1dc86866662534453a0e2cd9004dd340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ShopIcon_Gem0.png using Guid(1dc86866662534453a0e2cd9004dd340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927acd8e738d372e514673a2a4f14669') in 0.035956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/64/Icon_Ranking.png
+  artifactKey: Guid(f31b2f87c25a74213b5093718e1882ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/64/Icon_Ranking.png using Guid(f31b2f87c25a74213b5093718e1882ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec940e02e6eaa6a9a6dcb13a5cf1beaf') in 0.031208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/64/Icon_Potion02_Green.png
+  artifactKey: Guid(28f3982025ae647c5bed966bc24e0472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/64/Icon_Potion02_Green.png using Guid(28f3982025ae647c5bed966bc24e0472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6e30739ffd4778c26531d6979aa892') in 0.031889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Potion02_Red.Png
+  artifactKey: Guid(5a0d82360083945039a386d0b8ed300f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Potion02_Red.Png using Guid(5a0d82360083945039a386d0b8ed300f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1faefd730432e037c9c81d16846cd70') in 0.037409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Potion02_Green.png
+  artifactKey: Guid(b3726215a307342c5be67d918f4e2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Potion02_Green.png using Guid(b3726215a307342c5be67d918f4e2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf84e54fdd6d000f4adfda5ae34aab3') in 0.030319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Potion02_Purple.png
+  artifactKey: Guid(71fcf2ecafa82467c9ac67ee5c710b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Potion02_Purple.png using Guid(71fcf2ecafa82467c9ac67ee5c710b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4218c582211fab8ae74ffd4f8157825') in 0.030733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/256/Icon_Potion02_Purple.png
+  artifactKey: Guid(58ab357ab80cb4947986e968d911ded0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/256/Icon_Potion02_Purple.png using Guid(58ab357ab80cb4947986e968d911ded0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d323cd68c89970c31b0ad91b8a98a2d') in 0.032522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/32/Icon_Pumkin.png
+  artifactKey: Guid(e52544cebb9294910a9afc7aa906dbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/32/Icon_Pumkin.png using Guid(e52544cebb9294910a9afc7aa906dbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5ecbc63b541f9f0e83234cf199d316') in 0.027534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Shield.Png
+  artifactKey: Guid(c28d54c4733dc4fc7bedc4189f66bfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Shield.Png using Guid(c28d54c4733dc4fc7bedc4189f66bfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac994667b02ea2fdd0de8087de9165bf') in 0.034253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/64/Icon_Shield.png
+  artifactKey: Guid(cd6bbfbf2fe224e4da6de60544f34630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/64/Icon_Shield.png using Guid(cd6bbfbf2fe224e4da6de60544f34630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbee390eeb83dad8f3eb65013be44572') in 0.027574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ShopIcon_Gem2.png
+  artifactKey: Guid(c1ada327db13247518d5a0bda29ed999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ShopIcon_Gem2.png using Guid(c1ada327db13247518d5a0bda29ed999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c517a387641316871d6b07c1d7523ade') in 0.038627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ShopIcon_Gem1.png
+  artifactKey: Guid(d26dfb6e166ea49938deb2366511908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ShopIcon_Gem1.png using Guid(d26dfb6e166ea49938deb2366511908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adb50064686b3afa02e4ea86c9b92b5') in 0.034623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_SkilIcon_Frame_Pink.png
+  artifactKey: Guid(219a5b1b098844f8baf3f99cd816fb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_SkilIcon_Frame_Pink.png using Guid(219a5b1b098844f8baf3f99cd816fb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f2b08b26d7c258f2dbdf4eddd00869') in 0.031159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Pumkin.png
+  artifactKey: Guid(c269f8d3688d646ce9487eafb7a3e5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Pumkin.png using Guid(c269f8d3688d646ce9487eafb7a3e5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87d38a5ddf2f0526b44fcde8e7d937c') in 0.030907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Sword.Png
+  artifactKey: Guid(169d45648e00348038299fc345aa6b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Sword.Png using Guid(169d45648e00348038299fc345aa6b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bf6ab615232b1f2c929f704bed9599') in 0.029113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/Icon_RuneSample_l_2.Png
+  artifactKey: Guid(839a640771fd5411fbd3504279fa28e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/Icon_RuneSample_l_2.Png using Guid(839a640771fd5411fbd3504279fa28e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71f9937dc2fa226ac7c5ea134395ff0') in 0.032845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/Icon_RuneSample_s_1.Png
+  artifactKey: Guid(6325706bbc2f942d293bc3cc86f9e00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/Icon_RuneSample_s_1.Png using Guid(6325706bbc2f942d293bc3cc86f9e00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba7dd38763a554e6e5e8b72e3698a99') in 0.031916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Potion02_Purple.Png
+  artifactKey: Guid(88402480cb95047558203cbe393dce8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Potion02_Purple.Png using Guid(88402480cb95047558203cbe393dce8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c949433f283fa01342cda3ac525b7a4') in 0.042927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Shield.Png
+  artifactKey: Guid(3dfe5b5109b67429dae6b016513faeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Shield.Png using Guid(3dfe5b5109b67429dae6b016513faeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0995a99e41e57ace28269af37678bd4') in 0.043958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/32/Icon_Stopwatch.png
+  artifactKey: Guid(e0cbd2b2e3328439398714773426b9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/32/Icon_Stopwatch.png using Guid(e0cbd2b2e3328439398714773426b9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d09d24469bd1abce89703ec9884571') in 0.025876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Boss_Stage_f.png
+  artifactKey: Guid(978f5921e87d04a7f88a2dc6c330fab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Boss_Stage_f.png using Guid(978f5921e87d04a7f88a2dc6c330fab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c88c62db80220da7b808d1fecf0865') in 0.024886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_StageFrame_n_Yellow.png
+  artifactKey: Guid(44fdb2fe54269466f8b0b810c0e57f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_StageFrame_n_Yellow.png using Guid(44fdb2fe54269466f8b0b810c0e57f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e981ff999c18b9efcec39a0ecf849f67') in 0.027484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_circle_blur 1.png
+  artifactKey: Guid(4eb0b3a297d7445b0bac2ecfeb41cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_circle_blur 1.png using Guid(4eb0b3a297d7445b0bac2ecfeb41cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddea17e21916b7291893f4f94e28b6a4') in 0.051028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Missile.png
+  artifactKey: Guid(a0aca8f55f20043aa820967787d70baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Missile.png using Guid(a0aca8f55f20043aa820967787d70baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50510d6139a95822e1e6550b3b86cda1') in 0.033847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Images/Banner.psd
+  artifactKey: Guid(b4f2a400478f42043ba77b4bc920ce13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Images/Banner.psd using Guid(b4f2a400478f42043ba77b4bc920ce13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13458c2b57ffe56b2f1def262c53f3da') in 0.157317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_special_particle_blue.png
+  artifactKey: Guid(29bfd827d937048f8a658d9d44ea4adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_special_particle_blue.png using Guid(29bfd827d937048f8a658d9d44ea4adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704da39cb9acb3277f32512796a1b83a') in 0.031584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/Epic Toon FX/Textures/glow4.png
+  artifactKey: Guid(f23ff85f32327cf4dbe7ed8e73695926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Textures/glow4.png using Guid(f23ff85f32327cf4dbe7ed8e73695926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa8d50e9e6e602568d123cb18813bd5') in 0.036167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_ScreenDimed_Navy.png
+  artifactKey: Guid(1f5b3d0c32c8341e8bbf75f4859dbca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_ScreenDimed_Navy.png using Guid(1f5b3d0c32c8341e8bbf75f4859dbca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4311a13351e9cb7cb473b4367c472f') in 0.045540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Delete.png
+  artifactKey: Guid(8a34905290cbb491a8b6e37adc6b2a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Delete.png using Guid(8a34905290cbb491a8b6e37adc6b2a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f43a95171789fdd0c90b936f2b80267') in 0.029968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Auto Letterbox/Documentation/Imgs/BoxLogo_Horns.png
+  artifactKey: Guid(a1a5f08fe41d99d41a5aae0e5d3ed052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Letterbox/Documentation/Imgs/BoxLogo_Horns.png using Guid(a1a5f08fe41d99d41a5aae0e5d3ed052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f88e89caaf082c699a9e841d2f62221') in 0.025843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_ScreenGlow.png
+  artifactKey: Guid(4ee91d319886c4e4b8a4155b88bc8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_ScreenGlow.png using Guid(4ee91d319886c4e4b8a4155b88bc8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56383f988f841b111ab415983dcaa6b') in 0.053247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Boss_Stage_n.png
+  artifactKey: Guid(637b496f1d9824cf29ce186afab0702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Boss_Stage_n.png using Guid(637b496f1d9824cf29ce186afab0702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c45329716413f855ebbe8f5a7e6611f') in 0.033411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/32/Icon_News.png
+  artifactKey: Guid(884241c132c6d42428d4bb370f63fc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/32/Icon_News.png using Guid(884241c132c6d42428d4bb370f63fc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf809f049676f40eb6fe937937e61ebd') in 0.037361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Button/Btn_OtherButton_Circle01_d.png
+  artifactKey: Guid(789daf59ae2a04a998499c49e940e31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Button/Btn_OtherButton_Circle01_d.png using Guid(789daf59ae2a04a998499c49e940e31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2517a5b7fd84f82475eb184ab8cd85') in 0.033301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_special_particle_yellow.png
+  artifactKey: Guid(88f8e30289ed6411f8c26fbb3eab3505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_special_particle_yellow.png using Guid(88f8e30289ed6411f8c26fbb3eab3505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d317055f449dfe95735b8873604f0d0') in 0.029194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/256/Icon_Oil.png
+  artifactKey: Guid(f88fce3f3ab4a47fb9464972e0935a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/256/Icon_Oil.png using Guid(f88fce3f3ab4a47fb9464972e0935a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99a2a885af0e6866b77dcc0c5aec7d7') in 0.035364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Auto Letterbox/Demos/Multi-Cam Demo/Graphics/BottomRightUI.png
+  artifactKey: Guid(65468dd324f9998478de6c2e080b88fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Letterbox/Demos/Multi-Cam Demo/Graphics/BottomRightUI.png using Guid(65468dd324f9998478de6c2e080b88fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6463297b9317046a02d0e2565a2de77') in 0.034944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_rotate_line.png
+  artifactKey: Guid(0369ef52fb00444b686f143cc36b2b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_rotate_line.png using Guid(0369ef52fb00444b686f143cc36b2b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd645fda4cd53ddb85cc86b4fd82963c') in 0.117619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Lock.png
+  artifactKey: Guid(15f649e8f23314a72a516901b7f4403a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Lock.png using Guid(15f649e8f23314a72a516901b7f4403a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa19e54379eee95d05dca90aa0c37598') in 0.032957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_MenuIcon03_Ornament_s.Png
+  artifactKey: Guid(550354964fdb749a790b090cf8bd8118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_MenuIcon03_Ornament_s.Png using Guid(550354964fdb749a790b090cf8bd8118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed092c170d3e279fe6fcd047a8d3c318') in 0.030656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Oil.Png
+  artifactKey: Guid(7f09d3082a97a42e5a902edd5a6e37a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Oil.Png using Guid(7f09d3082a97a42e5a902edd5a6e37a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac19ccbf6adec823c897095ac983e1d') in 0.031024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Back.png
+  artifactKey: Guid(b78e1c94f1bcb42a7996ce616745e100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Back.png using Guid(b78e1c94f1bcb42a7996ce616745e100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad54eeca83629256ed02eb0fc586c91d') in 0.034766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Button/Btn_MainButton_White.Png
+  artifactKey: Guid(535d5068f6e6f4174a907fe1688dc8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Button/Btn_MainButton_White.Png using Guid(535d5068f6e6f4174a907fe1688dc8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027c9a0bc74574dc31ef6c81159f811f') in 0.029279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_TableFrame01_Line.png
+  artifactKey: Guid(a9d4037850bca4a68b07520beb81e80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_TableFrame01_Line.png using Guid(a9d4037850bca4a68b07520beb81e80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e57e6c018d848f87af7753454ce992') in 0.037911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_TableFrame01_Frame.png
+  artifactKey: Guid(5908892b8c8314bba9b29d850192f786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_TableFrame01_Frame.png using Guid(5908892b8c8314bba9b29d850192f786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5382d983c0ea8495cbe396c4382e46') in 0.027358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Exit_l.png
+  artifactKey: Guid(cd4f5d6acfdcc49288d2e34761f088bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Exit_l.png using Guid(cd4f5d6acfdcc49288d2e34761f088bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad04e44dc1f442a251a399d9cdd9989') in 0.027449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/Epic Toon FX/Textures/glow2.png
+  artifactKey: Guid(410f2af71183e2c49baecd196e30fdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Textures/glow2.png using Guid(410f2af71183e2c49baecd196e30fdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a4c9129d584a250979423ef8946d79') in 0.018068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Oil.png
+  artifactKey: Guid(adcc68df1454c4cce8372a68bcf13d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/128/Icon_Oil.png using Guid(adcc68df1454c4cce8372a68bcf13d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acbed44b7c71551a0120dbc8180cdc5') in 0.028781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scripts/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png
+  artifactKey: Guid(8c9cfa1dbe00a1d41ae9d14f5ac543ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png using Guid(8c9cfa1dbe00a1d41ae9d14f5ac543ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b8d091b66b9b8d1117f52041477ca7') in 0.021175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Images/Glitch_Crab_1920x1080.jpg
+  artifactKey: Guid(86b7e7789a541d6438382432a82a9dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Images/Glitch_Crab_1920x1080.jpg using Guid(86b7e7789a541d6438382432a82a9dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52c725b19f7a32c3c91ad679b38dc05') in 0.254870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_MenuIcon04_Inbox.Png
+  artifactKey: Guid(41f24042ad65e460b9f1a1780d117a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_MenuIcon04_Inbox.Png using Guid(41f24042ad65e460b9f1a1780d117a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e333d7a54c3ec0557ae00dcadd69a348') in 0.032342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Bell.png
+  artifactKey: Guid(bdcbe28f1d35041b091b566b1f0f7bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Bell.png using Guid(bdcbe28f1d35041b091b566b1f0f7bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec317cea795caf32255329ff1d3d34e') in 0.028445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_SpeechBubble01.png
+  artifactKey: Guid(74e324dd9cbd34aa2811e539973caac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_SpeechBubble01.png using Guid(74e324dd9cbd34aa2811e539973caac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e23a81b55564f2cf1de5c4888d2e027') in 0.026258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_rotate_line_small.png
+  artifactKey: Guid(5c8f1d6936b5344509ed8a53218cf670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_rotate_line_small.png using Guid(5c8f1d6936b5344509ed8a53218cf670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c673e03ce39ad455de6d080a9a26068') in 0.026949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_08_6EffectImage.png
+  artifactKey: Guid(8464b41777b1a471c812a19695dfe17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_08_6EffectImage.png using Guid(8464b41777b1a471c812a19695dfe17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b278c9636c96d317bc75be4fefff059') in 0.029471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Loading Screen Studio/Textures/Placeholder/Game Logo.png
+  artifactKey: Guid(5dca527536652214cb118d873fb7f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Placeholder/Game Logo.png using Guid(5dca527536652214cb118d873fb7f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea84595a625d6ff53bab8f4512a25e7') in 0.033014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Attackers/Bat/Bat Flying Normal.png
+  artifactKey: Guid(8c905e2493ea711439d2b8b135710631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Attackers/Bat/Bat Flying Normal.png using Guid(8c905e2493ea711439d2b8b135710631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e887656ea7957396bf9e494aa5dc622') in 0.024842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Home.png
+  artifactKey: Guid(8ce7d0e9cb5184e2298eedeb3266e9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Home.png using Guid(8ce7d0e9cb5184e2298eedeb3266e9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79917034f3bf98ddba44dc860c5b11c') in 0.030195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_StageFrame_n_Purple.png
+  artifactKey: Guid(1b43931083419491d8b290f0c1fad04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_StageFrame_n_Purple.png using Guid(1b43931083419491d8b290f0c1fad04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b735713c0fd958f01c3cb4667623fb') in 0.033854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Nut.Png
+  artifactKey: Guid(5fa91b7cb446d449883d9c1282420086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Nut.Png using Guid(5fa91b7cb446d449883d9c1282420086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be20aab936cb0f80e35eb169c1b371f') in 0.033638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_circle_blur.png
+  artifactKey: Guid(1b3755204d0994d9ba3b488631681ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_circle_blur.png using Guid(1b3755204d0994d9ba3b488631681ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca64b39fce412974216a3d75511d2d3') in 0.046860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_News.Png
+  artifactKey: Guid(7c35f9bfa46e7482288a92eb074cf663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_News.Png using Guid(7c35f9bfa46e7482288a92eb074cf663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e7b6a699a55adbf842283ebd6474a7') in 0.027964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Close02.png
+  artifactKey: Guid(1c4cc3242e0544967b6eb69d898a306c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Close02.png using Guid(1c4cc3242e0544967b6eb69d898a306c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8235603c56ac72cd470d41bb8c8f239c') in 0.027939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_special_particle_green.png
+  artifactKey: Guid(676c6af8ea4934e71841025db9817c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_special_particle_green.png using Guid(676c6af8ea4934e71841025db9817c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23c7d63681b731c972368dd30571fdb') in 0.030674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Missile.Png
+  artifactKey: Guid(fbbb6b2fa97334433bb41eaa87834b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/512/Icon_Missile.Png using Guid(fbbb6b2fa97334433bb41eaa87834b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f8b4a0a621ba5e9fdd5333693903a9') in 0.039519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Auto.png
+  artifactKey: Guid(8fd521d3fc1eb46fd92b0f29508e5f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Auto.png using Guid(8fd521d3fc1eb46fd92b0f29508e5f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c128baeb70fa164ffb659b610de87f08') in 0.024747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Button/Btn_OtherButton_Hexagon01_Blue.png
+  artifactKey: Guid(ef337475efc8f47e0a137be142ee61c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Button/Btn_OtherButton_Hexagon01_Blue.png using Guid(ef337475efc8f47e0a137be142ee61c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f17e1cf0a79f077d16539f3c4f049a') in 0.030334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_MenuIcon03_Shoes_n.Png
+  artifactKey: Guid(61fe22749f7fc4fb58f71e4690bad9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_MenuIcon03_Shoes_n.Png using Guid(61fe22749f7fc4fb58f71e4690bad9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcdce0ffabaa7e6beae51fde366b127') in 0.028212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Fonts/FunkyJunk TITLE.asset
+  artifactKey: Guid(d78d279f4454fc441ba7c74fcd2dbe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/FunkyJunk TITLE.asset using Guid(d78d279f4454fc441ba7c74fcd2dbe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86eb97102f960fce8e40415ea077c5d1') in 0.063983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Add01.png
+  artifactKey: Guid(a32a1409bcf5a4d5d81ea614cdd08f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Add01.png using Guid(a32a1409bcf5a4d5d81ea614cdd08f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9922bde2937aff304717fcbd469698') in 0.029104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_MenuIcon04_Friends.png
+  artifactKey: Guid(3b69453a43cce4dee871c06ef801abbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_MenuIcon04_Friends.png using Guid(3b69453a43cce4dee871c06ef801abbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45bdcb21d756ee44a0ec1d817cf5c71') in 0.030207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Images/Backgrounds/Garden Background Large Normal.png
+  artifactKey: Guid(f87644feb2ced31429a0944f5d8ee841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Images/Backgrounds/Garden Background Large Normal.png using Guid(f87644feb2ced31429a0944f5d8ee841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae27cda464d2899bae5a9cad769e893') in 0.049872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_SideFrame_Top.png
+  artifactKey: Guid(a4a035be6c33842c3a78cc43921c7648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_SideFrame_Top.png using Guid(a4a035be6c33842c3a78cc43921c7648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac4ed033becc36373a352c31d2d3199') in 0.028661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Loading Screen Studio/Textures/Placeholder/Blank.png
+  artifactKey: Guid(2274f41ee83cd984e974cf299df4ad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Placeholder/Blank.png using Guid(2274f41ee83cd984e974cf299df4ad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff2d5d8d066602ef4db095e2513c2c8') in 0.018978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_SpeechBubble01_Icon1.png
+  artifactKey: Guid(acf39a1bf59f24216801474be1fc7cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_SpeechBubble01_Icon1.png using Guid(acf39a1bf59f24216801474be1fc7cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281fa83cc5092edb88b2836efba6b86d') in 0.029146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_UserPictureFrame_Frame.png
+  artifactKey: Guid(c036f3de1f1584b6eb35aa03cce9964c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_UserPictureFrame_Frame.png using Guid(c036f3de1f1584b6eb35aa03cce9964c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0ff659a605339f3517605d99380490') in 0.036741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Help.png
+  artifactKey: Guid(d9dda2a9c329c489898a17eea14bcd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Help.png using Guid(d9dda2a9c329c489898a17eea14bcd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6142a32626d44b0825426d06a7f10b') in 0.028750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_MenuIcon04_News-.Png
+  artifactKey: Guid(7aa159cd1954546159ef6240b3953221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_MenuIcon04_News-.Png using Guid(7aa159cd1954546159ef6240b3953221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e6563fe0533cc5cd71f685efe5cc80') in 0.030571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scripts/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png
+  artifactKey: Guid(53d696c01f6ca524383f11fcc34dd13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png using Guid(53d696c01f6ca524383f11fcc34dd13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af52506dc47ede77cfef6bb80d1353c6') in 0.024313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_09_Purple2.png
+  artifactKey: Guid(7e09983b655f24cf390307d4b52ceb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_09_Purple2.png using Guid(7e09983b655f24cf390307d4b52ceb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78148688ab446af362fbb2b30f7837b7') in 0.025968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Attackers/Ghost/Ghost Walk.png
+  artifactKey: Guid(9065e9153ed04ba4ba64b8e71967742d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Attackers/Ghost/Ghost Walk.png using Guid(9065e9153ed04ba4ba64b8e71967742d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5fd67847f7baa6c46b20bd37303a63') in 0.190878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_MenuIcon03_Shoes_s.Png
+  artifactKey: Guid(c5e89d08241b54ec7bc004a7b9bcd16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_MenuIcon03_Shoes_s.Png using Guid(c5e89d08241b54ec7bc004a7b9bcd16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cdd7da1836b6a6c84e3e7e29bdb687') in 0.028672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Epic Toon FX/Textures/Emojis/bigsmile.png
+  artifactKey: Guid(a887e55c507f0a24eae8c11437b3251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Epic Toon FX/Textures/Emojis/bigsmile.png using Guid(a887e55c507f0a24eae8c11437b3251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e34ab835fed29a2d2f987ccff2d588') in 0.027215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_09_Purple1.png
+  artifactKey: Guid(544abfd93c2744a7fa9efc5f1b412e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_09_Purple1.png using Guid(544abfd93c2744a7fa9efc5f1b412e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086cc1696e6f1a2075d7987dafb630c5') in 0.032475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/32/Icon_Oil.png
+  artifactKey: Guid(0cd8928bdf1c0475185f813342aada7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Icon_ItemIcons(x2)/32/Icon_Oil.png using Guid(0cd8928bdf1c0475185f813342aada7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5551416ab0d582b3a0a21e01c20eb916') in 0.027760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_glow_small.png
+  artifactKey: Guid(247271a91ae7f45a9aec012e9229dd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_glow_small.png using Guid(247271a91ae7f45a9aec012e9229dd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d434d1ce04e906862429cb5c11ecd0c') in 0.029266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Button/Btn_OtherButton_Circle01_n.png
+  artifactKey: Guid(742f52afe0a104f478d877db51a3321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Button/Btn_OtherButton_Circle01_n.png using Guid(742f52afe0a104f478d877db51a3321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7dd5b62147b218c128b76257c96c479') in 0.028795 seconds 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 223.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.2 MB). Loaded Objects now: 7679.
+Memory consumption went from 291.4 MB to 289.1 MB.
+Total: 43.628500 ms (FindLiveObjects: 0.688900 ms CreateObjectMapping: 0.292200 ms MarkObjects: 41.779800 ms  DeleteObjects: 0.866100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 12.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7679.
+Memory consumption went from 291.5 MB to 289.3 MB.
+Total: 46.541800 ms (FindLiveObjects: 0.734400 ms CreateObjectMapping: 0.392200 ms MarkObjects: 44.605200 ms  DeleteObjects: 0.807400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1848.552106 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Star.Png
+  artifactKey: Guid(1d71065237f984e9c93efc943f6cb167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Star.Png using Guid(1d71065237f984e9c93efc943f6cb167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3388802b814694f38e692fce738b647f') in 0.076104 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018959 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  3.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3732ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (3357ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (432ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (2560ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (1963ms)
+				ProcessInitializeOnLoadMethodAttributes (379ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 7.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6682 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7672.
+Memory consumption went from 434.3 MB to 432.0 MB.
+Total: 38.829800 ms (FindLiveObjects: 0.851900 ms CreateObjectMapping: 0.216300 ms MarkObjects: 36.934600 ms  DeleteObjects: 0.825400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 16.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7672.
+Memory consumption went from 292.8 MB to 290.5 MB.
+Total: 39.346000 ms (FindLiveObjects: 0.594000 ms CreateObjectMapping: 0.207200 ms MarkObjects: 37.772100 ms  DeleteObjects: 0.769900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 13.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7672.
+Memory consumption went from 292.8 MB to 290.5 MB.
+Total: 47.899300 ms (FindLiveObjects: 0.576900 ms CreateObjectMapping: 0.191900 ms MarkObjects: 46.409600 ms  DeleteObjects: 0.719100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 12.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7672.
+Memory consumption went from 292.8 MB to 290.5 MB.
+Total: 38.733500 ms (FindLiveObjects: 0.582500 ms CreateObjectMapping: 0.195600 ms MarkObjects: 37.250100 ms  DeleteObjects: 0.703500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 12.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7672.
+Memory consumption went from 292.8 MB to 290.5 MB.
+Total: 38.962500 ms (FindLiveObjects: 0.619700 ms CreateObjectMapping: 0.277200 ms MarkObjects: 37.347900 ms  DeleteObjects: 0.716300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 14.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7672.
+Memory consumption went from 292.8 MB to 290.5 MB.
+Total: 49.093400 ms (FindLiveObjects: 0.573200 ms CreateObjectMapping: 0.199100 ms MarkObjects: 47.396400 ms  DeleteObjects: 0.923300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 25.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (0.9 MB). Loaded Objects now: 7672.
+Memory consumption went from 291.0 MB to 290.1 MB.
+Total: 46.879100 ms (FindLiveObjects: 0.606400 ms CreateObjectMapping: 0.280400 ms MarkObjects: 45.373600 ms  DeleteObjects: 0.617400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 12.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (0.9 MB). Loaded Objects now: 7672.
+Memory consumption went from 291.0 MB to 290.1 MB.
+Total: 38.548100 ms (FindLiveObjects: 0.544800 ms CreateObjectMapping: 0.201300 ms MarkObjects: 37.223000 ms  DeleteObjects: 0.577200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015425 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.615 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4618ms)
+		BeginReloadAssembly (519ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (212ms)
+		EndReloadAssembly (3923ms)
+			LoadAssemblies (252ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (897ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (2597ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (1978ms)
+				ProcessInitializeOnLoadMethodAttributes (380ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 9.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6683 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (0.9 MB). Loaded Objects now: 7687.
+Memory consumption went from 432.5 MB to 431.7 MB.
+Total: 38.415300 ms (FindLiveObjects: 0.624300 ms CreateObjectMapping: 0.215900 ms MarkObjects: 36.971300 ms  DeleteObjects: 0.601900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 15.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (0.9 MB). Loaded Objects now: 7687.
+Memory consumption went from 291.0 MB to 290.1 MB.
+Total: 41.435600 ms (FindLiveObjects: 0.569000 ms CreateObjectMapping: 0.207400 ms MarkObjects: 40.067700 ms  DeleteObjects: 0.590500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016846 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.326 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5328ms)
+		BeginReloadAssembly (260ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (4786ms)
+			LoadAssemblies (280ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (493ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (3764ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (3044ms)
+				ProcessInitializeOnLoadMethodAttributes (449ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 16.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6683 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (0.9 MB). Loaded Objects now: 7702.
+Memory consumption went from 432.5 MB to 431.7 MB.
+Total: 52.339200 ms (FindLiveObjects: 0.884900 ms CreateObjectMapping: 0.668300 ms MarkObjects: 49.862700 ms  DeleteObjects: 0.921100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5372.499367 seconds.
+  path: Assets/_Scenes/Spring/Day/Level 01.unity
+  artifactKey: Guid(65ed8d9db523e4e469f2d46c7102d14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Spring/Day/Level 01.unity using Guid(65ed8d9db523e4e469f2d46c7102d14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b173352cb87092f949215d995a2cc006') in 0.019169 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015384 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3913ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (3516ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (429ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (2726ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (2080ms)
+				ProcessInitializeOnLoadMethodAttributes (409ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 12.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6683 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (0.9 MB). Loaded Objects now: 7717.
+Memory consumption went from 432.5 MB to 431.7 MB.
+Total: 40.979700 ms (FindLiveObjects: 0.756900 ms CreateObjectMapping: 0.710900 ms MarkObjects: 38.822800 ms  DeleteObjects: 0.687100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 12.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7717.
+Memory consumption went from 292.8 MB to 290.6 MB.
+Total: 42.412300 ms (FindLiveObjects: 0.564600 ms CreateObjectMapping: 0.194200 ms MarkObjects: 40.812800 ms  DeleteObjects: 0.839400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 12.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7717.
+Memory consumption went from 292.8 MB to 290.6 MB.
+Total: 43.332500 ms (FindLiveObjects: 0.561600 ms CreateObjectMapping: 0.195100 ms MarkObjects: 41.749200 ms  DeleteObjects: 0.825300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014311 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.613 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3614ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (3280ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (423ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (2528ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (1938ms)
+				ProcessInitializeOnLoadMethodAttributes (357ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 7.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6683 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7732.
+Memory consumption went from 434.3 MB to 432.0 MB.
+Total: 39.529800 ms (FindLiveObjects: 0.580900 ms CreateObjectMapping: 0.189600 ms MarkObjects: 37.957800 ms  DeleteObjects: 0.799800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 12.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7732.
+Memory consumption went from 292.8 MB to 290.6 MB.
+Total: 38.355500 ms (FindLiveObjects: 0.560700 ms CreateObjectMapping: 0.190800 ms MarkObjects: 36.778500 ms  DeleteObjects: 0.824000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 16.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7732.
+Memory consumption went from 293.5 MB to 291.2 MB.
+Total: 48.292600 ms (FindLiveObjects: 0.915800 ms CreateObjectMapping: 0.609900 ms MarkObjects: 45.768100 ms  DeleteObjects: 0.996900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 14.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7732.
+Memory consumption went from 293.5 MB to 291.2 MB.
+Total: 43.522500 ms (FindLiveObjects: 0.588300 ms CreateObjectMapping: 0.206600 ms MarkObjects: 41.879500 ms  DeleteObjects: 0.846600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019151 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.487 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4489ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (4096ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (601ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (3023ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (177ms)
+				ProcessInitializeOnLoadAttributes (2316ms)
+				ProcessInitializeOnLoadMethodAttributes (446ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 8.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6683 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7747.
+Memory consumption went from 434.9 MB to 432.7 MB.
+Total: 41.838600 ms (FindLiveObjects: 1.035900 ms CreateObjectMapping: 0.292100 ms MarkObjects: 39.340800 ms  DeleteObjects: 1.168000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016220 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.898 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4899ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (4530ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (473ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (3586ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (187ms)
+				ProcessInitializeOnLoadAttributes (2859ms)
+				ProcessInitializeOnLoadMethodAttributes (447ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 9.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6683 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 7762.
+Memory consumption went from 435.0 MB to 432.7 MB.
+Total: 50.657800 ms (FindLiveObjects: 0.596300 ms CreateObjectMapping: 0.234800 ms MarkObjects: 48.179400 ms  DeleteObjects: 1.645200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

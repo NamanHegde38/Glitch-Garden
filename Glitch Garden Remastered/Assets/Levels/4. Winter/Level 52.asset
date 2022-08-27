@@ -23,7 +23,7 @@ MonoBehaviour:
     SerializationNodes:
     - Name: _defenderLayout
       Entry: 7
-      Data: 0|DefenderType[,], Project
+      Data: 0|DefenderType[,], Assembly-CSharp
     - Name: 
       Entry: 12
       Data: 45
@@ -186,5 +186,5 @@ MonoBehaviour:
   spawnDelay: {x: 3, y: 20.048426}
   deviationPercent: 75
   gameCanvas: {fileID: 890969830880804578, guid: f613979c628348c4d9c30586bbb032d9, type: 3}
-  postProcessing: {fileID: 5949754356429625670, guid: 8f0d1a70952757b41ad80090161e742a, type: 3}
+  postProcessing: {fileID: 5648451395868775164, guid: 030702918dac046438adb6adcccc4da5, type: 3}
   camera: {fileID: 6843101921379355794, guid: 473c78441e61e8d45b2be2d9256f21ba, type: 3}

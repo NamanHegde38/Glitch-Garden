@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using MoreMountains.Feedbacks;
@@ -57,7 +56,6 @@ public class Lobber : MonoBehaviour {
     }
 
     private bool IsAttackerInLane() {
-        //return _myLaneSpawner.transform.childCount > 0;
 
         if (_myLaneSpawner.transform.childCount > 0) {
             if (_myLaneSpawner.transform.GetChild(0).GetComponent<Health>().GetHealth() <= 0) return false;
@@ -74,17 +72,14 @@ public class Lobber : MonoBehaviour {
 
     public void Fire() {
         if (!IsAttackerInLane()) return;
-        //var rayPos = new Vector2(transform.position.x, transform.position.y - 0.25f);
-        //var closestEnemy = Physics2D.Raycast(rayPos, Vector2.right, 8f, attackerLayer).collider.gameObject;
-        
-        var projectile = Instantiate(projectilePrefab, gun.transform.position, transform.rotation);
-        
-        projectile.transform.parent = _projectileParent.transform;
-        projectile.GetComponent<Projectile>().SetDamage(projectileDamage);
-        
+
+        var projectileObject = Instantiate(projectilePrefab, gun.transform.position, transform.rotation);
+        var projectile = projectileObject.GetComponent<Projectile>();
+        var projectileRigidbody = projectileObject.GetComponent<Rigidbody2D>();
+        projectileObject.transform.parent = _projectileParent.transform;
+        projectile.SetDamage(projectileDamage);
+
         shootFeedback.PlayFeedbacks(gun.transform.position);
-        
-        //projectile.GetComponent<Rigidbody2D>().velocity = CalculateVelocity(closestEnemy.transform);
 
         var position = _closestEnemy.transform.position;
         var predictedPosition = new Vector2(position.x, position.y - 0.2f);
@@ -96,19 +91,19 @@ public class Lobber : MonoBehaviour {
                     position.y - 0.2f);
         }
         
-        if (!projectile) return;
-        projectile.transform.DOJump(predictedPosition, jumpPower, 1, tweenTime)
+        if (!projectileObject) return;
+        projectileRigidbody.DOJump(predictedPosition, jumpPower, 1, tweenTime)
             .SetEase(tweenEase)
-            .OnComplete(() => KillTween(projectile)) ;
+            .OnComplete(() =>
+                KillTween(projectile, projectileRigidbody));
     }
 
-    private void KillTween(GameObject projectile) {
-        if (projectile) {
-            projectile.transform.DOKill();
-            projectile.GetComponent<Projectile>().PlayHitVFX();
-            Destroy(projectile);
-        }
+    private void KillTween(Projectile projectile, Rigidbody2D projectileRigidbody) {
+        projectileRigidbody.DOKill();
+        projectile.PlayHitVFX();
+        Destroy(projectile.gameObject, 0.08f);
     }
+
 
     private float DistanceTravelled(float speed) {
         var time = tweenTime;

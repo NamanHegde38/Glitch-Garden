@@ -242,7 +242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 8112432360474860743, guid: 18582f0576959cc4f850456aa96e46bc, type: 3}
   gun: {fileID: 3052404400966868699}
-  projectileSpeed: 6.5
+  projectileSpeed: 12.5
   projectileDamage: 45
   attackerLayer:
     serializedVersion: 2

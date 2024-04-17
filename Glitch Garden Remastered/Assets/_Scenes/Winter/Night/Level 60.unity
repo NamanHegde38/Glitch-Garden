@@ -543,6 +543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -1007,6 +1008,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 958302835, guid: e4378b4808aed824bbbbe1895e7f312d, type: 3}
+      propertyPath: m_CameraType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1008185141, guid: e4378b4808aed824bbbbe1895e7f312d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.58500004
@@ -1095,6 +1100,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 1315667135785754622, guid: e4378b4808aed824bbbbe1895e7f312d, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 784375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315667135831205763, guid: e4378b4808aed824bbbbe1895e7f312d, type: 3}
+      propertyPath: m_Cameras.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315667135831205763, guid: e4378b4808aed824bbbbe1895e7f312d, type: 3}
+      propertyPath: m_Cameras.Array.data[0]
+      value: 
+      objectReference: {fileID: 1315667135831205762}
     - target: {fileID: 1854694251155937532, guid: e4378b4808aed824bbbbe1895e7f312d, type: 3}
       propertyPath: m_Value
       value: 0

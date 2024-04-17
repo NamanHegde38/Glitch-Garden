@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using MoreMountains.Feedbacks;
 using UnityEngine;
@@ -7,10 +8,13 @@ public class LevelLoader : MonoBehaviour {
 
     [SerializeField] private float timeToWait = 3f;
     [SerializeField] private MMFeedbacks loadStartFeedback, loadEndFeedback;
-    
+
+    private Camera _fadeCamera;
     private int _currentSceneIndex;
 
     private void Start() {
+        _fadeCamera = GameObject.FindWithTag("Fade Camera").GetComponent<Camera>();
+        
         loadEndFeedback.Initialization();
         loadEndFeedback.PlayFeedbacks();
 
@@ -23,6 +27,7 @@ public class LevelLoader : MonoBehaviour {
 
     private IEnumerator LoadSceneString(string scene, bool hasTransition = true) {
         if (hasTransition && loadStartFeedback) {
+            EnableFadeCamera();
             loadStartFeedback.PlayFeedbacks();
             yield return new WaitForSeconds(loadStartFeedback.TotalDuration);
             SceneManager.LoadScene(scene);
@@ -35,12 +40,14 @@ public class LevelLoader : MonoBehaviour {
     
     private IEnumerator LoadSceneIndex(int index, bool hasTransition = true) {
         if (hasTransition && loadStartFeedback) {
+            EnableFadeCamera();
             loadStartFeedback.PlayFeedbacks();
             yield return new WaitForSeconds(loadStartFeedback.TotalDuration);
             SceneManager.LoadScene(index);
         }
         else {
             yield return new WaitForSeconds(timeToWait);
+            EnableFadeCamera();
             loadStartFeedback.PlayFeedbacks();
             yield return new WaitForSeconds(loadStartFeedback.TotalDuration);
             SceneManager.LoadScene(index);
@@ -104,8 +111,25 @@ public class LevelLoader : MonoBehaviour {
     }
 
     public IEnumerator QuitGame() {
+        EnableFadeCamera();
         loadStartFeedback.PlayFeedbacks();
         yield return new WaitForSeconds(loadStartFeedback.TotalDuration);
         Application.Quit();
+    }
+
+    private void EnableFadeCamera() {
+        _fadeCamera.enabled = true;
+    }
+    
+    private void DisableFadeCamera() {
+        _fadeCamera.enabled = false;
+    }
+    
+    private void OnEnable() {
+        loadEndFeedback.Events.OnComplete.AddListener(DisableFadeCamera);
+    }
+
+    private void OnDisable() {
+        loadEndFeedback.Events.OnComplete.RemoveListener(DisableFadeCamera);
     }
 }

@@ -107,10 +107,18 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: b064767c129f3034a9fab82ba185de40, type: 2}
+    - target: {fileID: 2571643774171944838, guid: ef9f614db8a3c114489f497c011784be, type: 3}
+      propertyPath: m_Name
+      value: Evening Flare
+      objectReference: {fileID: 0}
     - target: {fileID: 3412607360778566969, guid: ef9f614db8a3c114489f497c011784be, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4347231307305953020, guid: ef9f614db8a3c114489f497c011784be, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7138b0d3b6581084bacdc4b150101bc8, type: 3}
     - target: {fileID: 4556590373380814980, guid: ef9f614db8a3c114489f497c011784be, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14

@@ -6,7 +6,7 @@ using UnityEngine;
 public class Level : SerializedScriptableObject {
     
     [BoxGroup("Settings")] [SerializeField]
-    [PropertyRange(160, 240)]
+    [PropertyRange(120, 240)]
     private int levelTime = 160;
     
     [BoxGroup("Settings")] [SerializeField]

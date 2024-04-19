@@ -502,3 +502,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 445.446065 seconds.
+  path: Assets/Levels/1. Spring/Level 11.asset
+  artifactKey: Guid(b024ebe2ceec3444fb485be2f2f48c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/1. Spring/Level 11.asset using Guid(b024ebe2ceec3444fb485be2f2f48c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e733b9eb3b6c05c87031f0bcea7dc062') in 0.322982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.453611 seconds.
+  path: Assets/Levels/4. Winter/Level 46.asset
+  artifactKey: Guid(c0240b61526c09b4ba5782fae7ccdc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/4. Winter/Level 46.asset using Guid(c0240b61526c09b4ba5782fae7ccdc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c04e1133d0f4fc8fb6b0a2b5074eb8b') in 0.130830 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017232 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\GameDev TV - Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\GameDev TV - Udemy\Glitch-Garden\Glitch Garden Remastered\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.30 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.711 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3712ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (3338ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (412ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (2588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (1993ms)
+				ProcessInitializeOnLoadMethodAttributes (384ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 8.40 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6830 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (2.2 MB). Loaded Objects now: 7780.
+Memory consumption went from 444.8 MB to 442.6 MB.
+Total: 38.728800 ms (FindLiveObjects: 0.701500 ms CreateObjectMapping: 0.186400 ms MarkObjects: 36.886900 ms  DeleteObjects: 0.952700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 109.698209 seconds.
+  path: Assets/Levels/4. Winter/Level 48.asset
+  artifactKey: Guid(78674e4fc097fbf4b81a580204fef336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/4. Winter/Level 48.asset using Guid(78674e4fc097fbf4b81a580204fef336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0d7f9752208b3955b29308f20d3260') in 0.195847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.243645 seconds.
+  path: Assets/Levels/4. Winter/Level 53.asset
+  artifactKey: Guid(1b08f3b167a47054fbbb7dce6dfa4b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/4. Winter/Level 53.asset using Guid(1b08f3b167a47054fbbb7dce6dfa4b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81259b4a7845a060c072c3376d19dd5') in 0.172461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.122532 seconds.
+  path: Assets/Prefabs/Attackers/Jelly.prefab
+  artifactKey: Guid(51680c26798f14b4d82a6e60df1215b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Attackers/Jelly.prefab using Guid(51680c26798f14b4d82a6e60df1215b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5841a9962a3bfacfd4cc1a4084cf5b54') in 0.294772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.809705 seconds.
+  path: Assets/Prefabs/Attackers/Lizard.prefab
+  artifactKey: Guid(f70f63ab56228c841867d6ae02efba21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Attackers/Lizard.prefab using Guid(f70f63ab56228c841867d6ae02efba21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5480a8e4f085639ae3a5d0e4f71c6454') in 0.168818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.430383 seconds.
+  path: Assets/Prefabs/Attackers/Ghost.prefab
+  artifactKey: Guid(edcfae1b2e5e6dc44b029485632bf5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Attackers/Ghost.prefab using Guid(edcfae1b2e5e6dc44b029485632bf5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6587ab4734f11b2239aa4c8b21653607') in 0.194309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.046479 seconds.
+  path: Assets/Prefabs/Attackers/Fox.prefab
+  artifactKey: Guid(4b0b253e7398911488a8779b3b38bbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Attackers/Fox.prefab using Guid(4b0b253e7398911488a8779b3b38bbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a865d9d0439a123144aacbdccaef6dd8') in 0.116212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.013095 seconds.
+  path: Assets/Prefabs/Attackers/Bat.prefab
+  artifactKey: Guid(5f9b45967bf805145b9a845c97193e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Attackers/Bat.prefab using Guid(5f9b45967bf805145b9a845c97193e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b03ae810237cab73c180bd8645a4ec') in 0.128519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.505827 seconds.
+  path: Assets/Prefabs/Attackers/Ghost.prefab
+  artifactKey: Guid(edcfae1b2e5e6dc44b029485632bf5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Attackers/Ghost.prefab using Guid(edcfae1b2e5e6dc44b029485632bf5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d7e9e8c524c1b5642148eaf3b0edbc') in 0.087769 seconds 

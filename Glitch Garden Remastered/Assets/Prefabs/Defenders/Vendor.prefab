@@ -150,6 +150,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  usePool: 1
   attackerLayer:
     serializedVersion: 2
     m_Bits: 128

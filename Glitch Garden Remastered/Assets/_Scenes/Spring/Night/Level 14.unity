@@ -406,6 +406,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1298250911434707909, guid: 132017287bfe7cd4c954732372c981cd, type: 3}
+      propertyPath: createCameraForLetterBoxRendering
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3295893763319297696, guid: 132017287bfe7cd4c954732372c981cd, type: 3}
       propertyPath: m_Name
       value: Force Camera Ratio
@@ -543,6 +547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit

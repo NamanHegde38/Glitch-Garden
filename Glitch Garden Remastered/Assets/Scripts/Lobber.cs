@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using DG.Tweening;
 using MoreMountains.Feedbacks;
+using UnityEngine.Pool;
 
 public class Lobber : MonoBehaviour {
 
@@ -11,6 +13,7 @@ public class Lobber : MonoBehaviour {
     [SerializeField] private float jumpPower = 1;
     [SerializeField] private float tweenTime = 2;
     [SerializeField] private AnimationCurve tweenEase;
+    [SerializeField] private bool usePool = true;
 
     [SerializeField] private LayerMask attackerLayer;
     [SerializeField] private MMFeedbacks shootFeedback;
@@ -19,20 +22,33 @@ public class Lobber : MonoBehaviour {
     private Animator _animator;
     private static readonly int IsAttacking = Animator.StringToHash("IsAttacking");
     private GameObject _projectileParent;
+    private ObjectPool<GameObject> _objectPool;
     private float _attackerSpeed;
     private TweenCallback _killTween;
+    private Coroutine _killTweenCoroutine;
 
     private GameObject _closestEnemy;
 
     private const string Projectiles = "Projectiles";
 
     private void Start() {
+        _objectPool = new ObjectPool<GameObject>(() => {
+            return Instantiate(projectilePrefab);
+        }, projectile => { 
+            projectile.gameObject.SetActive(true); 
+        }, projectile => { 
+            
+            projectile.gameObject.SetActive(false);
+        }, projectile => { 
+            Destroy(projectile.gameObject); 
+        }, true, 2, 3);
+        
         SetLaneSpawner();
         CreateProjectileParent();
         DOTween.Init();
         _animator = GetComponent<Animator>();
     }
-    
+
     private void CreateProjectileParent() {
         _projectileParent = GameObject.Find(Projectiles);
         if (!_projectileParent) {
@@ -61,7 +77,6 @@ public class Lobber : MonoBehaviour {
             if (_myLaneSpawner.transform.GetChild(0).GetComponent<Health>().GetHealth() <= 0) return false;
             _closestEnemy = _myLaneSpawner.transform.GetChild(0).gameObject;
             return true;
-
         }
 
         var ray = Physics2D.Raycast(gun.transform.position, Vector2.right, 8f, attackerLayer);
@@ -72,14 +87,22 @@ public class Lobber : MonoBehaviour {
 
     public void Fire() {
         if (!IsAttackerInLane()) return;
+        
+        var gunPos = gun.transform.position;
 
-        var projectileObject = Instantiate(projectilePrefab, gun.transform.position, transform.rotation);
+        var projectileObject = usePool ? _objectPool.Get() : Instantiate(projectilePrefab);
+        projectileObject.transform.position = gunPos;
+        projectileObject.transform.rotation = transform.rotation;
+
         var projectile = projectileObject.GetComponent<Projectile>();
         var projectileRigidbody = projectileObject.GetComponent<Rigidbody2D>();
+        
+        projectile.ClearTrailRenderers();
+        projectile.OnProjectileDestroyed += ReturnProjectileToPool;
         projectileObject.transform.parent = _projectileParent.transform;
         projectile.SetDamage(projectileDamage);
 
-        shootFeedback.PlayFeedbacks(gun.transform.position);
+        shootFeedback.PlayFeedbacks(gunPos);
 
         var position = _closestEnemy.transform.position;
         var predictedPosition = new Vector2(position.x, position.y - 0.2f);
@@ -95,15 +118,40 @@ public class Lobber : MonoBehaviour {
         projectileRigidbody.DOJump(predictedPosition, jumpPower, 1, tweenTime)
             .SetEase(tweenEase)
             .OnComplete(() =>
-                KillTween(projectile, projectileRigidbody));
+                _killTweenCoroutine = StartCoroutine(KillTween(projectile, projectileRigidbody)));
     }
 
-    private void KillTween(Projectile projectile, Rigidbody2D projectileRigidbody) {
+    private IEnumerator KillTween(Projectile projectile, Rigidbody2D projectileRigidbody) {
         projectileRigidbody.DOKill();
         projectile.PlayHitVFX();
-        Destroy(projectile.gameObject, 0.08f);
+        yield return new WaitForSeconds(0.08f);
+        DespawnProjectile(projectile.gameObject);
+    }
+    
+    private void ReturnProjectileToPool(object sender, Projectile.OnProjectileDestroyedEventArgs eventArgs) {
+        DespawnProjectile(eventArgs.Projectile);
+        eventArgs.Projectile.GetComponent<Projectile>().OnProjectileDestroyed -= ReturnProjectileToPool;
     }
 
+    private void DespawnProjectile(GameObject projectile) {
+        
+
+        if (usePool) {
+            if (projectile.activeSelf) {
+                _objectPool.Release(projectile);
+            }
+        }
+        else {
+            Destroy(projectile);
+        }
+        
+    }
+
+    private void OnDisable() {
+        if (_killTweenCoroutine != null) {
+            StopCoroutine(_killTweenCoroutine);
+        }
+    }
 
     private float DistanceTravelled(float speed) {
         var time = tweenTime;

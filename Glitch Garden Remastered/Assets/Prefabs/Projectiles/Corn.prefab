@@ -41,7 +41,7 @@ TrailRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397784388527556872}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -190,6 +190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f65fb69e62ede40ba6ab769bfd92c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trailRenderers:
+  - {fileID: 472261760802307969}
   criticalPercentage: 10
   criticalMultiplier: 2.5
   projectileFeedback: {fileID: 8432925036031098033}

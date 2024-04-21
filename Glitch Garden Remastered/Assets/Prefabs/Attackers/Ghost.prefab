@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90bd07db723e2e640833b9655467f221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1000
+  health: 1200
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   hurtFeedback: {fileID: 172080544930290595}
   deathFeedback: {fileID: 2219626955339507965}
@@ -641,11 +641,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 0f662122b2660dc48b096dc16f32480f, type: 3}
     - target: {fileID: -8088879713659639680, guid: d6092d770f413304d8e0edca3a0082a8, type: 3}
       propertyPath: MaxVolume
-      value: 0.45
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: -8088879713659639680, guid: d6092d770f413304d8e0edca3a0082a8, type: 3}
       propertyPath: MinVolume
-      value: 0.45
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1239453905587992687, guid: d6092d770f413304d8e0edca3a0082a8, type: 3}
       propertyPath: m_RootOrder

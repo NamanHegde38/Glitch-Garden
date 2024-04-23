@@ -15,7 +15,7 @@ D:/Unity/Projects/GameDev TV - Udemy/Glitch-Garden/Glitch Garden Remastered 2024
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55418
+65527
 Successfully changed project path to: D:/Unity/Projects/GameDev TV - Udemy/Glitch-Garden/Glitch Garden Remastered 2024
 D:/Unity/Projects/GameDev TV - Udemy/Glitch-Garden/Glitch Garden Remastered 2024
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Unity/Projects/GameDev TV - Udemy/Glitch-Garden/Glitch Garden Remastered 2024
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9708] Host "[IP] 192.168.1.168 [Port] 0 [Flags] 2 [Guid] 3817001477 [EditorId] 3817001477 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-69O7OMO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [78948] Host "[IP] 192.168.1.168 [Port] 0 [Flags] 2 [Guid] 1930039028 [EditorId] 1930039028 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-69O7OMO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9708] Host "[IP] 192.168.1.168 [Port] 0 [Flags] 2 [Guid] 3817001477 [EditorId] 3817001477 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-69O7OMO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [78948] Host "[IP] 192.168.1.168 [Port] 0 [Flags] 2 [Guid] 1930039028 [EditorId] 1930039028 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-69O7OMO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 680.86 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 30.76 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.25f1 (530ae0ba3889)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -71,46 +71,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.024414 seconds.
-- Loaded All Assemblies, in  1.560 seconds
+Registered in 0.032544 seconds.
+- Loaded All Assemblies, in  1.010 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.394 seconds
-Domain Reload Profiling: 1950ms
-	BeginReloadAssembly (206ms)
+- Finished resetting the current domain, in  0.832 seconds
+Domain Reload Profiling: 1835ms
+	BeginReloadAssembly (322ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (322ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (115ms)
-	LoadAllAssembliesAndSetupDomain (897ms)
-		LoadAssemblies (200ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (150ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (317ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (894ms)
-			TypeCache.Refresh (892ms)
-				TypeCache.ScanAssembly (622ms)
+		AnalyzeDomain (437ms)
+			TypeCache.Refresh (434ms)
+				TypeCache.ScanAssembly (366ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (395ms)
+	FinalizeReload (833ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (311ms)
+		SetupLoadedEditorAssemblies (564ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (107ms)
+			SetLoadedEditorAssemblies (19ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (209ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 1950ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.027 seconds
-Refreshing native plugins compatible for Editor in 10.64 ms, found 7 plugins.
+- Loaded All Assemblies, in  2.783 seconds
+Refreshing native plugins compatible for Editor in 14.81 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -127,48 +127,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.472 seconds
-Domain Reload Profiling: 7490ms
-	BeginReloadAssembly (225ms)
+- Finished resetting the current domain, in  7.694 seconds
+Domain Reload Profiling: 10464ms
+	BeginReloadAssembly (678ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (3651ms)
-		LoadAssemblies (3386ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (275ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (168ms)
+	LoadAllAssembliesAndSetupDomain (1605ms)
+		LoadAssemblies (1255ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (397ms)
-			TypeCache.Refresh (314ms)
-				TypeCache.ScanAssembly (288ms)
-			ScanForSourceGeneratedMonoScriptInfo (54ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (3472ms)
+		AnalyzeDomain (749ms)
+			TypeCache.Refresh (581ms)
+				TypeCache.ScanAssembly (531ms)
+			ScanForSourceGeneratedMonoScriptInfo (112ms)
+			ResolveRequiredComponents (51ms)
+	FinalizeReload (7695ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3166ms)
+		SetupLoadedEditorAssemblies (7100ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (19ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (299ms)
-			ProcessInitializeOnLoadAttributes (2434ms)
-			ProcessInitializeOnLoadMethodAttributes (386ms)
-			AfterProcessingInitializeOnLoad (19ms)
+			BeforeProcessingInitializeOnLoad (518ms)
+			ProcessInitializeOnLoadAttributes (5925ms)
+			ProcessInitializeOnLoadMethodAttributes (581ms)
+			AfterProcessingInitializeOnLoad (20ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 11.00 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 12.34 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7167 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 138 unused Assets / (2.1 MB). Loaded Objects now: 7685.
-Memory consumption went from 451.4 MB to 449.3 MB.
-Total: 35.983600 ms (FindLiveObjects: 0.723400 ms CreateObjectMapping: 0.233800 ms MarkObjects: 33.931400 ms  DeleteObjects: 1.092900 ms)
+Unloading 7154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 136 unused Assets / (291.6 KB). Loaded Objects now: 7667.
+Memory consumption went from 447.3 MB to 447.0 MB.
+Total: 36.383400 ms (FindLiveObjects: 0.737100 ms CreateObjectMapping: 0.253300 ms MarkObjects: 35.065800 ms  DeleteObjects: 0.325400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,201 +184,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 564473.443057 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/20.png
-  artifactKey: Guid(906e8c77e67c8c1428b3127bfb1f320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/20.png using Guid(906e8c77e67c8c1428b3127bfb1f320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944537aa08b3626ce3da943ed0ab8fba') in 0.165026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/19.png
-  artifactKey: Guid(45ae807b82ab33f46aef442ed0066737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/19.png using Guid(45ae807b82ab33f46aef442ed0066737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae83939146472049b25d022ce11b650') in 0.017767 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/2.png
-  artifactKey: Guid(3332826a1f785064ba7c5358b369d3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/2.png using Guid(3332826a1f785064ba7c5358b369d3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94862761a81ef5da2e2767da6e7b1346') in 0.016911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Plugins/Feel/MMTools/Tools/MMAchievements/Sprites/AchievementIcon.png
-  artifactKey: Guid(16a86a7f581fc4dfb953e0df8ad3ecac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Feel/MMTools/Tools/MMAchievements/Sprites/AchievementIcon.png using Guid(16a86a7f581fc4dfb953e0df8ad3ecac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b731cb9ff2471b9b5550e63800f7c6') in 0.018499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/11.png
-  artifactKey: Guid(e45146f7603c55441b2c053f7a9b5b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/11.png using Guid(e45146f7603c55441b2c053f7a9b5b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd008958169ccb708d2be71ba7d7c5c3') in 0.024875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/12.png
-  artifactKey: Guid(f9b2cf3183ba67a4abc369bbfc3f90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/12.png using Guid(f9b2cf3183ba67a4abc369bbfc3f90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2fd49c3d66713e22e40a384a5657a1') in 0.019104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/22.png
-  artifactKey: Guid(ce4c7142364f98b48b13f628da83bdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/22.png using Guid(ce4c7142364f98b48b13f628da83bdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a994cad8968773c0d3001e5f5a85fb5c') in 0.017752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/GUI PRO Kit - Casual Game/Preview/ADRemove.png
-  artifactKey: Guid(504f998b6ca49482c8263f1f9c6db98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Casual Game/Preview/ADRemove.png using Guid(504f998b6ca49482c8263f1f9c6db98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf43dcacbac17281fc70178c4d8e169d') in 0.021497 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/26.png
-  artifactKey: Guid(bdf2e165b4055074d8ffaab76ec50d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/26.png using Guid(bdf2e165b4055074d8ffaab76ec50d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ddf9500048f61bf8b720ccbd8f2e3a') in 0.018329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/17.png
-  artifactKey: Guid(66008a3f4e1429f46b88d44d77fd5f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/17.png using Guid(66008a3f4e1429f46b88d44d77fd5f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58942265702b15089129f4d92c22a016') in 0.017289 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/35.png
-  artifactKey: Guid(6ea107eb0d58fb14a969c863dee76f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/35.png using Guid(6ea107eb0d58fb14a969c863dee76f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596d78da31e067459b68173f08b0cc72') in 0.017560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/39.png
-  artifactKey: Guid(5f6844f764326574386179aae5591dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/39.png using Guid(5f6844f764326574386179aae5591dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c865c3d1fe01f86e49d3fb169af2c4') in 0.017593 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/16.png
-  artifactKey: Guid(d4274448e525ee8489e8ed1e4940d26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/16.png using Guid(d4274448e525ee8489e8ed1e4940d26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba18244199083343b372be3a3d15a5d') in 0.020001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/4.png
-  artifactKey: Guid(1c656e9c94d1eff40988765701a8ad72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/4.png using Guid(1c656e9c94d1eff40988765701a8ad72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3210e3df44ee145dfd017bdfe0855029') in 0.017693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/8.png
-  artifactKey: Guid(ed9f96a7f21dbcc499ec4290a446f3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/8.png using Guid(ed9f96a7f21dbcc499ec4290a446f3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1288cba591fda97a9df3246817d827e') in 0.017661 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/25.png
-  artifactKey: Guid(1c3cf0df59531b34a9818d873db2bcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/25.png using Guid(1c3cf0df59531b34a9818d873db2bcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363c53cb1d9d760a4b0ca2f86e07006f') in 0.020143 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/3.png
-  artifactKey: Guid(96ec62bd2849826408197abc1cf8a5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/3.png using Guid(96ec62bd2849826408197abc1cf8a5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c86369c1136e2cb8bec21a39e4aee9b') in 0.018236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/15.png
-  artifactKey: Guid(5ebb1d77e613d2942a57597549eefbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/15.png using Guid(5ebb1d77e613d2942a57597549eefbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0a5f0a3fa85c43e0abad1954cc675b') in 0.019754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.064 seconds
-Refreshing native plugins compatible for Editor in 10.43 ms, found 7 plugins.
+- Loaded All Assemblies, in  1.288 seconds
+Refreshing native plugins compatible for Editor in 12.33 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.639 seconds
-Domain Reload Profiling: 5697ms
-	BeginReloadAssembly (269ms)
+- Finished resetting the current domain, in  4.332 seconds
+Domain Reload Profiling: 5616ms
+	BeginReloadAssembly (281ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (23ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (81ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (656ms)
-		LoadAssemblies (740ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (855ms)
+		LoadAssemblies (890ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (48ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (33ms)
-	FinalizeReload (4640ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (43ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (4335ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3314ms)
+		SetupLoadedEditorAssemblies (2939ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (446ms)
-			ProcessInitializeOnLoadAttributes (1831ms)
-			ProcessInitializeOnLoadMethodAttributes (983ms)
-			AfterProcessingInitializeOnLoad (27ms)
+			BeforeProcessingInitializeOnLoad (351ms)
+			ProcessInitializeOnLoadAttributes (1584ms)
+			ProcessInitializeOnLoadMethodAttributes (945ms)
+			AfterProcessingInitializeOnLoad (25ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (45ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 12.47 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 9.61 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6923 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 90 unused Assets / (2.1 MB). Loaded Objects now: 7711.
-Memory consumption went from 405.4 MB to 403.3 MB.
-Total: 36.011700 ms (FindLiveObjects: 0.751600 ms CreateObjectMapping: 0.573400 ms MarkObjects: 33.974300 ms  DeleteObjects: 0.710200 ms)
+Unloading 6914 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (289.8 KB). Loaded Objects now: 7685.
+Memory consumption went from 398.1 MB to 397.8 MB.
+Total: 34.847100 ms (FindLiveObjects: 0.730600 ms CreateObjectMapping: 0.209000 ms MarkObjects: 33.608100 ms  DeleteObjects: 0.297100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -396,56 +252,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.073 seconds
-Refreshing native plugins compatible for Editor in 10.30 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.173 seconds
-Domain Reload Profiling: 5239ms
-	BeginReloadAssembly (277ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (652ms)
-		LoadAssemblies (758ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (4174ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3015ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (337ms)
-			ProcessInitializeOnLoadAttributes (1715ms)
-			ProcessInitializeOnLoadMethodAttributes (913ms)
-			AfterProcessingInitializeOnLoad (23ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (47ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 15.91 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 9.87 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6923 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 90 unused Assets / (2.1 MB). Loaded Objects now: 7728.
-Memory consumption went from 407.3 MB to 405.2 MB.
-Total: 47.601100 ms (FindLiveObjects: 1.051300 ms CreateObjectMapping: 1.038500 ms MarkObjects: 44.326600 ms  DeleteObjects: 1.182200 ms)
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (270.8 KB). Loaded Objects now: 7685.
+Memory consumption went from 293.5 MB to 293.2 MB.
+Total: 34.176900 ms (FindLiveObjects: 0.850900 ms CreateObjectMapping: 0.231700 ms MarkObjects: 32.953700 ms  DeleteObjects: 0.139000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -461,9 +274,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

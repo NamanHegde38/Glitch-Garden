@@ -10,11 +10,12 @@ public class LevelButton : MonoBehaviour {
 
     private void Start() {
         _button = GetComponent<Button>();
-        _levelNumber = int.Parse(transform.GetChild(0).GetComponent<TextMeshProUGUI>().text);
 
+        if (PlayerPrefsController.GetUnlockLevels() != 0) return;
+        
+        _levelNumber = int.Parse(transform.GetChild(0).GetComponent<TextMeshProUGUI>().text);
         if (PlayerPrefsController.GetLevelsUnlocked() < _levelNumber) {
             _button.interactable = false;
         }
-        
     }
 }

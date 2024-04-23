@@ -13,8 +13,8 @@ public class LevelSelect : MonoBehaviour {
             }
         }
         else {
-            foreach (var button in levelButtonArray) {
-                button.interactable = true;
+            for (var i = 0; i < levelButtonArray.Length; i++) {
+                levelButtonArray[i].interactable = true;
             }
         }
     }

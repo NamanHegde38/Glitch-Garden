@@ -21,7 +21,8 @@ public class FramerateLimiter : MonoBehaviour {
     }
 
     public void SetFramerateLimit() {
-        Application.targetFrameRate = PlayerPrefsController.GetFramerateLimit();
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = PlayerPrefsController.GetFramerateLimit() - 1;
     }
     
     public void DestroyObject() {

@@ -45,7 +45,7 @@ public class FramerateDisplay : MonoBehaviour {
     
     private float CalculateFPS() {
         var total = _frameDeltaTimeArray.Sum();
-        return Mathf.Clamp(_frameDeltaTimeArray.Length / total, 0f, 144f);
+        return Mathf.Clamp(_frameDeltaTimeArray.Length / total, 1f, 999f);
     }
 
     public void DestroyObject() {

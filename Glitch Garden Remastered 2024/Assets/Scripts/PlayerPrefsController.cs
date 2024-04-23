@@ -71,6 +71,7 @@ public class PlayerPrefsController : MonoBehaviour {
     public static void SetFramerateLimit(int limit) {
         if (limit is 30 or 60 or 144) {
             PlayerPrefs.SetInt(FramerateLimitKey, limit);
+            Debug.Log("Framerate Limit set to " + limit);
             PlayerPrefs.Save();
         }
         else {
@@ -85,6 +86,7 @@ public class PlayerPrefsController : MonoBehaviour {
     public static void SetShowFPS(int toggle) {
         if (toggle is 0 or 1) {
             PlayerPrefs.SetInt(ShowFPSKey, toggle);
+            Debug.Log("Show FPS set to " + (toggle == 1 ? "true" : "false"));
             PlayerPrefs.Save();
         }
         else {
@@ -99,6 +101,7 @@ public class PlayerPrefsController : MonoBehaviour {
     public static void SetUnlockLevels(int toggle) {
         if (toggle is 0 or 1) {
             PlayerPrefs.SetInt(UnlockLevelsKey, toggle);
+            Debug.Log("Unlock All Levels set to " + (toggle == 1 ? "true" : "false"));
             PlayerPrefs.Save();
         }
         else {

@@ -1,0 +1,7880 @@
+fileFormatVersion: 2
+guid: 0af09bfda820d9f46a5cbe3886d70868
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6506bbc5d7196418111aca0f418b73
+      internalID: -946996596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628faf987e1c88e4db4152b8798c979b
+      internalID: -1292339393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10761159c5aad842af7ba6b2357f749
+      internalID: -1302999851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f54f1a48c4fd242bd6cb3b0f9c40c2
+      internalID: 730165436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0fe28501faef64e8c9e7d5ab3e7db8
+      internalID: 1734036272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f9c8f50d4ff7b46897d72793f14820
+      internalID: 1809432581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd2cff1270959542b57b127caf0fdf0
+      internalID: 1178474335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4107c14bf765783439ed325cd3db036d
+      internalID: -1242480639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c170828abc707994a8eb3734f42856b0
+      internalID: -2035798414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a436d2c2755b59340b5be963476591f2
+      internalID: -841768487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73561cc8fe0cba45a47b3b9680f68f4
+      internalID: -678952821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_11
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906268d3546633a4c81e0338cdf8b180
+      internalID: 9602960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6027a89d51358994bbf9c4f03feee82b
+      internalID: 1716160167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_13
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a0bd98587dc7a4ca5319d6a31e6bc6
+      internalID: -575859504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_14
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9547cd5a4192c46b5f01f8f8f774f6
+      internalID: -828633149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a12e457de869db4e86de72314530a4e
+      internalID: -1274316038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_16
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7b5b0486269804babe31171a587572
+      internalID: 398178111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_17
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb43cb501abf6924a94cbfe2395fa578
+      internalID: 1751792803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_18
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff88c0e0502d8af4584cac467912419e
+      internalID: 365926440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_19
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010959a6443b5e64eb49f20bcd5db5f3
+      internalID: -1040122834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad19457a2f3bf041bd1299aa0879056
+      internalID: -278820428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_21
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3217b8ffc8aec434f898fab9c2e6742b
+      internalID: 225415020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_22
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c32f54be0f7344c90b803a18eb2dbc
+      internalID: -501622556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_23
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4653a59d20978f749942352be672dcc8
+      internalID: -1557660875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_24
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d36caabe1f7ea749901f47bba10b3f4
+      internalID: 1970764453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_25
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de2aec2e9896df44b07b3f683fd7843
+      internalID: -1984241686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_26
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bec00bb856ba964e8ccb514ebfadc4f
+      internalID: -194597788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_27
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c9063758b5ff14397ab36db29ce8cf
+      internalID: -323887319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_28
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548b56aefe503f24dbe9da6c2bec99ba
+      internalID: 492058781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_29
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bf7afcfb23fcc4784e19e456d209e8
+      internalID: 1254738566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_30
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044a5417d3bf1f5429120c55e192d4fd
+      internalID: 1852647761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_31
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1520
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d16187779c52b40acd5ba21ead8bc2
+      internalID: 1283550414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac37a16dc4fa5d2408a45d777a19b811
+      internalID: -854164455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e74ca204763b8e4fad16575ef9f33d3
+      internalID: -165703580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75b611c4c63e6c438b0eecf7a6f1655
+      internalID: 2095585941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_35
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931ca84fd138de64db2dfab183e3fbd9
+      internalID: -709029927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_36
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3664c0553b6f50c4b8ce3f750c7c7a6a
+      internalID: -593980893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_37
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3aca7ac6e770964090adf3f54204db9
+      internalID: 610277519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_38
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef0d79ec332fbe4194dadbb437c56c5
+      internalID: 1098230435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_39
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a80daa8aad890c499ebf489df3cf949
+      internalID: 280962911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_40
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72078571b757c804f8e626040c04dbaa
+      internalID: 1855900675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_41
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6dd9988968f804091702297152a375
+      internalID: 1916284334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_42
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ecc09eb6cb8684a89f089d8f0565f5
+      internalID: -81430526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_43
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aba3be75af66e24193167c31971f5a7
+      internalID: -1217460996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_44
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c315b30c504a842a43d2a9282f16fe
+      internalID: 1587379278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_45
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b2f2c8e59e6b54b9681bfa0b5a514a
+      internalID: -1302646783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_46
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b988be831123dee488c56f23e9d09ec8
+      internalID: -1827988232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_47
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bde49ba30eb23c4fb5c65a9fd81ed4a
+      internalID: 2062191214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_48
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945773fa6e3cc6c4fb32e9b7792de9f8
+      internalID: -1052545153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_49
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975c521670d29d743b851cdaa914882e
+      internalID: -52128273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_50
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607805bfc0972464ab3e845fa41645ad
+      internalID: -1629190614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_51
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51dcee104ab05147b9754136c9733c7
+      internalID: 1272935049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_52
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6207a8ee20a09489b68ce29a073830
+      internalID: -554773212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_53
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f01ba69d199deb4e94fd610d07f56b9
+      internalID: 1778507149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_54
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51588cbf955f8a34585322cd8df30ea7
+      internalID: -2081099631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_55
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c7690700098b34a803932f0ff3cb71
+      internalID: 833265080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_56
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33470912f06f70940b78584de4738a5b
+      internalID: 1824835750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_57
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155de59ca8727204ebe51353c6868c53
+      internalID: 1756653309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_58
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784d209b35a5bbe4f813890493d17506
+      internalID: 1767477506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_59
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd48e517cebfb86429344cc2cbfb94f8
+      internalID: -209432426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_60
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63111d506e7c244bac3e1ebf9ca9bf9
+      internalID: -1786222878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_61
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183565e4bbb42a34c9edb46ea3f3c066
+      internalID: -2062621696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_62
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c8e776b32053f47a165784de43b6e4
+      internalID: -859169571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_63
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1368
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0d55e8d2154024e8bad1e602036bd3
+      internalID: -161511607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02621a968545d014898cae3aee760741
+      internalID: 354860270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce50143d937bc2749ad9b945a2f78408
+      internalID: 1889784354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecc65edd982ba745bc6ab6b8248468b
+      internalID: 1085628649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_67
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289f399d07ddb72409475a5778650172
+      internalID: -1888487603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_68
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba09d48c6f21ac74d9309dcc91fafefd
+      internalID: 1914486305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_69
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb00009fa2623434799be1b63c580006
+      internalID: 1410122982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_70
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f189dd77da28f4dba7b54731023e28
+      internalID: -718050901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_71
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f28725f6ff23eb4abc0cc4672f32f46
+      internalID: 961768345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_72
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaa7e9a09ab2f0419d86c682d4a21cb
+      internalID: -102873919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_73
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d00fdc04b1fe048b79dc35340d866a
+      internalID: -1300838809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_74
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a70f446b5c48c147ace182466799417
+      internalID: 1960624882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_75
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426666f0d908d004e8b2111ff6f8fca6
+      internalID: 1744996752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_76
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a774c98c36ec1f2408a2fd9f48e32df7
+      internalID: -1969580163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_77
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5701a1616345f40ba64532fdbb506c
+      internalID: 1588128236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_78
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05147dd6eb1a92241992143a34be3cb7
+      internalID: 1780535640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_79
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbe151e4fad4ff4bb95cfa0b93281c8
+      internalID: -2060962948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_80
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84694a8b57c22f843bb71e1fa592a2de
+      internalID: -1015771432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_81
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a4f85d5effb2040aabc6f660ae2ced
+      internalID: 2079665728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_82
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3615c41af4b2f9d4cb3fdc949d3ed181
+      internalID: -682757539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_83
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d09b22f85f6924596e09e3d11a9488
+      internalID: -1842545445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_84
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24101c357f95c8d45b19c09afb266422
+      internalID: -197174413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_85
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6736c2aaf9cd464cb9c4e111ddf9d9c
+      internalID: 961555429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_86
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81e7afa02a62e947987c16c2027ca2e
+      internalID: -1924365978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_87
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8f6cdcea00e4f469e23c5041f90b0e
+      internalID: -1914707877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_88
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7cb369e31069443b8873a4b9a302d6
+      internalID: 587741410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_89
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a86387cdd45aac49853048f08b57e8c
+      internalID: -1400190149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_90
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14d913dc27fa734fa1f4b6136a472fd
+      internalID: 435434314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_91
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f8f068e317d32479551e6b73facd0d
+      internalID: -209451610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_92
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed926732350cfa94393a129a0490ef63
+      internalID: -253244326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_93
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529a9cfaae14d25438cb335ca5fea312
+      internalID: 527986630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_94
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b770275436ee10449bdf9aa1215cf7bd
+      internalID: 864953603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_95
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1216
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497ab5341477ece4e898a687e2d53ad7
+      internalID: -1857014419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647abc5b93cf69e4fa723c1dd623253a
+      internalID: -777197959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_97
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fd9504f9815b8438c21a5d08007129
+      internalID: 34949317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_98
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f2a3ede92706b489a1c4bba6a1b9a3
+      internalID: -1528635367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b54a7900b060b4992dad9edefa3426
+      internalID: -682875604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_100
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da77f8b4c3771a7499d9fea24636194b
+      internalID: 1612131500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_101
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669ea7f0a534e934b9a08eb263fde578
+      internalID: 145098437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_102
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a577d567db5278478bc9bb009f051be
+      internalID: 1272017019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_103
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1923367738d9d5e478c887050bd0bba3
+      internalID: 1687632253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_104
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65255b8e414989b4d8dc47aa8ddc3bd2
+      internalID: -1422177445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_105
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cb09118447ca14a8327ad5ae1b73a4
+      internalID: -129137569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_106
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fac8febc020c348860ef53616398d8
+      internalID: -1074702222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_107
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303b2b2ba0eb6ad40af382e5a10d9172
+      internalID: 668091215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_108
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a225511ec192b458e0e3fb67d71b9c
+      internalID: 44081619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_109
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de399d66c0a2b2e4c9e277d6d92c9d9a
+      internalID: 1034668068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_110
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7534120528757684191ddb05976fd286
+      internalID: 1830657037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_111
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ee2381d5aad4d4682056d83c16c891
+      internalID: -1935373886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_112
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5b32cd27c017b418791819c2a977cc
+      internalID: 419805110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_113
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e736c862ef19864e88274411df8bd1d
+      internalID: -1889141326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_114
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b5aec775d1a8141afe011567306553
+      internalID: 526564368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_115
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af36790ee2d15a488a755d28fc97501
+      internalID: -259764941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_116
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da87194a7a6b1347b37f2db8a719be7
+      internalID: 1563024629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_117
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60bf3ed8890db74186c34655bbf3d03
+      internalID: 527559278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_118
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c1e69eabd91344b9ff481124596828
+      internalID: -67751403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_119
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519b05f8b96bed3448ca660a20c0fa5f
+      internalID: -979597492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_120
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de409735f958d1d4fb46dfe14ec7b662
+      internalID: 752787785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_121
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27706a8ba2a61d249acbb9cd8c282e26
+      internalID: -105506435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_122
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2e9ccc63924c74192efa2a2983862c
+      internalID: 1819175835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_123
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd9550369b39414793c020a08acc4a0
+      internalID: -1532345058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_124
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8377735ea17ce4eafac19c5931ce1b
+      internalID: 586249352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_125
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb38dca11afb27547b617f68a70e464b
+      internalID: 1193700035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_126
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216486b2795beb34794a9e2449f23b70
+      internalID: 1700577890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_127
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1064
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8293416281d33da40b0d81d98bacf4e6
+      internalID: 1664073816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdce9160abb574f408979c85c433b935
+      internalID: -769883235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_129
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab8c5a22adc54443962136bd9abb10a
+      internalID: -1313275389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_130
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8e95f203afbfb4a80e1d47d93d1d5d
+      internalID: -542458999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_131
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b0dd9726ba0714e96cd679700a27e1
+      internalID: 1983500301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_132
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48a4f629b236084f806f2e3ae08edc9
+      internalID: 1371514486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_133
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4848887726a0a48b5d1543c81948d0
+      internalID: 1156532984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_134
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653c26a68875fb14c885f6901da3eb4e
+      internalID: -1812507653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_135
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6afa3b6ec3187544bb0211126b32b2c
+      internalID: 2139525671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_136
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416c8138d744e5a448e300cb9a882d58
+      internalID: -1560247932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_137
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1915fa0ac1c92d44a462df88ffd8f9e
+      internalID: -558510700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_138
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25521296035deda4aa4d19298b274ef7
+      internalID: 46095136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_139
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc8fe5514b4e814bac973bb31d54d26
+      internalID: 1701419399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_140
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0a3b975637023438f764af8cceb6dc
+      internalID: -483849865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_141
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d883293338576ce4494096a1072cb890
+      internalID: -2114596786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_142
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ab535bec42e7347b7f87c297a86814
+      internalID: -1541028145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_143
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b895da0ef35894190a66549efe7b9f
+      internalID: -2097007904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_144
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754a0093ea1c9964890f36fa5920a46d
+      internalID: -744137264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_145
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626d20eea8f8cad49b6dc278da4febde
+      internalID: -676910876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_146
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86eb3413ac88b1458ee53bfc8c8da2a
+      internalID: -1151890044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_147
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4c6c9a3d39cb2488c21de4e17df9c0
+      internalID: -529158206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_148
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbac3f66f525d54d9a01157b27b1d60
+      internalID: 1807441735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_149
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6a88c697d9e4f49a664f4078b6e99e
+      internalID: -733245095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_150
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0e8f1094e7e9a4abe2e0d6183f8849
+      internalID: 1945039489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_151
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e6b5fe6230648419a47d2c866d073d
+      internalID: -711503348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_152
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3426338665c814284e6e9d89cc8f30
+      internalID: 1567891708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_153
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f637d2d5dfb2f91448c5b2716573ee7a
+      internalID: 562630540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_154
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b7570b8f1aa9245b5a76b7a61d2793
+      internalID: 1902138802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_155
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c320560cf80c96642a0a80abd1584768
+      internalID: 1158220124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_156
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2472f6b75ba1b9418967c89c04aa8db
+      internalID: 219643536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_157
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2730a182a07679f4ca980fd61fe8262e
+      internalID: -684000883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_158
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397589aae062b7440a6f0b9cf76f830f
+      internalID: -1156207554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_159
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 912
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d40ec880d2b6f4408c01dd7d30c18a1
+      internalID: -93844286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39eafe137af00649955a982fa486085
+      internalID: 1675501226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_161
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2add029908f7f41b3f73a212f77a69
+      internalID: 191259544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_162
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83eb0c8daf6a11488ed2202abb9e394
+      internalID: 1840553173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_163
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff7072d4434ce54296ef3858af1320a
+      internalID: -1587760352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_164
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0048432045be9a64b8585d140745f71c
+      internalID: -1676081805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_165
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb7dca311a82e94db4d2e49d8a7e4a4
+      internalID: 1447414629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_166
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28f33feb38ea60498977335bcd01da6
+      internalID: -735639017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_167
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d89360477175714c9be5270749b9087
+      internalID: -1300319881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_168
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bcf6b7151a0254f921f835c6cf19fe
+      internalID: -1111225650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_169
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150ecedabeb4cf84d86ecaca53da7daf
+      internalID: 1290735970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_170
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ba38092d8b7304a95ea74b6a7ab552
+      internalID: 153783755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_171
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a2ad6ce03238a47b5a60a8e5685958
+      internalID: -1834828895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_172
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5da4dea1e95fba4b9dbc825c1d1bb3e
+      internalID: -99130427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_173
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efd4bf87a55f00478e402c522af70fc
+      internalID: -2034061095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_174
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ef6a0913c7bae418cedd85fc8c469e
+      internalID: 570161450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_175
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af540cd25a4e994c8d542352aabbccf
+      internalID: 1398843812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_176
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3933245852752d4e9996e259d9c287f
+      internalID: 821027393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_177
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa44b943282715d4385b56f4ec203614
+      internalID: 1303274584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_178
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957b6624f03759b4d87bce005796370a
+      internalID: -785600458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_179
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955be558cbe9d8a4999f6d18b4175052
+      internalID: -539787513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_180
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8f7c2c52547424181557f3f2af1bdd
+      internalID: 1764668583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_181
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66fbcc9b7f5319478fe99e83afb379d
+      internalID: -1075152369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_182
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d5fda61babb39488bb6c45528fe10d
+      internalID: 981121453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_183
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d091339ec72bd5489e348514927aac4
+      internalID: -1454755012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_184
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faee525ea3be66645b1cb9dab45ddfce
+      internalID: 879986875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_185
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb863580f267d342a145480b0363cb9
+      internalID: -1353477991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_186
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5674d78d1182140baf6da98d896cfb
+      internalID: -1548880309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_187
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667eeb6fbb5c61e408a6cbcfd5517b85
+      internalID: -1853599616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_188
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0759782947a684449a6660f1d67faa61
+      internalID: -1619372460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_189
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e77719776f84d4a86534291fbc939a
+      internalID: 509934187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_190
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da0ed4ae83e2ef43a2012c17e2e8908
+      internalID: 245188464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_191
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 760
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6713f1443eaba7a45ad3ae2249806b61
+      internalID: -1042615752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486c492f95afcbc4eb8415ff34e0b555
+      internalID: 46038536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_193
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc77262e84fc89c4cb5cb33093e366b4
+      internalID: -1635694239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_194
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae65903641341344abe58d3f2473cc39
+      internalID: 2091609782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_195
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89e1ed9017b3314ba91952479e6efbf
+      internalID: 1488459105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_196
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56475a889b59a8848aa6b65d396479ef
+      internalID: 878267843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_197
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d607a5cd4243bd4d8420004ffeefb74
+      internalID: 1757925138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_198
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd7defe9faf62a408f7f563ccc0dee4
+      internalID: 967418472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_199
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3fb6df108b276438fdac82fa473ec6
+      internalID: 1725612129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_200
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c1bd5b2b974b5479a533cc622ee431
+      internalID: 705800561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_201
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e599e2d8ff22f342846a8320d3d5517
+      internalID: 841664410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_202
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c4befd326ba2d4b941f09eedc1e804
+      internalID: 756846394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_203
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42747ab5b8d67a4e8e567ccba0404d6
+      internalID: -353700684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_204
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393190de933b8d7459a6f53c8769a530
+      internalID: -505163649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_205
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73252fded770da24b879733209fc4822
+      internalID: 1126748577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_206
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b071b81bd5501342882673dc2bcc034
+      internalID: -1849892232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_207
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8833f2e600999c45904cb7c75d0d0ff
+      internalID: 891288375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_208
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2065abd65d65749afde7b7f2799742
+      internalID: 1050003054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_209
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f89494f504b91f4eb2945584106d3c4
+      internalID: 267515351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_210
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cc44a12fc9b394f85c22be9a14b387
+      internalID: -1021235921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_211
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7539ab059dca94b90e05630351491d
+      internalID: 1312003348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_212
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db959f50ddb6b44d94df746ff30c238
+      internalID: 1881019567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_213
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e584a0bd0e5e4b447aded88318ef8fe7
+      internalID: 1217855156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_214
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9766648a4c1c14e46bfc85b68419864c
+      internalID: 1408852439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_215
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8ca3a4da3cb9341aad1e005b7dc672
+      internalID: -171974118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_216
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f103fecac49b1534ab80104a229df0fe
+      internalID: 327721079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_217
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f11bd887b948c642b8908e3d58fe15c
+      internalID: -1295565304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_218
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56fbf760a4d1d541a36f09a8ad78e43
+      internalID: -1786819023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_219
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7826edb4e2256449c965f178d3a269
+      internalID: 1467745577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_220
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cce8e20f29ab1f4f90221824b5ba317
+      internalID: -461677388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_221
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b89dc20e6b3dfe4994f1b2862dcc7be
+      internalID: -155515979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_222
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021dbc73e6fb8854aa49337c158913fa
+      internalID: -1369373315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_223
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 608
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deb07f1dc483f84d8474d9df7b1b592
+      internalID: 1526552594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116964fa77fd2b84d98c30b5b928cb65
+      internalID: 538791592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_225
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8900fb3dce816744eb51c0f58370530f
+      internalID: 1262508170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_226
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc3287734516694fb47d6313bad1618
+      internalID: 1563441136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_227
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76433de582c90b941bfefd721de518aa
+      internalID: 1972514655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_228
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c762d4b6f97e9946b309982aa185e24
+      internalID: 454285978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_229
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f632c1cfee520489a9a176af4904f3
+      internalID: -2120283570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_230
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2068db6ce826fb1438e81c3e7fa2ffe7
+      internalID: -691503572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_231
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9d7c81add435a4aa9cb3cdf7e6ea5a
+      internalID: -1644925801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_232
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9f96afbf826ce41b6a1f45ba8befcf
+      internalID: 101493844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_233
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fcd75a255e6494291f230ccc1f5e35
+      internalID: -1894654463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_234
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89621b887f60fd54086ed7a93cfa73db
+      internalID: 627481700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_235
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f7c067181bb454d82f2ad9220a6c06
+      internalID: -565770730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_236
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb8dd61cdacb314781eef9b7921d938
+      internalID: -248526937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_237
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4163488af57e1e340b823f815e95c941
+      internalID: -262495354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_238
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c121d6a74c43254aab9e4749a5c4243
+      internalID: -130637922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_239
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40de7190e42db464b816680f6328a3e7
+      internalID: 1646316499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_240
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f2af401c29ef74b8362b9e54cde500
+      internalID: 602153836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_241
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d141418a9493c24388e262175568c5a
+      internalID: 374907122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_242
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c690b55a7acf3b4eb27e54ceae94d11
+      internalID: -1613600344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_243
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80f106ee6b2df04eb45a6ca666d689e
+      internalID: 253544552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_244
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777808180172c3340a1e3104ee37a19a
+      internalID: 620793757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_245
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358f0a665c63c6f448b3c80dab0b0f6b
+      internalID: 898146636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_246
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abd214fc9cb57b44964bc0dc66b757d
+      internalID: 1149447902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_247
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e3f4c0c30e7764bbe3d1182256ed36
+      internalID: 1229151435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_248
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8864bd122c6c4ee41b6d3b4fde0f851d
+      internalID: -2118748134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_249
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac58644ecb643a8428261f44f3557ad8
+      internalID: -728239317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_250
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e560c87818a014c8198fb483f559ba
+      internalID: -346147340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_251
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e26bc4ee3d79440967de55fb7bed13
+      internalID: -1997381549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_252
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e94a78ac0bbfb458abac1465ff0185
+      internalID: 470797945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_253
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94290736fdd869d45b412753cc4b52a1
+      internalID: -61340121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_254
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0ddca235edd8d429b96ce330d7d4b5
+      internalID: -1070303068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_255
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 456
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a08b71e4376e24c8c22d671594210b
+      internalID: 2036573603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_256
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043ee290435fb8d43a92d0547065e13d
+      internalID: 1698416412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_257
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c523ede5d40e74dae726f5ff97b4b0
+      internalID: 1149433482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_258
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fef0dca273f96409dd05139d0f3e18
+      internalID: 867973350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_259
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3f008311df20448905d1cd914e408c
+      internalID: 2098895626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_260
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b3ef65d90beba409c2d8d5704a1f7a
+      internalID: 1564730110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_261
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c331a8aea93e74cbbd13e5cf514983
+      internalID: -4690588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_262
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b616a54b601444eb044a2f8803a429
+      internalID: -1918569584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_263
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1f790886afcb94eb5be3432588a9a0
+      internalID: -2092322370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_264
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5659a418ec64d4ca627b5a65c8c0fd
+      internalID: -1854020789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_265
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3484d8c34051132438717658e79a3be3
+      internalID: 1726809290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_266
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbc7d7bd9389ba40aebb9cb973c4fdc
+      internalID: 289324946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_267
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54528d78061362e42a5919ef9721e8ed
+      internalID: -931765894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_268
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddfa290acb026e44af04f5b3b818099
+      internalID: 87912006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_269
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5f2039d5016d347a3af2c0fcff26b7
+      internalID: -1966134239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_270
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafbc87d32cc8d648a955ae616772ae7
+      internalID: 109216803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_271
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0128b267a147247a888c7b15d72687
+      internalID: 2014943477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_272
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c351d2dc7e1a1df4db56d6d870b9036f
+      internalID: 1674435757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_273
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99f8281d440ca546a61a1623b84aa8c
+      internalID: 1278864809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_274
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b8c60eaba7bf34e97631379251b3ba
+      internalID: -998263239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_275
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb731edc17b22e44a42e68ff0ad11f1
+      internalID: 546117137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_276
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aad695032bdb9489b270dc791f83e8
+      internalID: 1342988202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_277
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74b42ddd96e1e147980c75dc2181041
+      internalID: -1304840914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_278
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c664cfbe74b75746a744844bf0a805c
+      internalID: -285962575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_279
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084a864b25f014b4982d2b18a9b03b76
+      internalID: 168583645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_280
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e86203fe15257b4f98f5d73c198d3e0
+      internalID: 806764691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_281
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99488a9d9807bf4ea420150a97aafff
+      internalID: -1324409496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_282
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5faa35ecda69ce647a141e795d1ad5e5
+      internalID: 321002714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_283
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abac965a12708a348802f8c97cbd04db
+      internalID: 1911305588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_284
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f0db39daee15a48b564019e902d8af
+      internalID: -231673693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_285
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8bb172e3ec35d4dacb64230d495d4f
+      internalID: -1864015433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_286
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af7936fc9613eb4e8f35f71404d984d
+      internalID: 1664900569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_287
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 304
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570ca85840efd43459e7fd8dea244a71
+      internalID: -1836510918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_288
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0e1ad4148f54b4d979c574dab7e756
+      internalID: 1151274612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_289
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6441a895ddaf75041b808775d8ae0c77
+      internalID: -1353522749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_290
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209ceef1d9b69554a8902408b78ad2c8
+      internalID: 2039839078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_291
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ce7b9b69209564d8f94e21a9b8e034
+      internalID: 831891545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_292
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1507440eda39ca24aa29ce67677a402d
+      internalID: 2056121188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_293
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ba218ef15a40845b317e8f51130227
+      internalID: 1209560572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_294
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee3c2a2b0338914680297ca7f7f56a0
+      internalID: 166732187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_295
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724d37ce636cf8645863926fe585d31f
+      internalID: -956867422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_296
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b704ab50c509ddf449567be23d4b2f36
+      internalID: -1949667804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_297
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622cbe8e082b1b7488af30ec75c08c45
+      internalID: 693019857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_298
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1340720dbb72eb24092ac63f8695922c
+      internalID: -1266752018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_299
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087bab74773861443a44514552cf3bf1
+      internalID: 179646893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_300
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c255881d07abcf345a547eaa3328f38d
+      internalID: 259241622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_301
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee10401573bdc2498cc172c16e1f965
+      internalID: -2096594542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_302
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580802981cde0dd4cb17a8a5818937fb
+      internalID: 76722452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_303
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07279c8892ddbc946b7cafec9db9cf12
+      internalID: 1683798798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_304
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d610e28866a7449abdfe9fc3ecd349
+      internalID: -2049037116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_305
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1846c0d51738a754db059354a60b3474
+      internalID: -2111902505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_306
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e294e845a0c28468ad95976a800e2f
+      internalID: -1502724154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_307
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875a3d09a7a60654ab98d562bf5a8065
+      internalID: 1332459963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_308
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba5030879cf23c49a88af813546aa67
+      internalID: -675654330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_309
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab6f76f6c23e0743956eade3dd98ca8
+      internalID: 414578591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_310
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d50ae0d475920428226a879f8a7162
+      internalID: 725352346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_311
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53680aed01a6494792247aacc8aad80
+      internalID: 761629108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_312
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bdb5f58d36a55429868a671286c29e
+      internalID: -791046495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_313
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8a1c4614a692441b1b92ca17605054
+      internalID: 678855684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_314
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12df8bc0e1c8084bbf2d92bbf1080c0
+      internalID: -1963934073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_315
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c7a1e4eb587ba4584af76aaf3f2fc5
+      internalID: 1936396200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_316
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3909c193765359d4eb008d24cb532c37
+      internalID: -554692694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_317
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e736bf369f7544680a86a7e9e0a9b6
+      internalID: -817059297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_318
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81e0fdd94a73234497756219d6625a5
+      internalID: -771816633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_319
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 152
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656e0cfd1481353449443207694a0281
+      internalID: -1571253043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_320
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc7793d9c9e3be4c8c357c8ff4b42e4
+      internalID: 1257759670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_321
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16095d8c96439a346a39f7a1d019d683
+      internalID: -934954905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_322
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d070983807948b409632925aefd213d
+      internalID: 255176847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_323
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3223a53408bd93f439f8a7585b46e43e
+      internalID: -151610147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_324
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7180f1c9b60093249812778ab078dcc1
+      internalID: 883372350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_325
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e5f10b3ed811440bf208d03509ca4f
+      internalID: -1134372004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_326
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c851a080dc326d45b06be013764cb40
+      internalID: -1511173602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_327
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd5ace226555f941b98166edf1d0a1a
+      internalID: -1243135016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_328
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecdb2f8ee44c5848818c75296ec616a
+      internalID: -1510988318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_329
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed335f7da3bf7114db49ec64a7b7c6d6
+      internalID: -1943372089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_330
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5559a3b685ca82b4583446df7643b6b5
+      internalID: -481352873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_331
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f926818892322ff43961b96128ef2a68
+      internalID: 1024055151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_332
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecf7db8b5c33974a9d1b63bcbdc9105
+      internalID: 2139984806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_333
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62b099df28728f4daae79c722c77456
+      internalID: 1701626762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_334
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08fb40d6315ae849a0b9721a29bec33
+      internalID: 1869036632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_335
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef22a636866e16e45887aa0dcdd3653f
+      internalID: -1314673845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_336
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36548ac3353e6249807af44a51f7fd9
+      internalID: 410288523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_337
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69932e4030fcce4abc1672281c3ba6b
+      internalID: 1072401628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_338
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407127bcbb8db7c4d9e5e6577ddde596
+      internalID: -770748399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_339
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53fc76d1de21ed418f74fe81bdba6f5
+      internalID: -356368786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_340
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02dde6f90f237246b36cc6817a45a25
+      internalID: 1532615913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_341
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6fa5302af74f24899f2ef34506a2c5
+      internalID: 1963152667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_342
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e09767b14b056147807ba1293544d6a
+      internalID: -1275673720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_343
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b343f4934964742ae4edd006229132
+      internalID: -1067144696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_344
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13af56e648808294899a67701a6f83d9
+      internalID: 296151352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_345
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de28a7bd038fd8e4c99e7e9e9f47f72b
+      internalID: 1776562524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_346
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ed5fd1951638746bce34131ee9700e
+      internalID: 1865990353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_347
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f643b49740d49e44d861813ba2a552f5
+      internalID: -582181292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_348
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95962b16b053ed5439c5112c4e8590e9
+      internalID: -517099387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_349
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8692585b1475013499a9a534d2386629
+      internalID: -2070444975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_350
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cc403d63ea9384483c939c8e3c3ce2
+      internalID: 771528089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiny Jelly Attack_351
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 0
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fc4e49902f84f419c6f209ae2cec9e
+      internalID: 1414543929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: ac34266b423c01c4d9ac3dd312237497, type: 3}
+      name: _NormalMap
+    nameFileIdTable:
+      Shiny Jelly Attack_89: -1400190149
+      Shiny Jelly Attack_197: 1757925138
+      Shiny Jelly Attack_273: 1278864809
+      Shiny Jelly Attack_76: -1969580163
+      Shiny Jelly Attack_79: -2060962948
+      Shiny Jelly Attack_258: 867973350
+      Shiny Jelly Attack_172: -99130427
+      Shiny Jelly Attack_187: -1853599616
+      Shiny Jelly Attack_140: -483849865
+      Shiny Jelly Attack_73: -1300838809
+      Shiny Jelly Attack_68: 1914486305
+      Shiny Jelly Attack_106: -1074702222
+      Shiny Jelly Attack_143: -2097007904
+      Shiny Jelly Attack_121: -105506435
+      Shiny Jelly Attack_214: 1408852439
+      Shiny Jelly Attack_332: 2139984806
+      Shiny Jelly Attack_64: 354860270
+      Shiny Jelly Attack_229: -2120283570
+      Shiny Jelly Attack_345: 1776562524
+      Shiny Jelly Attack_77: 1588128236
+      Shiny Jelly Attack_74: 1960624882
+      Shiny Jelly Attack_266: 289324946
+      Shiny Jelly Attack_305: -2111902505
+      Shiny Jelly Attack_83: -1842545445
+      Shiny Jelly Attack_295: -956867422
+      Shiny Jelly Attack_237: -262495354
+      Shiny Jelly Attack_144: -744137264
+      Shiny Jelly Attack_253: -61340121
+      Shiny Jelly Attack_113: -1889141326
+      Shiny Jelly Attack_207: 891288375
+      Shiny Jelly Attack_251: -1997381549
+      Shiny Jelly Attack_261: -4690588
+      Shiny Jelly Attack_103: 1687632253
+      Shiny Jelly Attack_147: -529158206
+      Shiny Jelly Attack_220: -461677388
+      Shiny Jelly Attack_210: -1021235921
+      Shiny Jelly Attack_20: -278820428
+      Shiny Jelly Attack_151: -711503348
+      Shiny Jelly Attack_265: 1726809290
+      Shiny Jelly Attack_318: -771816633
+      Shiny Jelly Attack_278: -285962575
+      Shiny Jelly Attack_298: -1266752018
+      Shiny Jelly Attack_241: 374907122
+      Shiny Jelly Attack_25: -1984241686
+      Shiny Jelly Attack_342: -1275673720
+      Shiny Jelly Attack_42: -81430526
+      Shiny Jelly Attack_129: -1313275389
+      Shiny Jelly Attack_164: -1676081805
+      Shiny Jelly Attack_56: 1824835750
+      Shiny Jelly Attack_59: -209432426
+      Shiny Jelly Attack_221: -155515979
+      Shiny Jelly Attack_183: -1454755012
+      Shiny Jelly Attack_198: 967418472
+      Shiny Jelly Attack_329: -1943372089
+      Shiny Jelly Attack_247: 1229151435
+      Shiny Jelly Attack_195: 1488459105
+      Shiny Jelly Attack_200: 705800561
+      Shiny Jelly Attack_110: 1830657037
+      Shiny Jelly Attack_300: 259241622
+      Shiny Jelly Attack_287: -1836510918
+      Shiny Jelly Attack_133: 1156532984
+      Shiny Jelly Attack_127: 1664073816
+      Shiny Jelly Attack_160: 1675501226
+      Shiny Jelly Attack_27: -323887319
+      Shiny Jelly Attack_108: 44081619
+      Shiny Jelly Attack_175: 1398843812
+      Shiny Jelly Attack_228: 454285978
+      Shiny Jelly Attack_14: -828633149
+      Shiny Jelly Attack_276: 1342988202
+      Shiny Jelly Attack_321: -934954905
+      Shiny Jelly Attack_57: 1756653309
+      Shiny Jelly Attack_67: -1888487603
+      Shiny Jelly Attack_61: -2062621696
+      Shiny Jelly Attack_335: -1314673845
+      Shiny Jelly Attack_10: -678952821
+      Shiny Jelly Attack_81: 2079665728
+      Shiny Jelly Attack_38: 1098230435
+      Shiny Jelly Attack_11: 9602960
+      Shiny Jelly Attack_223: 1526552594
+      Shiny Jelly Attack_28: 492058781
+      Shiny Jelly Attack_249: -728239317
+      Shiny Jelly Attack_154: 1902138802
+      Shiny Jelly Attack_293: 1209560572
+      Shiny Jelly Attack_16: 398178111
+      Shiny Jelly Attack_41: 1916284334
+      Shiny Jelly Attack_139: 1701419399
+      Shiny Jelly Attack_60: -1786222878
+      Shiny Jelly Attack_270: 109216803
+      Shiny Jelly Attack_159: -93844286
+      Shiny Jelly Attack_86: -1924365978
+      Shiny Jelly Attack_338: -770748399
+      Shiny Jelly Attack_212: 1881019567
+      Shiny Jelly Attack_66: 1085628649
+      Shiny Jelly Attack_2: -1302999851
+      Shiny Jelly Attack_153: 562630540
+      Shiny Jelly Attack_90: 435434314
+      Shiny Jelly Attack_70: -718050901
+      Shiny Jelly Attack_202: 756846394
+      Shiny Jelly Attack_98: -1528635367
+      Shiny Jelly Attack_167: -1300319881
+      Shiny Jelly Attack_51: 1272935049
+      Shiny Jelly Attack_9: -841768487
+      Shiny Jelly Attack_244: 620793757
+      Shiny Jelly Attack_255: 2036573603
+      Shiny Jelly Attack_330: -481352873
+      Shiny Jelly Attack_136: -1560247932
+      Shiny Jelly Attack_346: 1865990353
+      Shiny Jelly Attack_315: 1936396200
+      Shiny Jelly Attack_267: -931765894
+      Shiny Jelly Attack_206: -1849892232
+      Shiny Jelly Attack_281: -1324409496
+      Shiny Jelly Attack_157: -684000883
+      Shiny Jelly Attack_230: -691503572
+      Shiny Jelly Attack_299: 179646893
+      Shiny Jelly Attack_257: 1149433482
+      Shiny Jelly Attack_170: 153783755
+      Shiny Jelly Attack_109: 1034668068
+      Shiny Jelly Attack_224: 538791592
+      Shiny Jelly Attack_142: -1541028145
+      Shiny Jelly Attack_186: -1548880309
+      Shiny Jelly Attack_196: 878267843
+      Shiny Jelly Attack_262: -1918569584
+      Shiny Jelly Attack_131: 1983500301
+      Shiny Jelly Attack_168: -1111225650
+      Shiny Jelly Attack_217: -1295565304
+      Shiny Jelly Attack_145: -676910876
+      Shiny Jelly Attack_30: 1852647761
+      Shiny Jelly Attack_213: 1217855156
+      Shiny Jelly Attack_327: -1243135016
+      Shiny Jelly Attack_156: 219643536
+      Shiny Jelly Attack_165: 1447414629
+      Shiny Jelly Attack_161: 191259544
+      Shiny Jelly Attack_17: 1751792803
+      Shiny Jelly Attack_285: -1864015433
+      Shiny Jelly Attack_176: 821027393
+      Shiny Jelly Attack_286: 1664900569
+      Shiny Jelly Attack_8: -2035798414
+      Shiny Jelly Attack_319: -1571253043
+      Shiny Jelly Attack_123: -1532345058
+      Shiny Jelly Attack_137: -558510700
+      Shiny Jelly Attack_88: 587741410
+      Shiny Jelly Attack_36: -593980893
+      Shiny Jelly Attack_219: 1467745577
+      Shiny Jelly Attack_40: 1855900675
+      Shiny Jelly Attack_268: 87912006
+      Shiny Jelly Attack_344: 296151352
+      Shiny Jelly Attack_37: 610277519
+      Shiny Jelly Attack_44: 1587379278
+      Shiny Jelly Attack_22: -501622556
+      Shiny Jelly Attack_141: -2114596786
+      Shiny Jelly Attack_149: -733245095
+      Shiny Jelly Attack_226: 1563441136
+      Shiny Jelly Attack_1: -1292339393
+      Shiny Jelly Attack_65: 1889784354
+      Shiny Jelly Attack_117: 527559278
+      Shiny Jelly Attack_155: 1158220124
+      Shiny Jelly Attack_208: 1050003054
+      Shiny Jelly Attack_190: 245188464
+      Shiny Jelly Attack_95: -1857014419
+      Shiny Jelly Attack_188: -1619372460
+      Shiny Jelly Attack_277: -1304840914
+      Shiny Jelly Attack_193: -1635694239
+      Shiny Jelly Attack_242: -1613600344
+      Shiny Jelly Attack_0: -946996596
+      Shiny Jelly Attack_87: -1914707877
+      Shiny Jelly Attack_101: 145098437
+      Shiny Jelly Attack_232: 101493844
+      Shiny Jelly Attack_328: -1510988318
+      Shiny Jelly Attack_271: 2014943477
+      Shiny Jelly Attack_34: 2095585941
+      Shiny Jelly Attack_107: 668091215
+      Shiny Jelly Attack_130: -542458999
+      Shiny Jelly Attack_128: -769883235
+      Shiny Jelly Attack_292: 2056121188
+      Shiny Jelly Attack_191: -1042615752
+      Shiny Jelly Attack_85: 961555429
+      Shiny Jelly Attack_256: 1698416412
+      Shiny Jelly Attack_339: -356368786
+      Shiny Jelly Attack_126: 1700577890
+      Shiny Jelly Attack_7: -1242480639
+      Shiny Jelly Attack_282: 321002714
+      Shiny Jelly Attack_209: 267515351
+      Shiny Jelly Attack_31: 1283550414
+      Shiny Jelly Attack_189: 509934187
+      Shiny Jelly Attack_52: -554773212
+      Shiny Jelly Attack_72: -102873919
+      Shiny Jelly Attack_32: -854164455
+      Shiny Jelly Attack_348: -517099387
+      Shiny Jelly Attack_97: 34949317
+      Shiny Jelly Attack_146: -1151890044
+      Shiny Jelly Attack_119: -979597492
+      Shiny Jelly Attack_3: 730165436
+      Shiny Jelly Attack_322: 255176847
+      Shiny Jelly Attack_192: 46038536
+      Shiny Jelly Attack_303: 1683798798
+      Shiny Jelly Attack_331: 1024055151
+      Shiny Jelly Attack_304: -2049037116
+      Shiny Jelly Attack_239: 1646316499
+      Shiny Jelly Attack_283: 1911305588
+      Shiny Jelly Attack_290: 2039839078
+      Shiny Jelly Attack_100: 1612131500
+      Shiny Jelly Attack_162: 1840553173
+      Shiny Jelly Attack_63: -161511607
+      Shiny Jelly Attack_96: -777197959
+      Shiny Jelly Attack_259: 2098895626
+      Shiny Jelly Attack_135: 2139525671
+      Shiny Jelly Attack_150: 1945039489
+      Shiny Jelly Attack_225: 1262508170
+      Shiny Jelly Attack_13: -575859504
+      Shiny Jelly Attack_203: -353700684
+      Shiny Jelly Attack_347: -582181292
+      Shiny Jelly Attack_184: 879986875
+      Shiny Jelly Attack_246: 1149447902
+      Shiny Jelly Attack_325: -1134372004
+      Shiny Jelly Attack_288: 1151274612
+      Shiny Jelly Attack_280: 806764691
+      Shiny Jelly Attack_310: 725352346
+      Shiny Jelly Attack_69: 1410122982
+      Shiny Jelly Attack_178: -785600458
+      Shiny Jelly Attack_204: -505163649
+      Shiny Jelly Attack_245: 898146636
+      Shiny Jelly Attack_4: 1734036272
+      Shiny Jelly Attack_21: 225415020
+      Shiny Jelly Attack_302: 76722452
+      Shiny Jelly Attack_91: -209451610
+      Shiny Jelly Attack_235: -565770730
+      Shiny Jelly Attack_35: -709029927
+      Shiny Jelly Attack_125: 1193700035
+      Shiny Jelly Attack_227: 1972514655
+      Shiny Jelly Attack_94: 864953603
+      Shiny Jelly Attack_279: 168583645
+      Shiny Jelly Attack_243: 253544552
+      Shiny Jelly Attack_333: 1701626762
+      Shiny Jelly Attack_132: 1371514486
+      Shiny Jelly Attack_260: 1564730110
+      Shiny Jelly Attack_320: 1257759670
+      Shiny Jelly Attack_169: 1290735970
+      Shiny Jelly Attack_43: -1217460996
+      Shiny Jelly Attack_104: -1422177445
+      Shiny Jelly Attack_148: 1807441735
+      Shiny Jelly Attack_23: -1557660875
+      Shiny Jelly Attack_50: -1629190614
+      Shiny Jelly Attack_179: -539787513
+      Shiny Jelly Attack_309: 414578591
+      Shiny Jelly Attack_58: 1767477506
+      Shiny Jelly Attack_264: -1854020789
+      Shiny Jelly Attack_45: -1302646783
+      Shiny Jelly Attack_199: 1725612129
+      Shiny Jelly Attack_181: -1075152369
+      Shiny Jelly Attack_272: 1674435757
+      Shiny Jelly Attack_326: -1511173602
+      Shiny Jelly Attack_18: 365926440
+      Shiny Jelly Attack_336: 410288523
+      Shiny Jelly Attack_174: 570161450
+      Shiny Jelly Attack_138: 46095136
+      Shiny Jelly Attack_343: -1067144696
+      Shiny Jelly Attack_236: -248526937
+      Shiny Jelly Attack_78: 1780535640
+      Shiny Jelly Attack_180: 1764668583
+      Shiny Jelly Attack_26: -194597788
+      Shiny Jelly Attack_6: 1178474335
+      Shiny Jelly Attack_166: -735639017
+      Shiny Jelly Attack_337: 1072401628
+      Shiny Jelly Attack_233: -1894654463
+      Shiny Jelly Attack_15: -1274316038
+      Shiny Jelly Attack_48: -1052545153
+      Shiny Jelly Attack_341: 1963152667
+      Shiny Jelly Attack_313: 678855684
+      Shiny Jelly Attack_102: 1272017019
+      Shiny Jelly Attack_5: 1809432581
+      Shiny Jelly Attack_306: -1502724154
+      Shiny Jelly Attack_49: -52128273
+      Shiny Jelly Attack_238: -130637922
+      Shiny Jelly Attack_115: -259764941
+      Shiny Jelly Attack_24: 1970764453
+      Shiny Jelly Attack_46: -1827988232
+      Shiny Jelly Attack_134: -1812507653
+      Shiny Jelly Attack_75: 1744996752
+      Shiny Jelly Attack_201: 841664410
+      Shiny Jelly Attack_234: 627481700
+      Shiny Jelly Attack_314: -1963934073
+      Shiny Jelly Attack_252: 470797945
+      Shiny Jelly Attack_248: -2118748134
+      Shiny Jelly Attack_307: 1332459963
+      Shiny Jelly Attack_105: -129137569
+      Shiny Jelly Attack_114: 526564368
+      Shiny Jelly Attack_205: 1126748577
+      Shiny Jelly Attack_158: -1156207554
+      Shiny Jelly Attack_269: -1966134239
+      Shiny Jelly Attack_312: -791046495
+      Shiny Jelly Attack_80: -1015771432
+      Shiny Jelly Attack_240: 602153836
+      Shiny Jelly Attack_250: -346147340
+      Shiny Jelly Attack_317: -817059297
+      Shiny Jelly Attack_263: -2092322370
+      Shiny Jelly Attack_29: 1254738566
+      Shiny Jelly Attack_120: 752787785
+      Shiny Jelly Attack_254: -1070303068
+      Shiny Jelly Attack_122: 1819175835
+      Shiny Jelly Attack_194: 2091609782
+      Shiny Jelly Attack_351: 1414543929
+      Shiny Jelly Attack_99: -682875604
+      Shiny Jelly Attack_82: -682757539
+      Shiny Jelly Attack_84: -197174413
+      Shiny Jelly Attack_218: -1786819023
+      Shiny Jelly Attack_289: -1353522749
+      Shiny Jelly Attack_294: 166732187
+      Shiny Jelly Attack_92: -253244326
+      Shiny Jelly Attack_71: 961768345
+      Shiny Jelly Attack_301: -2096594542
+      Shiny Jelly Attack_340: 1532615913
+      Shiny Jelly Attack_308: -675654330
+      Shiny Jelly Attack_19: -1040122834
+      Shiny Jelly Attack_316: -554692694
+      Shiny Jelly Attack_93: 527986630
+      Shiny Jelly Attack_215: -171974118
+      Shiny Jelly Attack_284: -231673693
+      Shiny Jelly Attack_163: -1587760352
+      Shiny Jelly Attack_111: -1935373886
+      Shiny Jelly Attack_211: 1312003348
+      Shiny Jelly Attack_222: -1369373315
+      Shiny Jelly Attack_116: 1563024629
+      Shiny Jelly Attack_171: -1834828895
+      Shiny Jelly Attack_33: -165703580
+      Shiny Jelly Attack_152: 1567891708
+      Shiny Jelly Attack_291: 831891545
+      Shiny Jelly Attack_231: -1644925801
+      Shiny Jelly Attack_182: 981121453
+      Shiny Jelly Attack_185: -1353477991
+      Shiny Jelly Attack_173: -2034061095
+      Shiny Jelly Attack_47: 2062191214
+      Shiny Jelly Attack_275: 546117137
+      Shiny Jelly Attack_118: -67751403
+      Shiny Jelly Attack_297: 693019857
+      Shiny Jelly Attack_216: 327721079
+      Shiny Jelly Attack_350: 771528089
+      Shiny Jelly Attack_324: 883372350
+      Shiny Jelly Attack_311: 761629108
+      Shiny Jelly Attack_112: 419805110
+      Shiny Jelly Attack_349: -2070444975
+      Shiny Jelly Attack_62: -859169571
+      Shiny Jelly Attack_334: 1869036632
+      Shiny Jelly Attack_54: -2081099631
+      Shiny Jelly Attack_177: 1303274584
+      Shiny Jelly Attack_12: 1716160167
+      Shiny Jelly Attack_323: -151610147
+      Shiny Jelly Attack_39: 280962911
+      Shiny Jelly Attack_53: 1778507149
+      Shiny Jelly Attack_55: 833265080
+      Shiny Jelly Attack_296: -1949667804
+      Shiny Jelly Attack_274: -998263239
+      Shiny Jelly Attack_124: 586249352
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

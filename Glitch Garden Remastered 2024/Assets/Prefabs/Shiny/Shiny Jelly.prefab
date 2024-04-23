@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7163447347734787598
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2084219362, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084219362, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.96575737
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084219362, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218168113162324749, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025121729967028996, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -946996596, guid: 0af09bfda820d9f46a5cbe3886d70868, type: 3}
+    - target: {fileID: 8025121730428812677, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_Name
+      value: Shiny Jelly
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025121730428812680, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 93e6e7e26de8e084481144b8863a6680, type: 2}
+    - target: {fileID: 8025121730428812683, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025121730428812683, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025121730428812683, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025121730428812683, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025121730428812683, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025121730428812683, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025121730428812683, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025121730428812683, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025121730428812683, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025121730428812683, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025121730428812683, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 51680c26798f14b4d82a6e60df1215b4, type: 3}

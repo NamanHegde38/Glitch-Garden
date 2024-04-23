@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1321401071911360493
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1121853898795355851, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0693c2988a8bd6c4e93c7c20689a6a5d, type: 3}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2672039006769265571}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2672039006769265571}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DestroyObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DestroyObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Health, Project
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212954427048865885, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: PlayEvents.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Health, Project
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870466494211818, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a93afbf692a977b4b928a3371302b7fd, type: 3}
+    - target: {fileID: 3981870466494211821, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870466734645180, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: Feedbacks.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870466734645180, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: Feedbacks.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870466734645180, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: Feedbacks.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326410, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e2ac1dead88f31b41aecd48599017a1e, type: 2}
+    - target: {fileID: 3981870467037326411, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_Name
+      value: Spring Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326412, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326412, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.007629
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326412, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.850402
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326412, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326412, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326412, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326412, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326412, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326412, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326412, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326412, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326414, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: health
+      value: 15000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981870467037326415, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+      propertyPath: numberOfStages
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+--- !u!114 &2672039006769265571 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3981870467037326414, guid: eceb2c953f77da24d8b3aa42d640449e, type: 3}
+  m_PrefabInstance: {fileID: 1321401071911360493}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90bd07db723e2e640833b9655467f221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
